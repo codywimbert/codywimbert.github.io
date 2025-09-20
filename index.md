@@ -15,15 +15,10 @@ Hello 👋 if you can read this, your site works!
   <p>Install roles, promote to DC, create OUs/users, and baseline security.</p>
   <!-- Replace VIDEO_ID with the part after v= in your YouTube link -->
   <iframe width="560" height="315"
-  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+  src="https://youtube.com/embed/wJvPo97CihI"
   title="Test" frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen></iframe>
-  <iframe width="100%" height="315"
-    src="https://youtu.be/wJvPo97CihI"
-    title="Deploying AD DS" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
   <p><a href="https://youtu.be/wJvPo97CihI" target="_blank">Open on YouTube ↗</a></p>
 </div>
 
