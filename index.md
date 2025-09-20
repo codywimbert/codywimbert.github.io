@@ -3,9 +3,9 @@ layout: default
 title: Home
 ---
 
-# Cody Wimbert • IT Video Portfolio
+# Cody Wimbert • Professional Portfolio
 
-Hello 👋 if you can read this, your site works!
+CompTIA A+, Network+, and Security+ certified IT professional with nearly 2 years of experience providing enterprise-level support across Windows, MacOS, and ChromeOS environments. Skilled in hardware/software troubleshooting, network and security diagnostics, asset management, and end-user training. Former educator with strong communication and leadership abilities, eager to leverage technical expertise in IT support, networking, and cybersecurity roles. Passionate about solving complex problems and helping organizations maintain secure, efficient technology operations.
 
 ## 🎥 Video Projects
 
