@@ -19,7 +19,7 @@ Hello 👋 if you can read this, your site works!
     title="Deploying AD DS" frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen></iframe>
-  <p><a href="https://youtu.be/VIDEO_ID" target="_blank">Open on YouTube ↗</a></p>
+  <p><a href="https://youtu.be/wJvPo97CihI" target="_blank">Open on YouTube ↗</a></p>
 </div>
 
 ---
