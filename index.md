@@ -15,7 +15,7 @@ Hello 👋 if you can read this, your site works!
   <p>Install roles, promote to DC, create OUs/users, and baseline security.</p>
   <!-- Replace VIDEO_ID with the part after v= in your YouTube link -->
   <iframe width="100%" height="315"
-    src="https://www.youtube.com/embed/VIDEO_ID?rel=0&modestbranding=1"
+    src="https://youtu.be/wJvPo97CihI"
     title="Deploying AD DS" frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen></iframe>
