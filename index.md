@@ -11,7 +11,7 @@ Hello 👋 if you can read this, your site works!
 
 <div class="card">
   <h3>Deploying AD DS on Windows Server 2022 (Lab Walkthrough)</h3>
-  <div class="meta">YouTube • Aug 30, 2025 • 12:41</div>
+  <div class="meta">YouTube • Aug 25, 2025 • 7:16</div>
   <p>Install roles, promote to DC, create OUs/users, and baseline security.</p>
   <!-- Replace VIDEO_ID with the part after v= in your YouTube link -->
   <iframe width="100%" height="315"
