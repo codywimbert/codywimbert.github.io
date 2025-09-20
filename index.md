@@ -27,9 +27,9 @@ Hello 👋 if you can read this, your site works!
 ## 📄 Document Projects
 
 <div class="card">
-  <h3>Firewall Cutover: Validation Plan (PDF)</h3>
+  <h3>AD Homelab Documentation</h3>
   <div class="meta">PDF • Updated: Sept 20, 2025</div>
-  <p>Step-by-step validation plan and post-cutover checks.</p>
+  <p>Step-by-step Active Directory homelab in VirtualBox.</p>
   <p><a href="assets/docs/firewall_plan.pdf" target="_blank">Download PDF ↗</a></p>
 </div>
 
