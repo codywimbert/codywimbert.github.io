@@ -14,6 +14,11 @@ Hello 👋 if you can read this, your site works!
   <div class="meta">YouTube • Aug 25, 2025 • 7:16</div>
   <p>Install roles, promote to DC, create OUs/users, and baseline security.</p>
   <!-- Replace VIDEO_ID with the part after v= in your YouTube link -->
+  <iframe width="560" height="315"
+  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+  title="Test" frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen></iframe>
   <iframe width="100%" height="315"
     src="https://youtu.be/wJvPo97CihI"
     title="Deploying AD DS" frameborder="0"
