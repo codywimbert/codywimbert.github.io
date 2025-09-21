@@ -39,7 +39,7 @@ Real-time troubleshooting, end-user education, and project overviews.
   <p>Real-time video of me setting up a Cisco Packet Tracer network environment. Features IP configuration; DNS, DHCP, and HTTP server setup; OSPF configuration; Network troubleshooting.</p>
   <!-- Replace VIDEO_ID with the part after v= in your YouTube link -->
   <iframe width="560" height="315"
-  src="https://youtu.be/embed/MA3ZNwMtxPw"
+  src="https://youtube/embed/MA3ZNwMtxPw"
   title="Test" frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen></iframe>
