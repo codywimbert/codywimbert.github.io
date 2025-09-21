@@ -1,3 +1,8 @@
 title: "Cody Wimbert • IT Professional Portfolio"
 description: "Walkthroughs • Labs • Troubleshooting • How-tos"
 theme: jekyll-theme-minimal
+navigation:
+  - title: "Home"
+    url: /
+  - title: "LinkedIn"
+    url: https://www.linkedin.com/in/codywimbert
