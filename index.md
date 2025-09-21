@@ -59,12 +59,13 @@ details > summary{cursor:pointer;font-weight:700}
   text-align: left;    /* change to center if you want centered button */
 }
 .headshot-left {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
-  object-fit: cover;
-  float: left;          /* pushes text to the right */
-  margin: 0 20px 20px 0; /* space around the image */
+  width: 160px;              /* adjust size */
+  height: 160px;             /* keep it square */
+  border-radius: 50%;        /* circle shape */
+  object-fit: cover;         /* crop neatly */
+  border: 4px solid #0A66C2; /* LinkedIn blue border (change if you want) */
+  float: left;               /* text flows to the right */
+  margin: 0 20px 20px 0;     /* space on right + bottom */
 }
 </style>
 <div class="card">
