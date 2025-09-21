@@ -7,7 +7,8 @@ title: Home
 
 CompTIA A+, Network+, and Security+ certified IT professional with nearly 2 years of experience providing enterprise-level support across Windows, MacOS, and ChromeOS environments. Skilled in hardware/software troubleshooting, network and security diagnostics, asset management, and end-user training. Former educator with strong communication and leadership abilities, eager to leverage technical expertise in IT support, networking, and cybersecurity roles. Passionate about solving complex problems and helping organizations maintain secure, efficient technology operations.
 
-## 🎥 Video Projects
+## 🎥 Videos
+Real-time troubleshooting, end-user education, and project overviews.
 
 <div class="card">
   <h3>Deploying AD DS on Windows Server 2022 (Lab Walkthrough)</h3>
@@ -25,6 +26,7 @@ CompTIA A+, Network+, and Security+ certified IT professional with nearly 2 year
 ---
 
 ## 📄 Document Projects
+Step-by-step documentation for lab setups.
 
 <div class="card">
   <h3>AD Homelab Documentation</h3>
