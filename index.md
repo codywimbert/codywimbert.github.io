@@ -10,6 +10,17 @@ CompTIA A+, Network+, and Security+ certified IT professional with nearly 2 year
 ## 🎥 Videos
 Real-time troubleshooting, end-user education, and project overviews.
 <div class="card">
+  <h3>Packet Tracer Lab - Network Setup</h3>
+  <div class="meta">YouTube • Aug 23, 2025 • 5:15</div>
+  <p>Real-time video of me setting up a Cisco Packet Tracer network environment. Features IP configuration; DNS, DHCP, and HTTP server setup; OSPF configuration; Network troubleshooting.</p>
+  <iframe width="100%" height="315"
+    src="https://www.youtube.com/embed/MA3ZNwMtxPw?rel=0&modestbranding=1"
+    title="Packet Tracer Lab - Network Setup" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+  <p><a href="https://youtu.be/MA3ZNwMtxPw" target="_blank">Open on YouTube ↗</a></p>
+</div>
+<div class="card">
   <h3>File Hashes - Why You Should Care</h3>
   <div class="meta">YouTube • Aug 23, 2025 • 5:15</div>
   <p>End-user education tutorial on how to check file hashes to verify installs.</p>
@@ -32,17 +43,6 @@ Real-time troubleshooting, end-user education, and project overviews.
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen></iframe>
   <p><a href="https://youtu.be/wJvPo97CihI" target="_blank">Open on YouTube ↗</a></p>
-</div>
-<div class="card">
-  <h3>Packet Tracer Lab - Network Setup</h3>
-  <div class="meta">YouTube • Aug 23, 2025 • 5:15</div>
-  <p>Real-time video of me setting up a Cisco Packet Tracer network environment. Features IP configuration; DNS, DHCP, and HTTP server setup; OSPF configuration; Network troubleshooting.</p>
-  <iframe width="100%" height="315"
-    src="https://www.youtube.com/embed/MA3ZNwMtxPw?rel=0&modestbranding=1"
-    title="Packet Tracer Lab - Network Setup" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
-  <p><a href="https://youtu.be/MA3ZNwMtxPw" target="_blank">Open on YouTube ↗</a></p>
 </div>
 ---
 
