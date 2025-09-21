@@ -21,7 +21,7 @@ Real-time troubleshooting, end-user education, and project overviews.
   <p><a href="https://youtu.be/MA3ZNwMtxPw" target="_blank">Open on YouTube ↗</a></p>
 </div>
 <div class="card">
-  <h3>File Hashes - Why You Should Care</h3>
+  <h3>File Hashes - Verify Your Downloads</h3>
   <div class="meta">YouTube • Aug 23, 2025 • 5:15</div>
   <p>End-user education tutorial on how to check file hashes to verify installs.</p>
   <!-- Replace VIDEO_ID with the part after v= in your YouTube link -->
