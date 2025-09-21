@@ -58,14 +58,13 @@ details > summary{cursor:pointer;font-weight:700}
   margin: 12px 0 32px; /* adds space under the button */
   text-align: left;    /* change to center if you want centered button */
 }
-.headshot {
-  width: 180px;              /* adjust size */
-  height: 180px;             /* force equal width/height */
-  border-radius: 50%;        /* makes it circular */
-  object-fit: cover;         /* crops image neatly inside circle */
-  border: 4px solid #0A66C2; /* LinkedIn blue frame */
-  display: block;            /* lets us center */
-  margin: 20px auto;         /* centers + adds space */
+.headshot-left {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  float: left;          /* pushes text to the right */
+  margin: 0 20px 20px 0; /* space around the image */
 }
 </style>
 <div class="card">
