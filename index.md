@@ -26,7 +26,7 @@ Real-time troubleshooting, end-user education, and project overviews.
 <div class="card">
   <h3>File Hashes - Why You Should Care</h3>
   <div class="meta">YouTube • Aug 23, 2025 • 5:15</div>
-  <p>End-user education, tutorial on how to check file hashes to verify installs.</p>
+  <p>End-user education tutorial on how to check file hashes to verify installs.</p>
   <!-- Replace VIDEO_ID with the part after v= in your YouTube link -->
   <iframe width="560" height="315"
   src="https://youtu.be/tgAu_R2t-Zc"
