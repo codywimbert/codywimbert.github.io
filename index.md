@@ -4,6 +4,7 @@ title: Home
 ---
 
 # Cody Wimbert • IT Professional Portfolio
+<img src="assets/1741474286957.jpeg" alt="Cody Wimbert Headshot" class="headshot">
 <div class="links">
   <a class="btn linkedin" href="https://www.linkedin.com/in/codywimbert" target="_blank">Connect on LinkedIn</a>
 </div>
@@ -56,6 +57,15 @@ details > summary{cursor:pointer;font-weight:700}
 .links {
   margin: 12px 0 32px; /* adds space under the button */
   text-align: left;    /* change to center if you want centered button */
+}
+.headshot {
+  width: 180px;              /* adjust size */
+  height: 180px;             /* force equal width/height */
+  border-radius: 50%;        /* makes it circular */
+  object-fit: cover;         /* crops image neatly inside circle */
+  border: 4px solid #0A66C2; /* LinkedIn blue frame */
+  display: block;            /* lets us center */
+  margin: 20px auto;         /* centers + adds space */
 }
 </style>
 <div class="card">
