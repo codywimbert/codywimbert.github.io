@@ -36,6 +36,22 @@ Real-time troubleshooting, end-user education, and project overviews.
   <h3>Deploying AD DS on Windows Server 2022 (Lab Overview)</h3>
   <div class="meta">YouTube • Aug 25, 2025 • 7:16</div>
   <p>Install roles, promote to DC, create OUs/users, and baseline security.</p>
+
+  <iframe width="100%" height="315"
+    src="https://www.youtube.com/embed/wJvPo97CihI?rel=0&modestbranding=1"
+    title="AD DS Lab Overview" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+
+  <div class="links">
+    <a href="https://youtu.be/wJvPo97CihI" target="_blank">Open on YouTube ↗</a>
+    <a href="assets/docs/AD_homelab.pdf" target="_blank">Download Documentation (PDF) ↗</a>
+  </div>
+</div>
+<div class="card">
+  <h3>Deploying AD DS on Windows Server 2022 (Lab Overview)</h3>
+  <div class="meta">YouTube • Aug 25, 2025 • 7:16</div>
+  <p>Install roles, promote to DC, create OUs/users, and baseline security.</p>
   <!-- Replace VIDEO_ID with the part after v= in your YouTube link -->
   <iframe width="560" height="315"
   src="https://youtube.com/embed/wJvPo97CihI"
