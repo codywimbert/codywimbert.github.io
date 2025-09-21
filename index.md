@@ -11,7 +11,7 @@ CompTIA A+, Network+, and Security+ certified IT professional with nearly 2 year
 Real-time troubleshooting, end-user education, and project overviews.
 
 <div class="card">
-  <h3>Deploying AD DS on Windows Server 2022 (Lab Walkthrough)</h3>
+  <h3>Deploying AD DS on Windows Server 2022 (Lab Overview)</h3>
   <div class="meta">YouTube • Aug 25, 2025 • 7:16</div>
   <p>Install roles, promote to DC, create OUs/users, and baseline security.</p>
   <!-- Replace VIDEO_ID with the part after v= in your YouTube link -->
@@ -21,6 +21,19 @@ Real-time troubleshooting, end-user education, and project overviews.
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen></iframe>
   <p><a href="https://youtu.be/wJvPo97CihI" target="_blank">Open on YouTube ↗</a></p>
+</div>
+
+<div class="card">
+  <h3>File Hashes - Why You Should Care!</h3>
+  <div class="meta">YouTube • Aug 25, 2025 • 7:16</div>
+  <p>End-user education, tutorial on how to check file hashes to verify installs.</p>
+  <!-- Replace VIDEO_ID with the part after v= in your YouTube link -->
+  <iframe width="560" height="315"
+  src="https://youtu.be/tgAu_R2t-Zc"
+  title="Test" frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen></iframe>
+  <p><a href="https://youtu.be/tgAu_R2t-Zc" target="_blank">Open on YouTube ↗</a></p>
 </div>
 
 ---
