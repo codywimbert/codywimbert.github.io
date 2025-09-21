@@ -7,7 +7,7 @@ title: Home
 
 CompTIA A+, Network+, and Security+ certified IT professional with nearly 2 years of experience providing enterprise-level support across Windows, MacOS, and ChromeOS environments. Skilled in hardware/software troubleshooting, network and security diagnostics, asset management, and end-user training. Former educator with strong communication and leadership abilities, eager to leverage technical expertise in IT support, networking, and cybersecurity roles. Passionate about solving complex problems and helping organizations maintain secure, efficient technology operations.
 
-## 🎥 Videos
+## Projects
 Real-time troubleshooting, end-user education, and project overviews.
 <div class="card">
   <h3>Packet Tracer Lab - Network Setup</h3>
