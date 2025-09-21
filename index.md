@@ -45,7 +45,7 @@ Real-time troubleshooting, end-user education, and project overviews.
   <p><a href="https://youtu.be/wJvPo97CihI" target="_blank">Open on YouTube ↗</a></p>
 </div>
 <div class="card">
-  <h3>AD Homelab Documentation</h3>
+  <h3>AD DS Lab Documentation</h3>
   <div class="meta">PDF • Updated: Sept 20, 2025</div>
   <p>Step-by-step Active Directory homelab in VirtualBox.</p>
   <a href="assets/docs/AD Homelab Documentation.pdf" target="_blank">Download PDF ↗</a>
