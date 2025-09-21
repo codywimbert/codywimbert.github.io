@@ -50,11 +50,11 @@ details > summary{cursor:pointer;font-weight:700}
   <p>Step-by-step Active Directory homelab in VirtualBox (install roles, promote to DC, OUs/users, baseline security).</p>
   <div class="actions">
     <a class="btn primary" href="assets/docs/AD Homelab Documentation.pdf" target="_blank">📄 Open Documentation (PDF)</a>
-    <a class="btn" href="assets/docs/AD_homelab.pdf" download>⬇️ Download PDF</a>
+    <a class="btn" href="assets/docs/AD Homelab Documentation.pdf" download>⬇️ Download PDF</a>
   </div>
-  <div class="note">Inline preview (optional):</div>
+  <div class="note">Inline preview:</div>
   <div class="preview">
-    <iframe src="assets/docs/AD_homelab.pdf#view=FitH" width="100%" height="520"></iframe>
+    <iframe src="assets/docs/AD Homelab Documentation.pdf#view=FitH" width="100%" height="520"></iframe>
   </div>
   <details>
     <summary>▶ Watch 7-min overview video (YouTube)</summary>
