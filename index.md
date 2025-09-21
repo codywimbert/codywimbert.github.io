@@ -5,7 +5,8 @@ title: Home
 
 # Cody Wimbert • IT Professional Portfolio
 <img src="assets/1741474286957.jpeg" alt="Cody Wimbert Headshot" class="headshot">
-<div class="links">
+<div class="profile">
+  <img src="assets/1741474286957.jpeg" alt="Cody Wimbert Headshot" class="headshot-left">
   <a class="btn linkedin" href="https://www.linkedin.com/in/codywimbert" target="_blank">Connect on LinkedIn</a>
 </div>
 CompTIA A+, Network+, and Security+ certified IT professional with nearly 2 years experience providing enterprise-level support across Windows, MacOS, and ChromeOS environments. Skilled in hardware/software troubleshooting, network and security diagnostics, asset management, and end-user training. Former educator with strong communication and leadership abilities, eager to leverage technical expertise in IT support, networking, and cybersecurity roles. Passionate about solving complex problems and helping organizations maintain secure, efficient technology operations.
@@ -58,14 +59,37 @@ details > summary{cursor:pointer;font-weight:700}
   margin: 12px 0 32px; /* adds space under the button */
   text-align: left;    /* change to center if you want centered button */
 }
+.profile {
+  float: left; 
+  text-align: center; 
+  margin: 0 24px 20px 0; /* push text to the right */
+  width: 180px;          /* locks profile column width */
+}
+
 .headshot-left {
-  width: 160px;              /* adjust size */
-  height: 160px;             /* keep it square */
-  border-radius: 50%;        /* circle shape */
-  object-fit: cover;         /* crop neatly */
-  border: 4px solid #0A66C2; /* LinkedIn blue border (change if you want) */
-  float: left;               /* text flows to the right */
-  margin: 0 20px 20px 0;     /* space on right + bottom */
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;        /* circle */
+  object-fit: cover;
+  border: 4px solid #0A66C2; /* LinkedIn blue frame */
+  display: block;
+  margin: 0 auto 12px;       /* center inside profile div */
+}
+
+.btn.linkedin {
+  display: inline-block;
+  background-color: #0A66C2;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.btn.linkedin:hover {
+  background-color: #004182;
 }
 </style>
 <div class="card">
