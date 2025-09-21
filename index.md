@@ -58,7 +58,6 @@ details > summary{cursor:pointer;font-weight:700}
   text-align: left;    /* change to center if you want centered button */
 }
 </style>
-</style>
 <div class="card">
   <h3>AD DS Lab Documentation</h3>
   <div class="meta">PDF • Updated: Sept 20, 2025</div>
