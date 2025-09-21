@@ -17,7 +17,7 @@ CompTIA A+, Network+, and Security+ certified IT professional with nearly 2 year
 Real-time troubleshooting, end-user education, and project overviews.
 <div class="card">
   <h3>Packet Tracer Lab - Network Setup</h3>
-  <div class="meta">YouTube • Aug 23, 2025 • 5:15</div>
+  <div class="meta">YouTube • Sep 21, 2025 • 5:15</div>
   <p>Real-time video of me setting up a Cisco Packet Tracer network environment. Features IP configuration; DNS, DHCP, and HTTP server setup; OSPF configuration; Network troubleshooting.</p>
   <iframe width="100%" height="315"
     src="https://www.youtube.com/embed/MA3ZNwMtxPw?rel=0&modestbranding=1"
@@ -96,7 +96,7 @@ details > summary{cursor:pointer;font-weight:700}
 </style>
 <div class="card">
   <h3>AD DS Lab Documentation</h3>
-  <div class="meta">PDF • Updated: Sept 20, 2025</div>
+  <div class="meta">PDF • Sep 7, 2025</div>
   <p>Step-by-step Active Directory homelab in VirtualBox (install roles, promote to DC, OUs/users, baseline security).</p>
   <div class="actions">
     <a class="btn primary" href="assets/docs/AD Homelab Documentation.pdf" target="_blank">📄 Open Documentation (PDF)</a>
