@@ -4,14 +4,16 @@ title: Home
 ---
 
 # Cody Wimbert • IT Professional Portfolio
-<img src="assets/1741474286957.jpeg" alt="Cody Wimbert Headshot" class="headshot">
+
 <div class="profile">
   <img src="assets/1741474286957.jpeg" alt="Cody Wimbert Headshot" class="headshot-left">
   <a class="btn linkedin" href="https://www.linkedin.com/in/codywimbert" target="_blank">Connect on LinkedIn</a>
 </div>
+
 CompTIA A+, Network+, and Security+ certified IT professional with nearly 2 years experience providing enterprise-level support across Windows, MacOS, and ChromeOS environments. Skilled in hardware/software troubleshooting, network and security diagnostics, asset management, and end-user training. Former educator with strong communication and leadership abilities, eager to leverage technical expertise in IT support, networking, and cybersecurity roles. Passionate about solving complex problems and helping organizations maintain secure, efficient technology operations.
 
 ## Projects
+
 Real-time troubleshooting, end-user education, and project overviews.
 <div class="card">
   <h3>Packet Tracer Lab - Network Setup</h3>
@@ -60,10 +62,10 @@ details > summary{cursor:pointer;font-weight:700}
   text-align: left;    /* change to center if you want centered button */
 }
 .profile {
-  float: left; 
-  text-align: center; 
-  margin: 0 24px 20px 0; /* push text to the right */
-  width: 180px;          /* locks profile column width */
+  float: left;
+  text-align: center;
+  margin: 0 24px 20px 0; /* space between profile and text */
+  width: 180px;          /* width of the left column */
 }
 
 .headshot-left {
@@ -73,7 +75,7 @@ details > summary{cursor:pointer;font-weight:700}
   object-fit: cover;
   border: 4px solid #0A66C2; /* LinkedIn blue frame */
   display: block;
-  margin: 0 auto 12px;       /* center inside profile div */
+  margin: 0 auto 12px;       /* center inside profile column */
 }
 
 .btn.linkedin {
