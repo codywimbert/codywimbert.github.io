@@ -44,20 +44,9 @@ Real-time troubleshooting, end-user education, and project overviews.
   allowfullscreen></iframe>
   <p><a href="https://youtu.be/wJvPo97CihI" target="_blank">Open on YouTube ↗</a></p>
 </div>
----
-
-## 📄 Document Projects
-Step-by-step documentation for lab setups.
-
 <div class="card">
   <h3>AD Homelab Documentation</h3>
   <div class="meta">PDF • Updated: Sept 20, 2025</div>
   <p>Step-by-step Active Directory homelab in VirtualBox.</p>
   <a href="assets/docs/AD Homelab Documentation.pdf" target="_blank">Download PDF ↗</a>
 </div>
-
-<!-- Optional inline viewer (bigger box) -->
-<!--
-<iframe src="assets/docs/firewall_plan.pdf#view=FitH" width="100%" height="600"
-  style="border:1px solid #e5e7eb; border-radius:8px;"></iframe>
--->
