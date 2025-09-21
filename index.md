@@ -49,7 +49,7 @@ details > summary{cursor:pointer;font-weight:700}
   <div class="meta">PDF • Updated: Sept 20, 2025</div>
   <p>Step-by-step Active Directory homelab in VirtualBox (install roles, promote to DC, OUs/users, baseline security).</p>
   <div class="actions">
-    <a class="btn primary" href="assets/docs/AD_homelab.pdf" target="_blank">📄 Open Documentation (PDF)</a>
+    <a class="btn primary" href="assets/docs/AD Homelab Documentation.pdf" target="_blank">📄 Open Documentation (PDF)</a>
     <a class="btn" href="assets/docs/AD_homelab.pdf" download>⬇️ Download PDF</a>
   </div>
   <div class="note">Inline preview (optional):</div>
