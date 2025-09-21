@@ -7,6 +7,9 @@ title: Home
   <img src="assets/1741474286957.jpeg" alt="Cody Wimbert Headshot" class="headshot-left">
   <a class="btn linkedin" href="https://www.linkedin.com/in/codywimbert" target="_blank">Connect on LinkedIn</a>
 </div>
+[![CompTIA Security+](https://img.shields.io/badge/CompTIA-Security%2B-red)](https://www.credly.com/badges/bbc69822-5201-4e6c-9ddf-350839c18b75/public_url)
+[![CompTIA Network+](https://img.shields.io/badge/CompTIA-Network%2B-blue)](https://www.credly.com/badges/58cf8b8c-583e-40f1-9cad-cbbce26f87e9/public_url)
+[![CompTIA A+](https://img.shields.io/badge/CompTIA-A%2B-green)](https://www.credly.com/badges/df931828-7254-4034-85c8-3446ad7b41f7/public_url)
 CompTIA A+, Network+, and Security+ certified IT professional with nearly 2 years experience providing enterprise-level support across Windows, MacOS, and ChromeOS environments. Skilled in hardware/software troubleshooting, network and security diagnostics, asset management, and end-user training. Former educator with strong communication and leadership abilities, eager to leverage technical expertise in IT support, networking, and cybersecurity roles. Passionate about solving complex problems and helping organizations maintain secure, efficient technology operations.
 ## Projects
 Real-time troubleshooting, end-user education, and project overviews.
