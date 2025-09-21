@@ -13,7 +13,7 @@ Real-time troubleshooting, end-user education, and project overviews.
   <h3>Packet Tracer Lab - Network Setup</h3>
   <div class="meta">YouTube • Aug 23, 2025 • 5:15</div>
   <p>Real-time video of me setting up a Cisco Packet Tracer network environment. Features IP configuration; DNS, DHCP, and HTTP server setup; OSPF configuration; Network troubleshooting.</p>
-  <iframe width="560" height="315"
+  <iframe width="100%" height="315"
     src="https://www.youtube.com/embed/MA3ZNwMtxPw?rel=0&modestbranding=1"
     title="Packet Tracer Lab - Network Setup" frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -25,7 +25,7 @@ Real-time troubleshooting, end-user education, and project overviews.
   <div class="meta">YouTube • Aug 23, 2025 • 5:15</div>
   <p>End-user education tutorial on how to check file hashes to verify installs.</p>
   <!-- Replace VIDEO_ID with the part after v= in your YouTube link -->
-  <iframe width="560" height="315"
+  <iframe width="100%" height="315"
   src="https://youtube.com/embed/tgAu_R2t-Zc"
   title="Test" frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -58,7 +58,7 @@ details > summary{cursor:pointer;font-weight:700}
   <details>
     <summary>▶ Watch 7-min overview video (YouTube)</summary>
     <div class="meta">YouTube • Aug 25, 2025 • 7:16</div>
-    <iframe width="560" height="315"
+    <iframe width="100%" height="315"
       src="https://www.youtube-nocookie.com/embed/wJvPo97CihI?rel=0&modestbranding=1"
       title="AD DS Lab Overview" frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
