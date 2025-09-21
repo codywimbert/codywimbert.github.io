@@ -13,7 +13,7 @@ Real-time troubleshooting, end-user education, and project overviews.
   <h3>Packet Tracer Lab - Network Setup</h3>
   <div class="meta">YouTube • Aug 23, 2025 • 5:15</div>
   <p>Real-time video of me setting up a Cisco Packet Tracer network environment. Features IP configuration; DNS, DHCP, and HTTP server setup; OSPF configuration; Network troubleshooting.</p>
-  <iframe width="100%" height="315"
+  <iframe width="560" height="315"
     src="https://www.youtube.com/embed/MA3ZNwMtxPw?rel=0&modestbranding=1"
     title="Packet Tracer Lab - Network Setup" frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -43,7 +43,6 @@ Real-time troubleshooting, end-user education, and project overviews.
 details{margin-top:14px}
 details > summary{cursor:pointer;font-weight:700}
 </style>
-
 <div class="card">
   <h3>AD DS Lab Documentation</h3>
   <div class="meta">PDF • Updated: Sept 20, 2025</div>
@@ -59,7 +58,7 @@ details > summary{cursor:pointer;font-weight:700}
   <details>
     <summary>▶ Watch 7-min overview video (YouTube)</summary>
     <div class="meta">YouTube • Aug 25, 2025 • 7:16</div>
-    <iframe width="100%" height="315"
+    <iframe width="560" height="315"
       src="https://www.youtube-nocookie.com/embed/wJvPo97CihI?rel=0&modestbranding=1"
       title="AD DS Lab Overview" frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
