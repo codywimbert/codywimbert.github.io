@@ -32,16 +32,38 @@ Real-time troubleshooting, end-user education, and project overviews.
   allowfullscreen></iframe>
   <p><a href="https://youtu.be/tgAu_R2t-Zc" target="_blank">Open on YouTube ↗</a></p>
 </div>
+<style>
+.card{border:1px solid #e5e7eb;border-radius:12px;padding:16px;background:#fff;margin:20px 0}
+.meta{color:#6b7280;font-size:.9rem;margin:6px 0}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin:10px 0 14px}
+.btn{display:inline-block;padding:10px 14px;border-radius:10px;border:1px solid #e5e7eb;text-decoration:none;font-weight:600}
+.btn.primary{background:#2563eb;color:#fff;border-color:#2563eb}
+.note{color:#6b7280;font-size:.85rem}
+.preview{border:1px solid #e5e7eb;border-radius:10px;overflow:hidden}
+details{margin-top:14px}
+details > summary{cursor:pointer;font-weight:700}
+</style>
+
 <div class="card">
-  <h3>Deploying AD DS on Windows Server 2022 (Lab Overview)</h3>
-  <div class="meta">YouTube • Aug 25, 2025 • 7:16</div>
-  <p>Install roles, promote to DC, create OUs/users, and baseline security.</p>
-  <iframe width="100%" height="315"
-    src="https://www.youtube.com/embed/wJvPo97CihI?rel=0&modestbranding=1"
-    title="AD DS Lab Overview" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
-  <div class="links">
-    <a href="https://youtu.be/wJvPo97CihI" target="_blank">Open on YouTube ↗</a>
-    <a href="assets/docs/AD_homelab.pdf" target="_blank">Download Documentation (PDF) ↗</a>
+  <h3>AD DS Lab Documentation</h3>
+  <div class="meta">PDF • Updated: Sept 20, 2025</div>
+  <p>Step-by-step Active Directory homelab in VirtualBox (install roles, promote to DC, OUs/users, baseline security).</p>
+  <div class="actions">
+    <a class="btn primary" href="assets/docs/AD_homelab.pdf" target="_blank">📄 Open Documentation (PDF)</a>
+    <a class="btn" href="assets/docs/AD_homelab.pdf" download>⬇️ Download PDF</a>
   </div>
+  <div class="note">Inline preview (optional):</div>
+  <div class="preview">
+    <iframe src="assets/docs/AD_homelab.pdf#view=FitH" width="100%" height="520"></iframe>
+  </div>
+  <details>
+    <summary>▶ Watch 7-min overview video (YouTube)</summary>
+    <div class="meta">YouTube • Aug 25, 2025 • 7:16</div>
+    <iframe width="100%" height="315"
+      src="https://www.youtube-nocookie.com/embed/wJvPo97CihI?rel=0&modestbranding=1"
+      title="AD DS Lab Overview" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+    <p><a href="https://youtu.be/wJvPo97CihI" target="_blank">Open on YouTube ↗</a></p>
+  </details>
+</div>
