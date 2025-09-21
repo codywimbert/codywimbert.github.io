@@ -7,7 +7,6 @@ title: Home
 <div class="links">
   <a class="btn linkedin" href="https://www.linkedin.com/in/codywimbert" target="_blank">Connect on LinkedIn</a>
 </div>
-
 CompTIA A+, Network+, and Security+ certified IT professional with nearly 2 years experience providing enterprise-level support across Windows, MacOS, and ChromeOS environments. Skilled in hardware/software troubleshooting, network and security diagnostics, asset management, and end-user training. Former educator with strong communication and leadership abilities, eager to leverage technical expertise in IT support, networking, and cybersecurity roles. Passionate about solving complex problems and helping organizations maintain secure, efficient technology operations.
 
 ## Projects
@@ -45,6 +44,20 @@ Real-time troubleshooting, end-user education, and project overviews.
 .preview{border:1px solid #e5e7eb;border-radius:10px;overflow:hidden}
 details{margin-top:14px}
 details > summary{cursor:pointer;font-weight:700}
+  /* 👇 Add this */
+.btn.linkedin {
+  background-color: #0A66C2; /* LinkedIn blue */
+  color: #fff;
+  border-color: #0A66C2;
+}
+.btn.linkedin:hover {
+  background-color: #004182; /* darker hover */
+}
+.links {
+  margin: 12px 0 32px; /* adds space under the button */
+  text-align: left;    /* change to center if you want centered button */
+}
+</style>
 </style>
 <div class="card">
   <h3>AD DS Lab Documentation</h3>
