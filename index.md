@@ -54,7 +54,7 @@ Step-by-step documentation for lab setups.
   <h3>AD Homelab Documentation</h3>
   <div class="meta">PDF • Updated: Sept 20, 2025</div>
   <p>Step-by-step Active Directory homelab in VirtualBox.</p>
-  <a href="assets/docs/AD_homelab.pdf" target="_blank">Download PDF ↗</a>
+  <a href="assets/docs/AD Homelab Documentation.pdf" target="_blank">Download PDF ↗</a>
 </div>
 
 <!-- Optional inline viewer (bigger box) -->
