@@ -2,18 +2,13 @@
 layout: default
 title: Home
 ---
-
 # Cody Wimbert • IT Professional Portfolio
-
 <div class="profile">
   <img src="assets/1741474286957.jpeg" alt="Cody Wimbert Headshot" class="headshot-left">
   <a class="btn linkedin" href="https://www.linkedin.com/in/codywimbert" target="_blank">Connect on LinkedIn</a>
 </div>
-
 CompTIA A+, Network+, and Security+ certified IT professional with nearly 2 years experience providing enterprise-level support across Windows, MacOS, and ChromeOS environments. Skilled in hardware/software troubleshooting, network and security diagnostics, asset management, and end-user training. Former educator with strong communication and leadership abilities, eager to leverage technical expertise in IT support, networking, and cybersecurity roles. Passionate about solving complex problems and helping organizations maintain secure, efficient technology operations.
-
 ## Projects
-
 Real-time troubleshooting, end-user education, and project overviews.
 <div class="card">
   <h3>Packet Tracer Lab - Network Setup</h3>
@@ -25,6 +20,29 @@ Real-time troubleshooting, end-user education, and project overviews.
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen></iframe>
   <p><a href="https://youtu.be/MA3ZNwMtxPw" target="_blank">Open on YouTube ↗</a></p>
+</div>
+<div class="card">
+  <h3>AD DS Lab Documentation</h3>
+  <div class="meta">PDF • Sep 7, 2025</div>
+  <p>Step-by-step Active Directory homelab in VirtualBox (install roles, promote to DC, OUs/users, baseline security).</p>
+  <div class="actions">
+    <a class="btn primary" href="assets/docs/AD Homelab Documentation.pdf" target="_blank">📄 Open Documentation (PDF)</a>
+    <a class="btn" href="assets/docs/AD Homelab Documentation.pdf" download>⬇️ Download PDF</a>
+  </div>
+  <div class="note">Inline preview:</div>
+  <div class="preview">
+    <iframe src="assets/docs/AD Homelab Documentation.pdf#view=FitH" width="100%" height="520"></iframe>
+  </div>
+  <details>
+    <summary>▶ Watch 7-min overview video (YouTube)</summary>
+    <div class="meta">YouTube • Aug 25, 2025 • 7:16</div>
+    <iframe width="100%" height="315"
+      src="https://www.youtube-nocookie.com/embed/wJvPo97CihI?rel=0&modestbranding=1"
+      title="AD DS Lab Overview" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+    <p><a href="https://youtu.be/wJvPo97CihI" target="_blank">Open on YouTube ↗</a></p>
+  </details>
 </div>
 <div class="card">
   <h3>File Hashes - Verify Your Downloads</h3>
@@ -67,7 +85,6 @@ details > summary{cursor:pointer;font-weight:700}
   margin: 0 24px 20px 0; /* space between profile and text */
   width: 180px;          /* width of the left column */
 }
-
 .headshot-left {
   width: 160px;
   height: 160px;
@@ -77,7 +94,6 @@ details > summary{cursor:pointer;font-weight:700}
   display: block;
   margin: 0 auto 12px;       /* center inside profile column */
 }
-
 .btn.linkedin {
   display: inline-block;
   background-color: #0A66C2;
@@ -89,31 +105,7 @@ details > summary{cursor:pointer;font-weight:700}
   text-decoration: none;
   font-size: 0.9rem;
 }
-
 .btn.linkedin:hover {
   background-color: #004182;
 }
 </style>
-<div class="card">
-  <h3>AD DS Lab Documentation</h3>
-  <div class="meta">PDF • Sep 7, 2025</div>
-  <p>Step-by-step Active Directory homelab in VirtualBox (install roles, promote to DC, OUs/users, baseline security).</p>
-  <div class="actions">
-    <a class="btn primary" href="assets/docs/AD Homelab Documentation.pdf" target="_blank">📄 Open Documentation (PDF)</a>
-    <a class="btn" href="assets/docs/AD Homelab Documentation.pdf" download>⬇️ Download PDF</a>
-  </div>
-  <div class="note">Inline preview:</div>
-  <div class="preview">
-    <iframe src="assets/docs/AD Homelab Documentation.pdf#view=FitH" width="100%" height="520"></iframe>
-  </div>
-  <details>
-    <summary>▶ Watch 7-min overview video (YouTube)</summary>
-    <div class="meta">YouTube • Aug 25, 2025 • 7:16</div>
-    <iframe width="100%" height="315"
-      src="https://www.youtube-nocookie.com/embed/wJvPo97CihI?rel=0&modestbranding=1"
-      title="AD DS Lab Overview" frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen></iframe>
-    <p><a href="https://youtu.be/wJvPo97CihI" target="_blank">Open on YouTube ↗</a></p>
-  </details>
-</div>
