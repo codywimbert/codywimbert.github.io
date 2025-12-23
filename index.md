@@ -7,10 +7,15 @@ title: Home
   <img src="assets/1741474286957.jpeg" alt="Cody Wimbert Headshot" class="headshot-left">
   <a class="btn linkedin" href="https://www.linkedin.com/in/codywimbert" target="_blank">Connect on LinkedIn</a>
 </div>
+[![Cisco Certified Network Associate (CCNA)](https://img.shields.io/badge/Cisco-CCNA-blue)](https://www.credly.com/badges/63594976-47aa-4fa9-82aa-22b11b54d8ae/public_url)
 [![CompTIA Security+](https://img.shields.io/badge/CompTIA-Security%2B-red)](https://www.credly.com/badges/bbc69822-5201-4e6c-9ddf-350839c18b75/public_url)
 [![CompTIA Network+](https://img.shields.io/badge/CompTIA-Network%2B-blue)](https://www.credly.com/badges/58cf8b8c-583e-40f1-9cad-cbbce26f87e9/public_url)
 [![CompTIA A+](https://img.shields.io/badge/CompTIA-A%2B-green)](https://www.credly.com/badges/df931828-7254-4034-85c8-3446ad7b41f7/public_url)
-CompTIA A+, Network+, and Security+ certified IT professional with nearly 2 years experience providing enterprise-level support across Windows, MacOS, and ChromeOS environments. Skilled in hardware/software troubleshooting, network and security diagnostics, asset management, and end-user training. Former educator with strong communication and leadership abilities, eager to leverage technical expertise in IT support, networking, and cybersecurity roles. Passionate about solving complex problems and helping organizations maintain secure, efficient technology operations.
+CCNA and Security+ certified IT professional with experience providing enterprise-level support across Windows, macOS, and ChromeOS environments. Skilled in network troubleshooting, routing and switching, endpoint management, and cybersecurity fundamentals, with hands-on experience managing Active Directory, Group Policy, Microsoft 365, Jamf, and Google Workspace.
+
+Proven track record in technical problem-solving, asset and inventory management, and IT service delivery, supporting both end users and network infrastructure. Former educator with strong communication and leadership skills, able to translate complex technical concepts into actionable guidance for teams and users.
+
+Eager to leverage technical expertise in IT support, networking, and cybersecurity roles, including NOC Technician, Network Technician, Junior Network Engineer, SOC Tier 1 Analyst, and Infrastructure Support positions. Passionate about maintaining secure, efficient technology operations and solving complex technical challenges in enterprise environments.
 ## Projects
 Real-time troubleshooting, end-user education, and project overviews.
 <div class="card">
