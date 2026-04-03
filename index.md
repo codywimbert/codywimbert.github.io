@@ -12,11 +12,11 @@ title: Home
 [![CompTIA Network+](https://img.shields.io/badge/CompTIA-Network%2B-blue)](https://www.credly.com/badges/58cf8b8c-583e-40f1-9cad-cbbce26f87e9/public_url)
 [![CompTIA A+](https://img.shields.io/badge/CompTIA-A%2B-green)](https://www.credly.com/badges/df931828-7254-4034-85c8-3446ad7b41f7/public_url)
 <br><br>
-CCNA and Security+ certified IT professional with experience providing enterprise-level support across Windows, macOS, and ChromeOS environments. Skilled in network troubleshooting, routing and switching, endpoint management, and cybersecurity fundamentals, with hands-on experience managing Active Directory, Group Policy, Microsoft 365, Jamf, and Google Workspace.
+Security operations specialist focused on threat detection, incident response, and security monitoring.
 <br><br>
-Proven track record in technical problem-solving, asset and inventory management, and IT service delivery, supporting both end users and network infrastructure. Former educator with strong communication and leadership skills, able to translate complex technical concepts into actionable guidance for teams and users.
+Supporting public school districts in Southern Westchester, I analyze and respond to security events using SIEM and EDR tools, perform threat hunting, support vulnerability management efforts, and tune detections to improve visibility and reduce false positives.
 <br><br>
-Eager to leverage technical expertise in IT support, networking, and cybersecurity roles, including NOC Technician, Network Technician, Junior Network Engineer, SOC Tier 1 Analyst, and Infrastructure Support positions. Passionate about maintaining secure, efficient technology operations and solving complex technical challenges in enterprise environments.
+Currently a Network Specialist working within a Security Operations team, with a networking foundation (CCNA). Former English teacher with strong communication and collaboration skills, able to translate complex technical issues into clear, actionable insights for both technical and non-technical stakeholders.
 <br><br>
 ## Projects
 Real-time troubleshooting, end-user education, and project overviews.
