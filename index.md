@@ -36,14 +36,18 @@ Real-time troubleshooting, end-user education, and project overviews.
        📄 Open Diagram (PDF)
     </a>
   </div>
-  <div class="preview">
-    <a href="https://lucid.app/lucidchart/ee4c169d-b497-4250-9dec-7b47d80b19c3/edit?invitationId=inv_411b3e79-db9a-49c7-ab72-352721c52138" target="_blank">
-      📌 Click to view full network diagram on Lucidchart
-  <div class="preview">
-    <iframe src="assets/docs/REDACTED Home Network_ Lucidchart.pdf#view=FitH" width="100%" height="520"></iframe>
+  <div class="note">Inline preview:</div>
+  <div class="pdf-wrapper">
+    <iframe src="assets/docs/REDACTED Home Network_ Lucidchart.pdf#view=FitH"></iframe>
   </div>
-  </a>
-<div class="card">
+  <div class="preview">
+    <a href="https://lucid.app/lucidchart/ee4c169d-b497-4250-9dec-7b47d80b19c3/edit?invitationId=inv_411b3e79-db9a-49c7-ab72-352721c52138" 
+       target="_blank"
+       style="display:block; padding:20px; text-align:center; text-decoration:none;">
+      📌 Click to view full network diagram on Lucidchart
+    </a>
+  </div>
+</div>
 
 <div class="card">
   <h3>Packet Tracer Demo - Basic Network Setup</h3>
@@ -124,7 +128,7 @@ Real-time troubleshooting, end-user education, and project overviews.
 
 <div class="card">
   <h3>PC Build – Main Workstation</h3>
-  <div class="meta">PCPartPicker • 2026</div>
+  <div class="meta">PCPartPicker</div>
   <p>
     Primary workstation used for virtualization, homelab testing, and security tooling.
   </p>
@@ -132,13 +136,21 @@ Real-time troubleshooting, end-user education, and project overviews.
     <a class="btn primary" 
        href="https://pcpartpicker.com/list/HHhhg3" 
        target="_blank">
-       🔗 View Full Build on PCPartPicker
+       🔗 View Workstation Build
     </a>
   </div>
-  <div class="preview">
-    <a href="https://pcpartpicker.com/list/HHhhg3" target="_blank"
-       style="display:block; padding:20px; text-align:center; text-decoration:none;">
-       🧰 Click to view full parts list, pricing, and compatibility details
+</div>
+<div class="card">
+  <h3>Server PC – Homelab Host</h3>
+  <div class="meta">PCPartPicker</div>
+  <p>
+    Dedicated homelab server used for Proxmox virtualization, Docker services, networking labs, and security testing environments.
+  </p>
+  <div class="actions">
+    <a class="btn primary" 
+       href="https://pcpartpicker.com/list/cWDPn2"
+       target="_blank">
+       🖥️ View Server Build
     </a>
   </div>
 </div>
