@@ -317,7 +317,6 @@ strong, b {
   border-color: #2563eb;
 }
 
-/* LinkedIn button */
 .btn.linkedin {
   background-color: #0A66C2;
   color: #fff;
@@ -366,14 +365,12 @@ strong, b {
   margin-bottom: 14px;
 }
 
-  .preview img {
+.preview img {
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 10px;
 }
 
-/* VIDEO */
 .video-wrapper {
   position: relative;
   width: 100%;
@@ -390,7 +387,6 @@ strong, b {
   border: 0;
 }
 
-/* PDF */
 .pdf-wrapper {
   position: relative;
   width: 100%;
@@ -408,18 +404,32 @@ strong, b {
 }
 
 /* =========================
-   DETAILS
+   DETAILS (FIXED)
 ========================= */
 
 details {
   margin-top: 14px;
+  border: 1px solid #1f2937;
+  border-radius: 10px;
+  background: #0f172a;
+  padding: 10px 12px;
 }
 
 details > summary {
   cursor: pointer;
   font-weight: 700;
+  color: #60a5fa;
 }
-  .image-grid {
+
+details:hover {
+  border-color: #3b82f6;
+}
+
+/* =========================
+   IMAGE GRID
+========================= */
+
+.image-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 12px;
@@ -446,21 +456,3 @@ details > summary {
   }
 }
 </style>
-
-details {
-  margin-top: 14px;
-  border: 1px solid #1f2937;
-  border-radius: 10px;
-  background: #0f172a;
-  padding: 10px 12px;
-}
-
-details > summary {
-  cursor: pointer;
-  font-weight: 700;
-  color: #60a5fa;
-}
-
-details:hover {
-  border-color: #3b82f6;
-}
