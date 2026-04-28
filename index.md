@@ -80,7 +80,6 @@ Real-time troubleshooting, end-user education, and project overviews.
     <p><a href="https://youtu.be/wJvPo97CihI" target="_blank">Open on YouTube ↗</a></p>
   </details>
 </div>
-<div class="card">
 
 <div class="card">
   <h3>PC Build – Main Workstation</h3>
@@ -161,5 +160,19 @@ details > summary{cursor:pointer;font-weight:700}
 }
 .btn.linkedin:hover {
   background-color: #004182;
+}
+  .video-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin-top: 12px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.video-wrapper iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 </style>
