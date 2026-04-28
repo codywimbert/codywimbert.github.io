@@ -29,15 +29,19 @@ Currently a Network Specialist working within a Security Operations team at an M
     and security-focused infrastructure testing. It simulates a production-style environment using subnets,
     virtualization, and containerized services.
   </p>
-  <!-- Homepage Preview -->
-  <div class="preview" style="margin-top:12px;">
-    <img src="assets/docs/Homepage_dashboard" alt="Homepage Dashboard">
-    <div class="img-caption">Services Homepage (Hosted on Docker)</div>
+ <!-- Homepage Preview -->
+<div class="preview" style="margin-top:12px;">
+  <img src="assets/docs/Homepage_dashboard" alt="Homepage Dashboard">
+  <div class="img-caption" style="margin-bottom:14px;">
+    Services Homepage (Hosted on Docker)
   </div>
-  <!-- 🔽 DASHBOARD GRID -->
-  <h3 style="margin-top:20px;">Live Service Dashboards</h3>
-  <div class="image-grid">
-    <div>
+</div>
+
+<!-- 🔽 DASHBOARD GRID -->
+<h3 style="margin-top:28px;">Live Service Dashboards</h3>
+
+<div class="image-grid">
+  <div>
       <img src="assets/docs/OPNsense_dashboard" alt="OPNsense Dashboard">
       <div class="img-caption">OPNsense Firewall</div>
     </div>
