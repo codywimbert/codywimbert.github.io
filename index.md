@@ -29,9 +29,6 @@ Currently a Network Specialist working within a Security Operations team at an M
     and security-focused infrastructure testing. It simulates a production-style environment using subnets,
     virtualization, and containerized services.
   </p>
-  <img src="assets/docs/homelabservices.png" 
-       alt="Homelab Services Overview"
-       style="width:100%; border-radius:10px; margin-top:12px;">
   <!-- 🔽 NEW DASHBOARD GRID -->
   <h3>Live Service Dashboards</h3>
   <div class="image-grid">
