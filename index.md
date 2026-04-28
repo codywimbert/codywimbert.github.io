@@ -201,7 +201,7 @@ Currently a Network Specialist working within a Security Operations team at an M
     </div>
 <div class="actions">
   <a class="btn youtube" 
-     href="https://youtu.be/tgAu_R2t-Zc" 
+     href="https://youtu.be/wJvPo97CihI" 
      target="_blank">
      ▶ Open on YouTube ↗
   </a>
