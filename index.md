@@ -33,6 +33,7 @@ Currently a Network Specialist working within a Security Operations team at an M
   <!-- Homepage Preview -->
   <div class="preview" style="margin-top:12px;">
     <img src="assets/docs/Homepage_dashboard" alt="Homepage Dashboard">
+    <div class="img-caption">Services Homepage (Hosted on Docker)</div>
   </div>
 
   <!-- 🔽 DASHBOARD GRID -->
