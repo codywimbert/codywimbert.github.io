@@ -40,7 +40,7 @@ Real-time troubleshooting, end-user education, and project overviews.
   <div class="note">Preview (click to open full diagram):</div>
 
   <div class="preview">
-    <a href="https://lucid.app/lucidchart/ee4c169d-b497-4250-9dec-7b47d80b19c3/edit?invitationId=inv_411b3e79-db9a-49c7-ab72-352721c52138"
+    <a href="assets/docs/redacted-home-network-lucidchart.pdf"
        target="_blank">
       <img src="assets/images/home-network-diagram.png"
            alt="Home Network Diagram Preview"
