@@ -20,7 +20,6 @@ Currently a Network Specialist working within a Security Operations team at an M
 <br>
 
 ## Projects
-Real-time troubleshooting, end-user education, and project overviews.
 
 <div class="card">
   <h2>Homelab Infrastructure Overview</h2>
@@ -33,6 +32,33 @@ Real-time troubleshooting, end-user education, and project overviews.
   <img src="assets/docs/homelabservices.png" 
        alt="Homelab Services Overview"
        style="width:100%; border-radius:10px; margin-top:12px;">
+  <!-- 🔽 NEW DASHBOARD GRID -->
+  <h3>Live Service Dashboards</h3>
+  <div class="image-grid">
+    <div>
+      <img src="assets/docs/Homepage_dashboard.png" alt="Homepage Dashboard">
+      <div class="img-caption">Homepage Overview</div>
+    </div>
+    <div>
+      <img src="assets/docs/OPNsense_dashboard.png" alt="OPNsense Dashboard">
+      <div class="img-caption">OPNsense Firewall</div>
+    </div>
+    <div>
+      <img src="assets/docs/Pihole_dashboard.png" alt="Pi-hole Dashboard">
+      <div class="img-caption">Pi-hole DNS Filtering</div>
+    </div>
+    <div>
+      <img src="assets/docs/Proxmox_dashboard.png" alt="Proxmox Dashboard">
+      <div class="img-caption">Proxmox Virtualization</div>
+    </div>
+  </div>
+  <!-- OPTIONAL: second row if you want Plex included -->
+  <div class="image-grid" style="margin-top:12px;">
+    <div>
+      <img src="assets/docs/Plex_dashboard.png" alt="Plex Dashboard">
+      <div class="img-caption">Plex Media Server</div>
+    </div>
+  </div>
   <h3>Core Infrastructure</h3>
   <ul>
     <li><strong>OPNsense</strong> – Firewall, routing, and subnet segmentation</li>
@@ -56,7 +82,6 @@ Real-time troubleshooting, end-user education, and project overviews.
     Prowlarr → Sonarr/Radarr → qBittorrent → Plex pipeline.
   </p>
 </div>
-
 <div class="card">
   <h3>Home Network Diagram (Homelab Topology)</h3>
   <div class="meta">Lucidchart • Apr 27, 2026</div>
@@ -395,5 +420,31 @@ details {
 details > summary {
   cursor: pointer;
   font-weight: 700;
+}
+  .image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.image-grid img {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #1f2937;
+  background: #0f172a;
+}
+
+.img-caption {
+  font-size: 0.8rem;
+  color: #9ca3af;
+  margin-top: 4px;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .image-grid {
+    grid-template-columns: 1fr;
+  }
 }
 </style>
