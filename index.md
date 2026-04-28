@@ -3,21 +3,55 @@ layout: default
 title: Home
 ---
 # Cody Wimbert • Professional Portfolio
-<div class="profile">
-  <img src="assets/1741474286957.jpeg" alt="Cody Wimbert Headshot" class="headshot-left">
-  <a class="btn linkedin" href="https://www.linkedin.com/in/codywimbert" target="_blank">Connect on LinkedIn</a>
+<div class="hero">
+
+  <div class="profile">
+    <img src="assets/1741474286957.jpeg" alt="Cody Wimbert Headshot" class="headshot-left">
+
+    <a class="btn linkedin"
+       href="https://www.linkedin.com/in/codywimbert"
+       target="_blank">
+      Connect on LinkedIn
+    </a>
+  </div>
+
+  <div class="hero-content">
+
+    <h1>Cody Wimbert</h1>
+    <div class="meta">Security Operations • Networking • Homelab Infrastructure</div>
+
+    <div class="badge-row">
+      <a href="https://www.credly.com/badges/63594976-47aa-4fa9-82aa-22b11b54d8ae/public_url" target="_blank">
+        <img src="https://img.shields.io/badge/Cisco-CCNA-blue">
+      </a>
+      <a href="https://www.credly.com/badges/bbc69822-5201-4e6c-9ddf-350839c18b75/public_url" target="_blank">
+        <img src="https://img.shields.io/badge/CompTIA-Security%2B-red">
+      </a>
+      <a href="https://www.credly.com/badges/58cf8b8c-583e-40f1-9cad-cbbce26f87e9/public_url" target="_blank">
+        <img src="https://img.shields.io/badge/CompTIA-Network%2B-blue">
+      </a>
+      <a href="https://www.credly.com/badges/df931828-7254-4034-85c8-3446ad7b41f7/public_url" target="_blank">
+        <img src="https://img.shields.io/badge/CompTIA-A%2B-green">
+      </a>
+    </div>
+
+    <p class="intro">
+      Security operations specialist focused on threat detection, incident response, and security monitoring.
+    </p>
+
+    <p class="intro">
+      Supporting public school districts, I analyze and respond to security events using SIEM and EDR tools,
+      perform threat hunting, support vulnerability management efforts, and tune detections to improve visibility
+      and reduce false positives.
+    </p>
+
+    <p class="intro">
+      Currently a Network Specialist working within a Security Operations team at an MSP, with a CCNA foundation.
+      Former English teacher with strong communication skills bridging technical and non-technical stakeholders.
+    </p>
+
+  </div>
 </div>
-[![Cisco Certified Network Associate (CCNA)](https://img.shields.io/badge/Cisco-CCNA-blue)](https://www.credly.com/badges/63594976-47aa-4fa9-82aa-22b11b54d8ae/public_url)
-[![CompTIA Security+](https://img.shields.io/badge/CompTIA-Security%2B-red)](https://www.credly.com/badges/bbc69822-5201-4e6c-9ddf-350839c18b75/public_url)
-[![CompTIA Network+](https://img.shields.io/badge/CompTIA-Network%2B-blue)](https://www.credly.com/badges/58cf8b8c-583e-40f1-9cad-cbbce26f87e9/public_url)
-[![CompTIA A+](https://img.shields.io/badge/CompTIA-A%2B-green)](https://www.credly.com/badges/df931828-7254-4034-85c8-3446ad7b41f7/public_url)
-<br>
-Security operations specialist focused on threat detection, incident response, and security monitoring.
-<br><br>
-Supporting public school districts, I analyze and respond to security events using SIEM and EDR tools, perform threat hunting, support vulnerability management efforts, and tune detections to improve visibility and reduce false positives.
-<br><br>
-Currently a Network Specialist working within a Security Operations team at an MSP, with a networking foundation (CCNA). Former English teacher with strong communication and collaboration skills, able to translate complex technical issues into clear, actionable insights for both technical and non-technical stakeholders.
-<br>
 
 ## Projects
 
@@ -491,6 +525,56 @@ details:hover {
   transform: scale(1.01);
   border-color: #3b82f6;
   color: #ffffff;
+}
+
+  .hero {
+  display: flex;
+  gap: 28px;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero h1 {
+  margin-top: 0;
+  font-size: 2.2rem;
+}
+
+.intro {
+  color: #d1d5db;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  max-width: 850px;
+}
+
+/* badge row */
+.badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0 14px;
+}
+
+.badge-row img {
+  height: 22px;
+}
+
+/* responsive */
+@media (max-width: 800px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .profile {
+    margin: 0 auto 10px;
+  }
+
+  .hero-content {
+    text-align: left;
+  }
 }
   
 </style>
