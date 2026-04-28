@@ -337,7 +337,6 @@ strong, b {
   align-items: flex-start;
   margin-top: 20px;
   position: relative;
-  overflow: hidden;
 }
 
 /* subtle grid background */
@@ -450,8 +449,8 @@ strong, b {
 ========================= */
 
 .profile {
-  text-align: center;
   width: 180px;
+  flex-shrink: 0;
 }
 
 .profile-card {
@@ -496,32 +495,31 @@ strong, b {
    STATUS DOT
 ========================= */
 
-.status-line {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  margin: 6px 0 8px;
-  font-size: 0.9rem;
-  color: #cbd5e1;
-}
-
 .status-dot {
   width: 10px;
   height: 10px;
   border-radius: 50%;
   background: #22c55e;
   position: relative;
+  margin-left: 4px; /* 👈 pushes it slightly right */
+  flex-shrink: 0;
+}
+
+.status-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* slightly more breathing room */
 }
 
 .status-dot::after {
   content: "";
   position: absolute;
-  inset: 0;
+  inset: -3px; /* 👈 prevents clipping */
   border-radius: 50%;
   background: #22c55e;
-  animation: pulse 1.6s infinite;
   opacity: 0.6;
+  animation: pulse 1.6s infinite;
 }
 
 @keyframes pulse {
