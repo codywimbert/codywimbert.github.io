@@ -21,6 +21,34 @@ Currently a Network Specialist working within a Security Operations team, with a
 ## Projects
 Real-time troubleshooting, end-user education, and project overviews.
 <div class="card">
+  <h3>Home Network Diagram (Homelab Topology)</h3>
+  <div class="meta">Lucidchart • Apr 27, 2026</div>
+
+  <p>
+    Visual documentation of my home network architecture including WAN edge, OPNsense firewall,
+    VLAN segmentation, and homelab services hosted across Proxmox and Docker infrastructure.
+  </p>
+
+  <div class="actions">
+    <a class="btn primary" 
+       href="https://lucid.app/lucidchart/ee4c169d-b497-4250-9dec-7b47d80b19c3/edit?invitationId=inv_411b3e79-db9a-49c7-ab72-352721c52138"
+       target="_blank">
+       🔗 Open Interactive Diagram
+    </a>
+  </div>
+
+  <div class="note">Preview (click to open full diagram):</div>
+
+  <div class="preview">
+    <a href="https://lucid.app/lucidchart/ee4c169d-b497-4250-9dec-7b47d80b19c3/edit?invitationId=inv_411b3e79-db9a-49c7-ab72-352721c52138"
+       target="_blank">
+      <img src="assets/images/home-network-diagram.png"
+           alt="Home Network Diagram Preview"
+           style="width:100%; display:block;">
+    </a>
+  </div>
+</div>
+<div class="card">
   <h3>Packet Tracer Lab - Network Setup</h3>
   <div class="meta">YouTube • Sep 21, 2025 • 5:15</div>
   <p>Real-time video of me setting up a Cisco Packet Tracer network environment. Features IP configuration; DNS, DHCP, and HTTP server setup; OSPF configuration; Network troubleshooting.</p>
@@ -32,7 +60,7 @@ Real-time troubleshooting, end-user education, and project overviews.
   <p><a href="https://youtu.be/MA3ZNwMtxPw" target="_blank">Open on YouTube ↗</a></p>
 </div>
 <div class="card">
-  <h3>AD DS Lab Documentation</h3>
+  <h3>VirtualBox Active Directory Lab</h3>
   <div class="meta">PDF • Sep 7, 2025</div>
   <p>Step-by-step Active Directory homelab in VirtualBox (install roles, promote to DC, OUs/users, baseline security).</p>
   <div class="actions">
