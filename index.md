@@ -46,14 +46,6 @@ Real-time troubleshooting, end-user education, and project overviews.
   </div>
 </div>
 
-  <div class="note">Preview (click to open full diagram):</div>
-
-  <div class="preview">
-    <a href="assets/docs/redacted-home-network-lucidchart.pdf"
-       target="_blank">
-      <img src="assets/images/home-network-diagram.png"
-           alt="Home Network Diagram Preview"
-           style="width:100%; display:block;">
     </a>
   </div>
 </div>
