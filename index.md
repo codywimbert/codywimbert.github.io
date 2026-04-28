@@ -156,22 +156,6 @@ Real-time troubleshooting, end-user education, and project overviews.
 </div>
 
 <style>
-  :root {
-  --bg: #ffffff;
-  --card: #ffffff;
-  --text: #111827;
-  --muted: #6b7280;
-  --border: #e5e7eb;
-  --primary: #2563eb;
-}
-  body.dark {
-  --bg: #0b1220;
-  --card: #111827;
-  --text: #e5e7eb;
-  --muted: #9ca3af;
-  --border: #1f2937;
-  --primary: #3b82f6;
-}
 .card{border:1px solid #e5e7eb;border-radius:12px;padding:16px;background:#fff;margin:20px 0}
 .meta{color:#6b7280;font-size:.9rem;margin:6px 0}
 .actions{display:flex;gap:12px;flex-wrap:wrap;margin:10px 0 14px}
