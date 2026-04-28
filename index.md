@@ -14,7 +14,7 @@ title: Home
 <br>
 Security operations specialist focused on threat detection, incident response, and security monitoring.
 <br><br>
-Supporting public school districts in Southern Westchester, I analyze and respond to security events using SIEM and EDR tools, perform threat hunting, support vulnerability management efforts, and tune detections to improve visibility and reduce false positives.
+Supporting public school districts, I analyze and respond to security events using SIEM and EDR tools, perform threat hunting, support vulnerability management efforts, and tune detections to improve visibility and reduce false positives.
 <br><br>
 Currently a Network Specialist working within a Security Operations team at an MSP, with a networking foundation (CCNA). Former English teacher with strong communication and collaboration skills, able to translate complex technical issues into clear, actionable insights for both technical and non-technical stakeholders.
 <br>
