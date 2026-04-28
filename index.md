@@ -66,27 +66,73 @@ Real-time troubleshooting, end-user education, and project overviews.
   </p>
 </div>
 
+<div class="card">
   <h3>VirtualBox Active Directory Lab</h3>
   <div class="meta">PDF • Sep 7, 2025</div>
-  <p>Step-by-step Active Directory homelab in VirtualBox (install roles, promote to DC, OUs/users, baseline security).</p>
+
+  <p>
+    Step-by-step Active Directory homelab in VirtualBox (install roles, promote to DC, OUs/users, baseline security).
+  </p>
+
   <div class="actions">
-    <a class="btn primary" href="assets/docs/AD Homelab Documentation.pdf" target="_blank">📄 Open Documentation (PDF)</a>
-    <a class="btn" href="assets/docs/AD Homelab Documentation.pdf" download>⬇️ Download PDF</a>
+    <a class="btn primary" href="assets/docs/AD Homelab Documentation.pdf" target="_blank">
+      📄 Open Documentation (PDF)
+    </a>
+    <a class="btn" href="assets/docs/AD Homelab Documentation.pdf" download>
+      ⬇️ Download PDF
+    </a>
   </div>
+
   <div class="note">Inline preview:</div>
+
   <div class="preview">
-    <iframe src="assets/docs/AD Homelab Documentation.pdf#view=FitH" width="100%" height="520"></iframe>
+    <iframe 
+      src="assets/docs/AD Homelab Documentation.pdf#view=FitH">
+    </iframe>
   </div>
+
   <details>
-    <summary>▶ Watch 7-min overview video (YouTube)</summary>
+    <summary>▶ Watch 7-min overview video</summary>
+
     <div class="meta">YouTube • Aug 25, 2025 • 7:16</div>
-    <iframe width="100%" height="315"
-      src="https://www.youtube-nocookie.com/embed/wJvPo97CihI?rel=0&modestbranding=1"
-      title="AD DS Lab Overview" frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen></iframe>
-    <p><a href="https://youtu.be/wJvPo97CihI" target="_blank">Open on YouTube ↗</a></p>
+
+    <div class="video-wrapper">
+      <iframe
+        src="https://www.youtube-nocookie.com/embed/wJvPo97CihI?rel=0&modestbranding=1"
+        title="AD DS Lab Overview"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <p>
+      <a href="https://youtu.be/wJvPo97CihI" target="_blank">
+        Open on YouTube ↗
+      </a>
+    </p>
   </details>
+</div>
+
+<div class="card">
+  <h3>File Hashes - Verify Your Downloads</h3>
+  <div class="meta">YouTube • Aug 23, 2025 • 5:15</div>
+
+  <p>
+    End-user education tutorial on how to check file hashes to verify installs.
+  </p>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube.com/embed/tgAu_R2t-Zc"
+      title="File Hash Verification Tutorial"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <p>
+    <a href="https://youtu.be/tgAu_R2t-Zc" target="_blank">
+      Open on YouTube ↗
+    </a>
+  </p>
 </div>
 
 <div class="card">
@@ -110,17 +156,6 @@ Real-time troubleshooting, end-user education, and project overviews.
   </div>
 </div>
 
-  <h3>File Hashes - Verify Your Downloads</h3>
-  <div class="meta">YouTube • Aug 23, 2025 • 5:15</div>
-  <p>End-user education tutorial on how to check file hashes to verify installs.</p>
-  <!-- Replace VIDEO_ID with the part after v= in your YouTube link -->
-  <iframe width="100%" height="315"
-  src="https://youtube.com/embed/tgAu_R2t-Zc"
-  title="Test" frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen></iframe>
-  <p><a href="https://youtu.be/tgAu_R2t-Zc" target="_blank">Open on YouTube ↗</a></p>
-</div>
 <style>
 .card{border:1px solid #e5e7eb;border-radius:12px;padding:16px;background:#fff;margin:20px 0}
 .meta{color:#6b7280;font-size:.9rem;margin:6px 0}
