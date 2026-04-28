@@ -361,6 +361,13 @@ strong, b {
   background: #0f172a; 
 }
 
+  .preview img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
 /* VIDEO */
 .video-wrapper {
   position: relative;
