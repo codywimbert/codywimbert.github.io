@@ -25,12 +25,10 @@ Real-time troubleshooting, end-user education, and project overviews.
 <div class="card">
   <h3>Home Network Diagram (Homelab Topology)</h3>
   <div class="meta">Lucidchart • Apr 27, 2026</div>
-
   <p>
     Visual documentation of my home network architecture including WAN edge, OPNsense firewall,
     segmentation, and homelab services hosted across Proxmox and Docker infrastructure.
   </p>
-
   <div class="actions">
     <a class="btn primary" 
        href="assets/docs/REDACTED Home Network_ Lucidchart.pdf"
@@ -38,16 +36,14 @@ Real-time troubleshooting, end-user education, and project overviews.
        📄 Open Diagram (PDF)
     </a>
   </div>
-
   <div class="preview">
     <a href="https://lucid.app/lucidchart/ee4c169d-b497-4250-9dec-7b47d80b19c3/edit?invitationId=inv_411b3e79-db9a-49c7-ab72-352721c52138" target="_blank">
-      📌 Click to view full network diagram
+      📌 Click to view full network diagram on Lucidchart
 
   <div class="preview">
     <iframe src="assets/docs/REDACTED Home Network_ Lucidchart.pdf#view=FitH" width="100%" height="520"></iframe>
   </div>
   </a>
-
 <div class="card">
 
   <h3>Packet Tracer Demo - Basic Network Setup</h3>
