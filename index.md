@@ -23,34 +23,6 @@ Currently a Network Specialist working within a Security Operations team, with a
 Real-time troubleshooting, end-user education, and project overviews.
 
 <div class="card">
-  <h3>Home Network Diagram (Homelab Topology)</h3>
-  <div class="meta">Lucidchart • Apr 27, 2026</div>
-  <p>
-    Visual documentation of my home network architecture including WAN edge, OPNsense firewall,
-    segmentation, and homelab services hosted across Proxmox and Docker infrastructure.
-  </p>
-  <div class="actions">
-    <a class="btn primary" 
-       href="assets/docs/REDACTED Home Network_ Lucidchart.pdf"
-       target="_blank">
-       📄 Open Diagram (PDF)
-    </a>
-  </div>
-  <div class="note">Inline preview:</div>
-  <div class="pdf-wrapper">
-    <iframe src="assets/docs/REDACTED Home Network_ Lucidchart.pdf#view=FitH"></iframe>
-  </div>
-  <div class="preview">
-    <a href="https://lucid.app/lucidchart/ee4c169d-b497-4250-9dec-7b47d80b19c3/edit?invitationId=inv_411b3e79-db9a-49c7-ab72-352721c52138" 
-       target="_blank"
-       style="display:block; padding:20px; text-align:center; text-decoration:none;">
-      📌 Click to view full network diagram on Lucidchart
-    </a>
-  </div>
-</div>
-<div class="card">
-
-<div class="card">
   <h2>Homelab Infrastructure Overview</h2>
   <div class="meta">Live Network • Home Dashboard Snapshot</div>
   <p>
@@ -84,7 +56,33 @@ Real-time troubleshooting, end-user education, and project overviews.
     Prowlarr → Sonarr/Radarr → qBittorrent → Plex pipeline.
   </p>
 </div>
+  <h3>Home Network Diagram (Homelab Topology)</h3>
+  <div class="meta">Lucidchart • Apr 27, 2026</div>
+  <p>
+    Visual documentation of my home network architecture including WAN edge, OPNsense firewall,
+    segmentation, and homelab services hosted across Proxmox and Docker infrastructure.
+  </p>
+  <div class="actions">
+    <a class="btn primary" 
+       href="assets/docs/REDACTED Home Network_ Lucidchart.pdf"
+       target="_blank">
+       📄 Open Diagram (PDF)
+    </a>
+  </div>
+  <div class="note">Inline preview:</div>
+  <div class="pdf-wrapper">
+    <iframe src="assets/docs/REDACTED Home Network_ Lucidchart.pdf#view=FitH"></iframe>
+  </div>
+  <div class="preview">
+    <a href="https://lucid.app/lucidchart/ee4c169d-b497-4250-9dec-7b47d80b19c3/edit?invitationId=inv_411b3e79-db9a-49c7-ab72-352721c52138" 
+       target="_blank"
+       style="display:block; padding:20px; text-align:center; text-decoration:none;">
+      📌 Click to view full network diagram on Lucidchart
+    </a>
+  </div>
+</div>
 
+<div class="card">
   <h3>TryHackMe – SOC Level 1 Path Completion</h3>
   <div class="meta">TryHackMe • Security Operations • 2026</div>
   <p>
