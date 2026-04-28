@@ -46,9 +46,6 @@ Real-time troubleshooting, end-user education, and project overviews.
   </div>
 </div>
 
-    </a>
-  </div>
-</div>
 <div class="card">
 
   <h3>Packet Tracer Demo - Basic Network Setup</h3>
