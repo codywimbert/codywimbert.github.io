@@ -5,15 +5,25 @@ title: Home
 # Cody Wimbert • Professional Portfolio
 <div class="hero">
 
-  <div class="profile">
-    <img src="assets/1741474286957.jpeg" alt="Cody Wimbert Headshot" class="headshot-left">
+<div class="profile profile-card">
 
-    <a class="btn linkedin"
-       href="https://www.linkedin.com/in/codywimbert"
-       target="_blank">
-      Connect on LinkedIn
-    </a>
+  <div class="headshot-glow">
+    <img src="assets/1741474286957.jpeg" alt="Cody Wimbert Headshot" class="headshot-left">
   </div>
+
+  <a class="btn linkedin"
+     href="https://www.linkedin.com/in/codywimbert"
+     target="_blank">
+    Connect on LinkedIn
+  </a>
+
+  <div class="role-pills">
+    <span>Security Ops</span>
+    <span>Networking</span>
+    <span>MSP</span>
+  </div>
+
+</div>
 
   <div class="hero-content">
 
@@ -576,5 +586,77 @@ details:hover {
     text-align: left;
   }
 }
-  
+
+/* =========================
+   PROFILE CARD LIFT
+========================= */
+
+.profile-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-4px);
+}
+
+/* =========================
+   HEADSHOT GLOW
+========================= */
+
+.headshot-glow {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 12px;
+}
+
+.headshot-glow::before {
+  content: "";
+  position: absolute;
+  inset: -10px;
+  background: radial-gradient(
+    circle,
+    rgba(37, 99, 235, 0.35),
+    transparent 70%
+  );
+  border-radius: 50%;
+  z-index: 0;
+  filter: blur(10px);
+}
+
+.headshot-left {
+  position: relative;
+  z-index: 1;
+}
+
+/* =========================
+   ROLE PILLS
+========================= */
+
+.role-pills {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.role-pills span {
+  font-size: 0.75rem;
+  padding: 4px 8px;
+  border-radius: 999px;
+  border: 1px solid #1f2937;
+  color: #cbd5e1;
+  background: #0f172a;
+}
+
+/* =========================
+   BADGE DIVIDER (optional but clean)
+========================= */
+
+.badge-row {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #1f2937;
+}
+
 </style>
