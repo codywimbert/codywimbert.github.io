@@ -332,25 +332,13 @@ strong, b {
 ========================= */
 
 .hero {
-  display: grid;
-  grid-template-columns: 260px 1fr;
+  display: flex;
   gap: 28px;
-  align-items: start;
+  align-items: flex-start;
   margin-top: 20px;
 }
 
 /* subtle grid background */
-.hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image:
-    linear-gradient(to right, rgba(255,255,255,0.04) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255,255,255,0.04) 1px, transparent 1px);
-  background-size: 40px 40px;
-  pointer-events: none;
-  z-index: 0;
-}
 
 .hero > * {
   position: relative;
@@ -452,14 +440,15 @@ strong, b {
    PROFILE (STICKY + LIFT)
 ========================= */
 
+/* LEFT SIDEBAR */
 .profile {
-  width: 100%;
+  width: 260px;
+  flex-shrink: 0;
 }
 
 .profile-card {
   position: sticky;
   top: 20px;
-  align-self: start;
 }
 
 .profile-card:hover {
@@ -655,5 +644,11 @@ details:hover {
     grid-template-columns: 1fr;
   }
 }
-
+body {
+  background-color: #0b1220;
+  background-image:
+    linear-gradient(to right, rgba(255,255,255,0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
 </style>
