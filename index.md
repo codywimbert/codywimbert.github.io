@@ -31,14 +31,11 @@ Real-time troubleshooting, end-user education, and project overviews.
     segmentation, and homelab services hosted across Proxmox and Docker infrastructure.
   </p>
 
+   </div>
+  <div class="note">Inline preview:</div>
   <div class="preview">
-  <a href="assets/docs/REDACTED Home Network_ Lucidchart.pdf" target="_blank">
-    <img 
-      src="assets/images/home-network-diagram.png" 
-      alt="Home Network Diagram"
-      style="width:100%; display:block;">
-  </a>
-</div>
+    <iframe src="assets/docs/REDACTED Home Network_ Lucidchart.pdf#view=FitH" width="100%" height="520"></iframe>
+  </div>
 
   <div class="actions">
     <a class="btn primary" 
