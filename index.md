@@ -33,7 +33,7 @@ Real-time troubleshooting, end-user education, and project overviews.
 
   <div class="actions">
     <a class="btn primary" 
-       href="assets/docs/redacted-home-network-lucidchart.pdf"
+       href="assets/docs/REDACTED Home Network_ Lucidchart.pdf"
        target="_blank">
        📄 Open Diagram (PDF)
     </a>
