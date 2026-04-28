@@ -25,14 +25,14 @@ Currently a Network Specialist working within a Security Operations team at an M
   <h2>Homelab Infrastructure Overview</h2>
   <div class="meta">Live Network • Home Dashboard Snapshot • Apr 27, 2026</div>
   <p>
-</div>
-<div class="preview">
-   <img src="assets/docs/Homepage_dashboard" alt="Homepage Dashboard">
-</div>
     This is my personal homelab environment designed for networking experimentation, automation workflows,
     and security-focused infrastructure testing. It simulates a production-style environment using subnets,
     virtualization, and containerized services.
   </p>
+</div>
+<div class="preview">
+   <img src="assets/docs/Homepage_dashboard" alt="Homepage Dashboard">
+</div>
   <!-- 🔽 NEW DASHBOARD GRID -->
   <h3>Live Service Dashboards</h3>
   <div class="image-grid">
@@ -49,7 +49,7 @@ Currently a Network Specialist working within a Security Operations team at an M
       <div class="img-caption">Proxmox Virtualization</div>
     </div>
   </div>
-    <div>
+      <div>
       <img src="assets/docs/Plex_dashboard" alt="Plex Dashboard">
       <div class="img-caption">Plex Media Server</div>
     </div>
