@@ -24,7 +24,7 @@ Real-time troubleshooting, end-user education, and project overviews.
 
 <div class="card">
   <h2>Homelab Infrastructure Overview</h2>
-  <div class="meta">Live Network • Home Dashboard Snapshot</div>
+  <div class="meta">Live Network • Home Dashboard Snapshot • Apr 27, 2026</div>
   <p>
     This is my personal homelab environment designed for networking experimentation, automation workflows,
     and security-focused infrastructure testing. It simulates a production-style environment using VLAN segmentation,
@@ -56,6 +56,8 @@ Real-time troubleshooting, end-user education, and project overviews.
     Prowlarr → Sonarr/Radarr → qBittorrent → Plex pipeline.
   </p>
 </div>
+
+<div class="card">
   <h3>Home Network Diagram (Homelab Topology)</h3>
   <div class="meta">Lucidchart • Apr 27, 2026</div>
   <p>
@@ -80,11 +82,10 @@ Real-time troubleshooting, end-user education, and project overviews.
       📌 Click to view full network diagram on Lucidchart
     </a>
   </div>
-</div>
 
 <div class="card">
   <h3>TryHackMe – SOC Level 1 Path Completion</h3>
-  <div class="meta">TryHackMe • Security Operations • 2026</div>
+  <div class="meta">TryHackMe • Security Operations • March 5th, 2026</div>
   <p>
     Completed the SOC Level 1 learning path focused on Security Operations Center fundamentals,
     including log analysis, alert triage, SIEM workflows, incident response, and threat detection concepts.
