@@ -39,24 +39,32 @@ Real-time troubleshooting, end-user education, and project overviews.
   <div class="preview">
     <a href="https://lucid.app/lucidchart/ee4c169d-b497-4250-9dec-7b47d80b19c3/edit?invitationId=inv_411b3e79-db9a-49c7-ab72-352721c52138" target="_blank">
       📌 Click to view full network diagram on Lucidchart
-
   <div class="preview">
     <iframe src="assets/docs/REDACTED Home Network_ Lucidchart.pdf#view=FitH" width="100%" height="520"></iframe>
   </div>
   </a>
 <div class="card">
 
+<div class="card">
   <h3>Packet Tracer Demo - Basic Network Setup</h3>
   <div class="meta">YouTube • Sep 21, 2025 • 5:15</div>
-  <p>Live demo of me setting up a basic Cisco Packet Tracer network and learning along the way. Features IP configuration; DNS, DHCP, and HTTP server setup; OSPF configuration; Network troubleshooting.</p>
-  <iframe width="100%" height="315"
-    src="https://www.youtube.com/embed/MA3ZNwMtxPw?rel=0&modestbranding=1"
-    title="Packet Tracer Lab - Network Setup" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
-  <p><a href="https://youtu.be/MA3ZNwMtxPw" target="_blank">Open on YouTube ↗</a></p>
+  <p>
+    Live demo of me setting up a basic Cisco Packet Tracer network and learning along the way.
+    Features IP configuration; DNS, DHCP, and HTTP server setup; OSPF configuration; Network troubleshooting.
+  </p>
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube.com/embed/MA3ZNwMtxPw?rel=0&modestbranding=1"
+      title="Packet Tracer Lab - Network Setup"
+      allowfullscreen>
+    </iframe>
+  </div>
+  <p>
+    <a href="https://youtu.be/MA3ZNwMtxPw" target="_blank">
+      Open on YouTube ↗
+    </a>
+  </p>
 </div>
-<div class="card">
 
   <h3>VirtualBox Active Directory Lab</h3>
   <div class="meta">PDF • Sep 7, 2025</div>
@@ -84,11 +92,9 @@ Real-time troubleshooting, end-user education, and project overviews.
 <div class="card">
   <h3>PC Build – Main Workstation</h3>
   <div class="meta">PCPartPicker • 2026</div>
-
   <p>
     Primary workstation used for virtualization, homelab testing, and security tooling.
   </p>
-
   <div class="actions">
     <a class="btn primary" 
        href="https://pcpartpicker.com/list/HHhhg3" 
@@ -96,7 +102,6 @@ Real-time troubleshooting, end-user education, and project overviews.
        🔗 View Full Build on PCPartPicker
     </a>
   </div>
-
   <div class="preview">
     <a href="https://pcpartpicker.com/list/HHhhg3" target="_blank"
        style="display:block; padding:20px; text-align:center; text-decoration:none;">
