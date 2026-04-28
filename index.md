@@ -11,13 +11,13 @@ title: Home
 [![CompTIA Security+](https://img.shields.io/badge/CompTIA-Security%2B-red)](https://www.credly.com/badges/bbc69822-5201-4e6c-9ddf-350839c18b75/public_url)
 [![CompTIA Network+](https://img.shields.io/badge/CompTIA-Network%2B-blue)](https://www.credly.com/badges/58cf8b8c-583e-40f1-9cad-cbbce26f87e9/public_url)
 [![CompTIA A+](https://img.shields.io/badge/CompTIA-A%2B-green)](https://www.credly.com/badges/df931828-7254-4034-85c8-3446ad7b41f7/public_url)
-<br>
+<br><br>
 Security operations specialist focused on threat detection, incident response, and security monitoring.
-<br>
+<br><br>
 Supporting public school districts in Southern Westchester, I analyze and respond to security events using SIEM and EDR tools, perform threat hunting, support vulnerability management efforts, and tune detections to improve visibility and reduce false positives.
-<br>
+<br><br>
 Currently a Network Specialist working within a Security Operations team, with a networking foundation (CCNA). Former English teacher with strong communication and collaboration skills, able to translate complex technical issues into clear, actionable insights for both technical and non-technical stakeholders.
-<br>
+<br><br>
 ## Projects
 Real-time troubleshooting, end-user education, and project overviews.
 <div class="card">
