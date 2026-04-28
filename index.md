@@ -26,7 +26,7 @@ Real-time troubleshooting, end-user education, and project overviews.
 
   <p>
     Visual documentation of my home network architecture including WAN edge, OPNsense firewall,
-    VLAN segmentation, and homelab services hosted across Proxmox and Docker infrastructure.
+    segmentation, and homelab services hosted across Proxmox and Docker infrastructure.
   </p>
 
   <div class="actions">
