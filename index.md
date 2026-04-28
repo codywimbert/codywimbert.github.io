@@ -50,6 +50,41 @@ Real-time troubleshooting, end-user education, and project overviews.
 </div>
 <div class="card">
 
+<div class="card">
+  <h2>Homelab Infrastructure Overview</h2>
+  <div class="meta">Live Network • Home Dashboard Snapshot</div>
+  <p>
+    This is my personal homelab environment designed for networking experimentation, automation workflows,
+    and security-focused infrastructure testing. It simulates a production-style environment using VLAN segmentation,
+    virtualization, and containerized services.
+  </p>
+  <img src="assets/docs/homelabservices.png" 
+       alt="Homelab Services Overview"
+       style="width:100%; border-radius:10px; margin-top:12px;">
+  <h3>Core Infrastructure</h3>
+  <ul>
+    <li><strong>OPNsense</strong> – Firewall, routing, and VLAN segmentation</li>
+    <li><strong>Proxmox</strong> – Virtualization host for all lab workloads</li>
+    <li><strong>Pi-hole</strong> – Network-wide DNS filtering and ad blocking</li>
+    <li><strong>Portainer</strong> – Docker container management interface</li>
+  </ul>
+  <h3>Media & Automation Stack</h3>
+  <ul>
+    <li><strong>Plex</strong> – Media streaming server</li>
+    <li><strong>Sonarr</strong> – TV automation and lifecycle management</li>
+    <li><strong>Radarr</strong> – Movie automation and acquisition pipeline</li>
+    <li><strong>Prowlarr</strong> – Indexer aggregation layer</li>
+    <li><strong>qBittorrent</strong> – Download engine for media ingestion</li>
+  </ul>
+  <h3>Architecture Overview</h3>
+  <p>
+    The environment is segmented using VLANs and routed through OPNsense.
+    Proxmox hosts isolated virtual machines and containers, while Docker services
+    run application workloads. Media automation is orchestrated through a
+    Prowlarr → Sonarr/Radarr → qBittorrent → Plex pipeline.
+  </p>
+</div>
+
   <h3>TryHackMe – SOC Level 1 Path Completion</h3>
   <div class="meta">TryHackMe • Security Operations • 2026</div>
   <p>
