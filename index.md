@@ -5,41 +5,56 @@ title: Home
 # Cody Wimbert • Professional Portfolio
 <div class="hero">
 
-<div class="profile profile-card">
+  <!-- PROFILE CARD (sticky + glow + status + pills) -->
+  <div class="profile profile-card">
 
-  <div class="headshot-glow">
-    <img src="assets/1741474286957.jpeg" alt="Cody Wimbert Headshot" class="headshot-left">
-  </div>
-
-  <a class="btn linkedin"
-     href="https://www.linkedin.com/in/codywimbert"
-     target="_blank">
-    Connect on LinkedIn
-  </a>
-
-  <div class="role-pills">
-    <span>Security Ops</span>
-    <span>Networking</span>
-    <span>MSP</span>
-  </div>
-
-</div>
-
-  <div class="hero-content">
+    <div class="headshot-glow">
+      <img src="assets/1741474286957.jpeg" alt="Cody Wimbert Headshot" class="headshot-left">
+    </div>
 
     <h1>Cody Wimbert</h1>
-    <div class="meta">Security Operations • Networking • Homelab Infrastructure</div>
+
+    <div class="status-line">
+      <span class="status-dot"></span>
+      <span>Active • Security Operations</span>
+    </div>
+
+    <div class="meta">
+      Security Ops • Networking • MSP Infrastructure
+    </div>
+
+    <a class="btn linkedin"
+       href="https://www.linkedin.com/in/codywimbert"
+       target="_blank">
+      Connect on LinkedIn
+    </a>
+
+    <div class="role-pills">
+      <span>Security Ops</span>
+      <span>Networking</span>
+      <span>MSP</span>
+    </div>
+
+  </div>
+
+  <!-- RIGHT SIDE CONTENT -->
+  <div class="hero-content">
+
+    <h1 style="margin-top:0;">Professional Overview</h1>
 
     <div class="badge-row">
       <a href="https://www.credly.com/badges/63594976-47aa-4fa9-82aa-22b11b54d8ae/public_url" target="_blank">
         <img src="https://img.shields.io/badge/Cisco-CCNA-blue">
       </a>
+
       <a href="https://www.credly.com/badges/bbc69822-5201-4e6c-9ddf-350839c18b75/public_url" target="_blank">
         <img src="https://img.shields.io/badge/CompTIA-Security%2B-red">
       </a>
+
       <a href="https://www.credly.com/badges/58cf8b8c-583e-40f1-9cad-cbbce26f87e9/public_url" target="_blank">
         <img src="https://img.shields.io/badge/CompTIA-Network%2B-blue">
       </a>
+
       <a href="https://www.credly.com/badges/df931828-7254-4034-85c8-3446ad7b41f7/public_url" target="_blank">
         <img src="https://img.shields.io/badge/CompTIA-A%2B-green">
       </a>
@@ -61,6 +76,7 @@ title: Home
     </p>
 
   </div>
+
 </div>
 
 ## Projects
@@ -287,6 +303,7 @@ body {
 h1 {
   color: #ffffff;
   font-size: 2rem;
+  margin-top: 0;
 }
 
 h2 {
@@ -308,6 +325,47 @@ a {
 
 strong, b {
   color: #f3f4f6;
+}
+
+/* =========================
+   HERO LAYOUT + GRID BG
+========================= */
+
+.hero {
+  display: flex;
+  gap: 28px;
+  align-items: flex-start;
+  margin-top: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* subtle grid background */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(to right, rgba(255,255,255,0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.hero > * {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+@media (max-width: 800px) {
+  .hero {
+    flex-direction: column;
+  }
 }
 
 /* =========================
@@ -361,8 +419,8 @@ strong, b {
 
 .btn.primary {
   background: #2563eb;
-  color: #fff;
   border-color: #2563eb;
+  color: #fff;
 }
 
 .btn.linkedin {
@@ -372,23 +430,58 @@ strong, b {
   padding: 8px 14px;
   border-radius: 6px;
   font-weight: 600;
-  text-decoration: none;
-  font-size: 0.9rem;
 }
 
-.btn.linkedin:hover {
-  background-color: #004182;
+/* YouTube button */
+.btn.youtube {
+  background: #111827;
+  border: 1px solid #374151;
+  color: #e5e7eb;
+}
+
+.btn.youtube:hover {
+  border-color: #ef4444;
+  background: #1f2937;
+  color: #fff;
 }
 
 /* =========================
-   LAYOUT
+   PROFILE (STICKY + LIFT)
 ========================= */
 
 .profile {
-  float: left;
   text-align: center;
-  margin: 0 24px 20px 0;
   width: 180px;
+}
+
+.profile-card {
+  position: sticky;
+  top: 20px;
+  transition: transform 0.25s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-4px);
+}
+
+/* =========================
+   HEADSHOT + GLOW
+========================= */
+
+.headshot-glow {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 12px;
+}
+
+.headshot-glow::before {
+  content: "";
+  position: absolute;
+  inset: -10px;
+  background: radial-gradient(circle, rgba(37,99,235,0.35), transparent 70%);
+  border-radius: 50%;
+  filter: blur(10px);
 }
 
 .headshot-left {
@@ -397,12 +490,86 @@ strong, b {
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid #0A66C2;
-  display: block;
-  margin: 0 auto 12px;
 }
 
 /* =========================
-   MEDIA WRAPPERS
+   STATUS DOT
+========================= */
+
+.status-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 6px 0 8px;
+  font-size: 0.9rem;
+  color: #cbd5e1;
+}
+
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #22c55e;
+  position: relative;
+}
+
+.status-dot::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: #22c55e;
+  animation: pulse 1.6s infinite;
+  opacity: 0.6;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 0.6; }
+  70% { transform: scale(2.2); opacity: 0; }
+  100% { opacity: 0; }
+}
+
+/* =========================
+   ROLE PILLS
+========================= */
+
+.role-pills {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.role-pills span {
+  font-size: 0.75rem;
+  padding: 4px 8px;
+  border-radius: 999px;
+  border: 1px solid #1f2937;
+  background: #0f172a;
+  color: #cbd5e1;
+}
+
+/* =========================
+   BADGE ROW
+========================= */
+
+.badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #1f2937;
+}
+
+.badge-row img {
+  height: 22px;
+}
+
+/* =========================
+   MEDIA
 ========================= */
 
 .preview {
@@ -414,36 +581,21 @@ strong, b {
 }
 
 .preview img {
+  width: 100%;
   display: block;
-  width: 100%;
-  height: auto;
 }
 
-.video-wrapper {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  margin-top: 12px;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.video-wrapper iframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-
+.video-wrapper,
 .pdf-wrapper {
   position: relative;
   width: 100%;
   aspect-ratio: 16 / 9;
-  margin-top: 12px;
-  border-radius: 12px;
+  border-radius: 10px;
   overflow: hidden;
+  margin-top: 12px;
 }
 
+.video-wrapper iframe,
 .pdf-wrapper iframe {
   position: absolute;
   width: 100%;
@@ -452,7 +604,7 @@ strong, b {
 }
 
 /* =========================
-   DETAILS (FIXED)
+   DETAILS
 ========================= */
 
 details {
@@ -488,7 +640,6 @@ details:hover {
   width: 100%;
   border-radius: 10px;
   border: 1px solid #1f2937;
-  background: #0f172a;
 }
 
 .img-caption {
@@ -502,161 +653,6 @@ details:hover {
   .image-grid {
     grid-template-columns: 1fr;
   }
-}
-
-.btn.youtube {
-  background: #111827;
-  border: 1px solid #374151;
-  color: #e5e7eb;
-  font-weight: 600;
-}
-
-.btn.youtube:hover {
-  border-color: #ef4444;
-  color: #ffffff;
-  background: #1f2937;
-}
-
-  .preview-link {
-  display: block;
-  padding: 18px 20px;
-  text-align: center;
-  text-decoration: none;
-  color: #e5e7eb;
-  font-weight: 600;
-  background: #0f172a;
-  border-top: 1px solid #1f2937;
-  border-bottom: 1px solid #1f2937;
-  transition: all 0.2s ease;
-}
-
-.preview-link:hover {
-  background: #111827;
-  transform: scale(1.01);
-  border-color: #3b82f6;
-  color: #ffffff;
-}
-
-  .hero {
-  display: flex;
-  gap: 28px;
-  align-items: flex-start;
-  margin-top: 20px;
-}
-
-.hero-content {
-  flex: 1;
-}
-
-.hero h1 {
-  margin-top: 0;
-  font-size: 2.2rem;
-}
-
-.intro {
-  color: #d1d5db;
-  line-height: 1.6;
-  margin-bottom: 10px;
-  max-width: 850px;
-}
-
-/* badge row */
-.badge-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin: 10px 0 14px;
-}
-
-.badge-row img {
-  height: 22px;
-}
-
-/* responsive */
-@media (max-width: 800px) {
-  .hero {
-    flex-direction: column;
-  }
-
-  .profile {
-    margin: 0 auto 10px;
-  }
-
-  .hero-content {
-    text-align: left;
-  }
-}
-
-/* =========================
-   PROFILE CARD LIFT
-========================= */
-
-.profile-card {
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.profile-card:hover {
-  transform: translateY(-4px);
-}
-
-/* =========================
-   HEADSHOT GLOW
-========================= */
-
-.headshot-glow {
-  position: relative;
-  width: 160px;
-  height: 160px;
-  margin: 0 auto 12px;
-}
-
-.headshot-glow::before {
-  content: "";
-  position: absolute;
-  inset: -10px;
-  background: radial-gradient(
-    circle,
-    rgba(37, 99, 235, 0.35),
-    transparent 70%
-  );
-  border-radius: 50%;
-  z-index: 0;
-  filter: blur(10px);
-}
-
-.headshot-left {
-  position: relative;
-  z-index: 1;
-}
-
-/* =========================
-   ROLE PILLS
-========================= */
-
-.role-pills {
-  display: flex;
-  justify-content: center;
-  gap: 6px;
-  flex-wrap: wrap;
-  margin-top: 10px;
-}
-
-.role-pills span {
-  font-size: 0.75rem;
-  padding: 4px 8px;
-  border-radius: 999px;
-  border: 1px solid #1f2937;
-  color: #cbd5e1;
-  background: #0f172a;
-}
-
-/* =========================
-   BADGE DIVIDER (optional but clean)
-========================= */
-
-.badge-row {
-  padding-bottom: 10px;
-  border-bottom: 1px solid #1f2937;
 }
 
 </style>
