@@ -356,10 +356,9 @@ strong, b {
 
 .preview {
   border: 1px solid #1f2937;
-  border-radius: 10px;
-  overflow: hidden;
   background: #0f172a;
-  margin-bottom: 12px; /* controls spacing cleanly */
+  margin-bottom: 12px;
+  padding: 0;
 }
 
 /* VIDEO */
