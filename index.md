@@ -36,26 +36,26 @@ Currently a Network Specialist working within a Security Operations team at an M
   <h3>Live Service Dashboards</h3>
   <div class="image-grid">
     <div>
-      <img src="assets/docs/Homepage_dashboard.png" alt="Homepage Dashboard">
+      <img src="assets/docs/Homepage_dashboard" alt="Homepage Dashboard">
       <div class="img-caption">Homepage Overview</div>
     </div>
     <div>
-      <img src="assets/docs/OPNsense_dashboard.png" alt="OPNsense Dashboard">
+      <img src="assets/docs/OPNsense_dashboard" alt="OPNsense Dashboard">
       <div class="img-caption">OPNsense Firewall</div>
     </div>
     <div>
-      <img src="assets/docs/Pihole_dashboard.png" alt="Pi-hole Dashboard">
+      <img src="assets/docs/Pihole_dashboard" alt="Pi-hole Dashboard">
       <div class="img-caption">Pi-hole DNS Filtering</div>
     </div>
     <div>
-      <img src="assets/docs/Proxmox_dashboard.png" alt="Proxmox Dashboard">
+      <img src="assets/docs/Proxmox_dashboard" alt="Proxmox Dashboard">
       <div class="img-caption">Proxmox Virtualization</div>
     </div>
   </div>
   <!-- OPTIONAL: second row if you want Plex included -->
   <div class="image-grid" style="margin-top:12px;">
     <div>
-      <img src="assets/docs/Plex_dashboard.png" alt="Plex Dashboard">
+      <img src="assets/docs/Plex_dashboard" alt="Plex Dashboard">
       <div class="img-caption">Plex Media Server</div>
     </div>
   </div>
