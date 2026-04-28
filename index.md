@@ -477,8 +477,8 @@ strong, b {
 .headshot-glow::before {
   content: "";
   position: absolute;
-  inset: -10px;
-  background: radial-gradient(circle, rgba(37,99,235,0.35), transparent 70%);
+  inset: -4px;
+  background: rgba(255, 255, 255, 0.04);
   border-radius: 50%;
   filter: blur(10px);
 }
