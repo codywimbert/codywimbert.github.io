@@ -163,9 +163,6 @@ Currently a Network Specialist working within a Security Operations team at an M
     <a class="btn primary" href="assets/docs/AD Homelab Documentation.pdf" target="_blank">
       📄 Open Documentation (PDF)
     </a>
-    <a class="btn" href="assets/docs/AD Homelab Documentation.pdf" download>
-      ⬇️ Download PDF
-    </a>
   </div>
   <div class="note">Inline preview:</div>
   <div class="pdf-wrapper">
