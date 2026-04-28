@@ -29,31 +29,33 @@ Currently a Network Specialist working within a Security Operations team at an M
     and security-focused infrastructure testing. It simulates a production-style environment using subnets,
     virtualization, and containerized services.
   </p>
-</div>
-<div class="preview">
-   <img src="assets/docs/Homepage_dashboard" alt="Homepage Dashboard">
-</div>
-  <!-- 🔽 NEW DASHBOARD GRID -->
+
+  <!-- Homepage Preview -->
+  <div class="preview" style="margin-top:12px;">
+    <img src="assets/docs/Homepage_dashboard.png" alt="Homepage Dashboard">
+  </div>
+
+  <!-- 🔽 DASHBOARD GRID -->
   <h3>Live Service Dashboards</h3>
   <div class="image-grid">
     <div>
-      <img src="assets/docs/OPNsense_dashboard" alt="OPNsense Dashboard">
+      <img src="assets/docs/OPNsense_dashboard.png" alt="OPNsense Dashboard">
       <div class="img-caption">OPNsense Firewall</div>
     </div>
     <div>
-      <img src="assets/docs/Pihole_dashboard" alt="Pi-hole Dashboard">
+      <img src="assets/docs/Pihole_dashboard.png" alt="Pi-hole Dashboard">
       <div class="img-caption">Pi-hole DNS Filtering</div>
     </div>
     <div>
-      <img src="assets/docs/Proxmox_dashboard" alt="Proxmox Dashboard">
+      <img src="assets/docs/Proxmox_dashboard.png" alt="Proxmox Dashboard">
       <div class="img-caption">Proxmox Virtualization</div>
     </div>
-  </div>
-      <div>
-      <img src="assets/docs/Plex_dashboard" alt="Plex Dashboard">
+    <div>
+      <img src="assets/docs/Plex_dashboard.png" alt="Plex Dashboard">
       <div class="img-caption">Plex Media Server</div>
     </div>
   </div>
+
   <h3>Core Infrastructure</h3>
   <ul>
     <li><strong>OPNsense</strong> – Firewall, routing, and subnet segmentation</li>
@@ -61,6 +63,7 @@ Currently a Network Specialist working within a Security Operations team at an M
     <li><strong>Pi-hole</strong> – Network-wide DNS filtering and ad blocking</li>
     <li><strong>Portainer</strong> – Docker container management interface</li>
   </ul>
+
   <h3>Media & Automation Stack</h3>
   <ul>
     <li><strong>Plex</strong> – Media streaming server</li>
@@ -69,6 +72,7 @@ Currently a Network Specialist working within a Security Operations team at an M
     <li><strong>Prowlarr</strong> – Indexer aggregation layer</li>
     <li><strong>qBittorrent</strong> – Download engine for media ingestion</li>
   </ul>
+
   <h3>Architecture Overview</h3>
   <p>
     The environment is segmented using subnets and routed through OPNsense.
@@ -77,32 +81,6 @@ Currently a Network Specialist working within a Security Operations team at an M
     Prowlarr → Sonarr/Radarr → qBittorrent → Plex pipeline.
   </p>
 </div>
-<div class="card">
-  <h3>Home Network Diagram (Homelab Topology)</h3>
-  <div class="meta">Lucidchart • Apr 27, 2026</div>
-  <p>
-    Visual documentation of my home network architecture including WAN edge, OPNsense firewall,
-    segmentation, and homelab services hosted across Proxmox and Docker infrastructure.
-  </p>
-  <div class="actions">
-    <a class="btn primary" 
-       href="assets/docs/REDACTED Home Network_ Lucidchart.pdf"
-       target="_blank">
-       📄 Open Diagram (PDF)
-    </a>
-  </div>
-  <div class="note">Preview:</div>
-<div class="preview">
-  <img src="assets/docs/REDACTED Home Network.png" 
-       alt="Home Network Diagram Preview">
-</div>
-  <div class="preview">
-    <a href="https://lucid.app/lucidchart/ee4c169d-b497-4250-9dec-7b47d80b19c3/edit?invitationId=inv_411b3e79-db9a-49c7-ab72-352721c52138" 
-       target="_blank"
-       style="display:block; padding:20px; text-align:center; text-decoration:none;">
-      📌 Click to view full network diagram on Lucidchart
-    </a>
-  </div>
 
 <div class="card">
   <h3>TryHackMe – SOC Level 1 Path Completion</h3>
