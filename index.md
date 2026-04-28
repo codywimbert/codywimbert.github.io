@@ -355,11 +355,11 @@ strong, b {
 ========================= */
 
 .preview {
-  border: none;
-  border-radius: 0;
-  overflow: visible;
-  background: transparent;
-  margin-bottom: 0;
+  border: 1px solid #1f2937;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #0f172a;
+  margin-bottom: 12px; /* controls spacing cleanly */
 }
 
 /* VIDEO */
