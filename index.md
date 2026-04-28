@@ -161,7 +161,40 @@ body {
   color: #e5e7eb;
 }
 
-/* Cards */
+/* =========================
+   TYPOGRAPHY
+========================= */
+
+h1 {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+h2 {
+  color: #f9fafb;
+}
+
+h3 {
+  color: #e5e7eb;
+}
+
+p {
+  color: #e5e7eb;
+  line-height: 1.6;
+}
+
+a {
+  color: #60a5fa;
+}
+
+strong, b {
+  color: #f3f4f6;
+}
+
+/* =========================
+   CARDS
+========================= */
+
 .card {
   border: 1px solid #1f2937;
   border-radius: 12px;
@@ -170,7 +203,10 @@ body {
   margin: 20px 0;
 }
 
-/* Meta / notes */
+/* =========================
+   META / NOTES
+========================= */
+
 .meta {
   color: #9ca3af;
   font-size: .9rem;
@@ -182,7 +218,10 @@ body {
   font-size: .85rem;
 }
 
-/* Buttons */
+/* =========================
+   BUTTONS
+========================= */
+
 .actions {
   display: flex;
   gap: 12px;
@@ -223,11 +262,9 @@ body {
   background-color: #004182;
 }
 
-/* Layout */
-.links {
-  margin: 12px 0 32px;
-  text-align: left;
-}
+/* =========================
+   LAYOUT
+========================= */
 
 .profile {
   float: left;
@@ -236,7 +273,6 @@ body {
   width: 180px;
 }
 
-/* Profile image */
 .headshot-left {
   width: 160px;
   height: 160px;
@@ -247,7 +283,10 @@ body {
   margin: 0 auto 12px;
 }
 
-/* Media wrappers */
+/* =========================
+   MEDIA WRAPPERS
+========================= */
+
 .preview {
   border: 1px solid #1f2937;
   border-radius: 10px;
@@ -255,7 +294,7 @@ body {
   background: #0f172a;
 }
 
-/* Video wrapper */
+/* VIDEO */
 .video-wrapper {
   position: relative;
   width: 100%;
@@ -272,7 +311,7 @@ body {
   border: 0;
 }
 
-/* PDF wrapper */
+/* PDF */
 .pdf-wrapper {
   position: relative;
   width: 100%;
@@ -289,7 +328,10 @@ body {
   border: 0;
 }
 
-/* Details */
+/* =========================
+   DETAILS
+========================= */
+
 details {
   margin-top: 14px;
 }
@@ -297,10 +339,5 @@ details {
 details > summary {
   cursor: pointer;
   font-weight: 700;
-}
-
-/* Links */
-a {
-  color: #60a5fa;
 }
 </style>
