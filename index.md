@@ -332,11 +332,11 @@ strong, b {
 ========================= */
 
 .hero {
-  display: flex;
+  display: grid;
+  grid-template-columns: 260px 1fr;
   gap: 28px;
-  align-items: flex-start;
+  align-items: start;
   margin-top: 20px;
-  position: relative;
 }
 
 /* subtle grid background */
@@ -358,12 +358,16 @@ strong, b {
 }
 
 .hero-content {
-  flex: 1;
+  min-width: 0; /* prevents overflow breaking sticky layouts */
 }
 
 @media (max-width: 800px) {
   .hero {
-    flex-direction: column;
+    grid-template-columns: 1fr;
+  }
+
+  .profile-card {
+    position: static;
   }
 }
 
@@ -449,14 +453,13 @@ strong, b {
 ========================= */
 
 .profile {
-  width: 180px;
-  flex-shrink: 0;
+  width: 100%;
 }
 
 .profile-card {
   position: sticky;
   top: 20px;
-  transition: transform 0.25s ease;
+  align-self: start;
 }
 
 .profile-card:hover {
