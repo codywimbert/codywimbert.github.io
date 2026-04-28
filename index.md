@@ -48,6 +48,33 @@ Real-time troubleshooting, end-user education, and project overviews.
     </a>
   </div>
 </div>
+<div class="card">
+
+  <h3>TryHackMe – SOC Level 1 Path Completion</h3>
+  <div class="meta">TryHackMe • Security Operations • 2026</div>
+  <p>
+    Completed the SOC Level 1 learning path focused on Security Operations Center fundamentals,
+    including log analysis, alert triage, SIEM workflows, incident response, and threat detection concepts.
+  </p>
+  <div class="actions">
+    <a class="btn primary" 
+       href="PASTE-YOUR-TRYHACKME-CERTIFICATE-LINK-HERE" 
+       target="_blank">
+       🛡️ View Certificate
+    </a>
+    <a class="btn" 
+       href="https://tryhackme.com/" 
+       target="_blank">
+       🔗 TryHackMe Platform
+    </a>
+  </div>
+  <div class="preview">
+    <a href="PASTE-YOUR-TRYHACKME-CERTIFICATE-LINK-HERE" target="_blank"
+       style="display:block; padding:20px; text-align:center; text-decoration:none;">
+       🧾 Click to view SOC Level 1 completion certificate
+    </a>
+  </div>
+</div>
 
 <div class="card">
   <h3>Packet Tracer Demo - Basic Network Setup</h3>
