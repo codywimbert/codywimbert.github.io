@@ -86,15 +86,22 @@ Real-time troubleshooting, end-user education, and project overviews.
   <div class="meta">PCPartPicker • 2026</div>
 
   <p>
-    My primary workstation build used for virtualization, networking labs, and security tooling.
+    Primary workstation used for virtualization, homelab testing, and security tooling.
   </p>
 
+  <div class="actions">
+    <a class="btn primary" 
+       href="https://pcpartpicker.com/list/HHhhg3" 
+       target="_blank">
+       🔗 View Full Build on PCPartPicker
+    </a>
+  </div>
+
   <div class="preview">
-    <iframe 
-      src="https://pcpartpicker.com/list/HHhhg3"
-      width="100%" 
-      height="650">
-    </iframe>
+    <a href="https://pcpartpicker.com/list/HHhhg3" target="_blank"
+       style="display:block; padding:20px; text-align:center; text-decoration:none;">
+       🧰 Click to view full parts list, pricing, and compatibility details
+    </a>
   </div>
 </div>
 
