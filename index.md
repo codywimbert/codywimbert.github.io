@@ -219,11 +219,12 @@ Currently a Network Specialist working within a Security Operations team at an M
       allowfullscreen>
     </iframe>
   </div>
-  <p>
-    <a href="https://youtu.be/tgAu_R2t-Zc" target="_blank">
-      Open on YouTube ↗
-    </a>
-  </p>
+<div class="actions">
+  <a class="btn youtube" 
+     href="https://youtu.be/tgAu_R2t-Zc" 
+     target="_blank">
+     ▶ Open on YouTube ↗
+  </a>
 </div>
 
 <style>
@@ -455,4 +456,18 @@ details:hover {
     grid-template-columns: 1fr;
   }
 }
+
+.btn.youtube {
+  background: #111827;
+  border: 1px solid #374151;
+  color: #e5e7eb;
+  font-weight: 600;
+}
+
+.btn.youtube:hover {
+  border-color: #ef4444;
+  color: #ffffff;
+  background: #1f2937;
+}
+
 </style>
