@@ -82,6 +82,23 @@ Real-time troubleshooting, end-user education, and project overviews.
 </div>
 <div class="card">
 
+<div class="card">
+  <h3>PC Build – Main Workstation</h3>
+  <div class="meta">PCPartPicker • 2026</div>
+
+  <p>
+    My primary workstation build used for virtualization, networking labs, and security tooling.
+  </p>
+
+  <div class="preview">
+    <iframe 
+      src="https://pcpartpicker.com/list/HHhhg3"
+      width="100%" 
+      height="650">
+    </iframe>
+  </div>
+</div>
+
   <h3>File Hashes - Verify Your Downloads</h3>
   <div class="meta">YouTube • Aug 23, 2025 • 5:15</div>
   <p>End-user education tutorial on how to check file hashes to verify installs.</p>
