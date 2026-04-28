@@ -27,7 +27,7 @@ Real-time troubleshooting, end-user education, and project overviews.
   <div class="meta">Live Network • Home Dashboard Snapshot • Apr 27, 2026</div>
   <p>
     This is my personal homelab environment designed for networking experimentation, automation workflows,
-    and security-focused infrastructure testing. It simulates a production-style environment using VLAN segmentation,
+    and security-focused infrastructure testing. It simulates a production-style environment using subnets,
     virtualization, and containerized services.
   </p>
   <img src="assets/docs/homelabservices.png" 
@@ -35,7 +35,7 @@ Real-time troubleshooting, end-user education, and project overviews.
        style="width:100%; border-radius:10px; margin-top:12px;">
   <h3>Core Infrastructure</h3>
   <ul>
-    <li><strong>OPNsense</strong> – Firewall, routing, and VLAN segmentation</li>
+    <li><strong>OPNsense</strong> – Firewall, routing, and subnet segmentation</li>
     <li><strong>Proxmox</strong> – Virtualization host for all lab workloads</li>
     <li><strong>Pi-hole</strong> – Network-wide DNS filtering and ad blocking</li>
     <li><strong>Portainer</strong> – Docker container management interface</li>
@@ -50,7 +50,7 @@ Real-time troubleshooting, end-user education, and project overviews.
   </ul>
   <h3>Architecture Overview</h3>
   <p>
-    The environment is segmented using VLANs and routed through OPNsense.
+    The environment is segmented using subnets and routed through OPNsense.
     Proxmox hosts isolated virtual machines and containers, while Docker services
     run application workloads. Media automation is orchestrated through a
     Prowlarr → Sonarr/Radarr → qBittorrent → Plex pipeline.
@@ -71,10 +71,11 @@ Real-time troubleshooting, end-user education, and project overviews.
        📄 Open Diagram (PDF)
     </a>
   </div>
-  <div class="note">Inline preview:</div>
-  <div class="pdf-wrapper">
-    <iframe src="assets/docs/REDACTED Home Network_ Lucidchart.pdf#view=FitH"></iframe>
-  </div>
+  <div class="note">Preview:</div>
+<div class="preview">
+  <img src="assets/docs/REDACTED Home Network.png" 
+       alt="Home Network Diagram Preview">
+</div>
   <div class="preview">
     <a href="https://lucid.app/lucidchart/ee4c169d-b497-4250-9dec-7b47d80b19c3/edit?invitationId=inv_411b3e79-db9a-49c7-ab72-352721c52138" 
        target="_blank"
