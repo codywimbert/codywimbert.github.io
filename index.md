@@ -81,10 +81,8 @@ Real-time troubleshooting, end-user education, and project overviews.
     </a>
   </div>
   <div class="note">Inline preview:</div>
-  <div class="preview">
-    <iframe 
-      src="assets/docs/AD Homelab Documentation.pdf#view=FitH">
-    </iframe>
+  <div class="pdf-wrapper">
+    <iframe src="assets/docs/AD Homelab Documentation.pdf#view=FitH"></iframe>
   </div>
   <details>
     <summary>▶ Watch 7-min overview video</summary>
@@ -206,6 +204,20 @@ details > summary{cursor:pointer;font-weight:700}
   overflow: hidden;
 }
 .video-wrapper iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+  .pdf-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin-top: 12px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.pdf-wrapper iframe {
   position: absolute;
   width: 100%;
   height: 100%;
