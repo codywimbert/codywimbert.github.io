@@ -58,24 +58,18 @@ Real-time troubleshooting, end-user education, and project overviews.
   </p>
   <div class="actions">
     <a class="btn primary" 
-       href="PASTE-YOUR-TRYHACKME-CERTIFICATE-LINK-HERE" 
-       target="_blank">
-       🛡️ View Certificate
-    </a>
-    <a class="btn" 
        href="https://tryhackme.com/" 
        target="_blank">
-       🔗 TryHackMe Platform
+       🛡️ View TryHackMe Profile
     </a>
   </div>
   <div class="preview">
-    <a href="PASTE-YOUR-TRYHACKME-CERTIFICATE-LINK-HERE" target="_blank"
-       style="display:block; padding:20px; text-align:center; text-decoration:none;">
-       🧾 Click to view SOC Level 1 completion certificate
+    <a href="https://tryhackme.com/" target="_blank">
+      <img src="assets/docs/THM-GJTS7KKGGU.png" 
+           alt="TryHackMe SOC Level 1 Certificate">
     </a>
   </div>
 </div>
-
 <div class="card">
   <h3>Packet Tracer Demo - Basic Network Setup</h3>
   <div class="meta">YouTube • Sep 21, 2025 • 5:15</div>
