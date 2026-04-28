@@ -38,7 +38,7 @@ Currently a Network Specialist working within a Security Operations team at an M
 </div>
 
 <!-- 🔽 DASHBOARD GRID -->
-<h3 style="margin-top:28px;">Live Service Dashboards</h3>
+<h3 style="margin-top:14px;">Live Service Dashboards</h3>
 
 <div class="image-grid">
   <div>
