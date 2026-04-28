@@ -156,45 +156,59 @@ Real-time troubleshooting, end-user education, and project overviews.
 </div>
 
 <style>
-.card{border:1px solid #e5e7eb;border-radius:12px;padding:16px;background:#fff;margin:20px 0}
-.meta{color:#6b7280;font-size:.9rem;margin:6px 0}
-.actions{display:flex;gap:12px;flex-wrap:wrap;margin:10px 0 14px}
-.btn{display:inline-block;padding:10px 14px;border-radius:10px;border:1px solid #e5e7eb;text-decoration:none;font-weight:600}
-.btn.primary{background:#2563eb;color:#fff;border-color:#2563eb}
-.note{color:#6b7280;font-size:.85rem}
-.preview{border:1px solid #e5e7eb;border-radius:10px;overflow:hidden}
-details{margin-top:14px}
-details > summary{cursor:pointer;font-weight:700}
-  /* 👇 Add this */
-.btn.linkedin {
-  background-color: #0A66C2; /* LinkedIn blue */
-  color: #fff;
-  border-color: #0A66C2;
+body {
+  background: #0b1220;
+  color: #e5e7eb;
 }
-.btn.linkedin:hover {
-  background-color: #004182; /* darker hover */
+
+/* Cards */
+.card {
+  border: 1px solid #1f2937;
+  border-radius: 12px;
+  padding: 16px;
+  background: #111827;
+  margin: 20px 0;
 }
-.links {
-  margin: 12px 0 32px; /* adds space under the button */
-  text-align: left;    /* change to center if you want centered button */
+
+/* Meta / notes */
+.meta {
+  color: #9ca3af;
+  font-size: .9rem;
+  margin: 6px 0;
 }
-.profile {
-  float: left;
-  text-align: center;
-  margin: 0 24px 20px 0; /* space between profile and text */
-  width: 180px;          /* width of the left column */
+
+.note {
+  color: #9ca3af;
+  font-size: .85rem;
 }
-.headshot-left {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;        /* circle */
-  object-fit: cover;
-  border: 4px solid #0A66C2; /* LinkedIn blue frame */
-  display: block;
-  margin: 0 auto 12px;       /* center inside profile column */
+
+/* Buttons */
+.actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 10px 0 14px;
 }
-.btn.linkedin {
+
+.btn {
   display: inline-block;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #374151;
+  text-decoration: none;
+  font-weight: 600;
+  color: #e5e7eb;
+  background: transparent;
+}
+
+.btn.primary {
+  background: #2563eb;
+  color: #fff;
+  border-color: #2563eb;
+}
+
+/* LinkedIn button */
+.btn.linkedin {
   background-color: #0A66C2;
   color: #fff;
   border: none;
@@ -204,10 +218,45 @@ details > summary{cursor:pointer;font-weight:700}
   text-decoration: none;
   font-size: 0.9rem;
 }
+
 .btn.linkedin:hover {
   background-color: #004182;
 }
-  .video-wrapper {
+
+/* Layout */
+.links {
+  margin: 12px 0 32px;
+  text-align: left;
+}
+
+.profile {
+  float: left;
+  text-align: center;
+  margin: 0 24px 20px 0;
+  width: 180px;
+}
+
+/* Profile image */
+.headshot-left {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #0A66C2;
+  display: block;
+  margin: 0 auto 12px;
+}
+
+/* Media wrappers */
+.preview {
+  border: 1px solid #1f2937;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #0f172a;
+}
+
+/* Video wrapper */
+.video-wrapper {
   position: relative;
   width: 100%;
   aspect-ratio: 16 / 9;
@@ -215,13 +264,16 @@ details > summary{cursor:pointer;font-weight:700}
   border-radius: 10px;
   overflow: hidden;
 }
+
 .video-wrapper iframe {
   position: absolute;
   width: 100%;
   height: 100%;
   border: 0;
 }
-  .pdf-wrapper {
+
+/* PDF wrapper */
+.pdf-wrapper {
   position: relative;
   width: 100%;
   aspect-ratio: 16 / 9;
@@ -229,10 +281,26 @@ details > summary{cursor:pointer;font-weight:700}
   border-radius: 12px;
   overflow: hidden;
 }
+
 .pdf-wrapper iframe {
   position: absolute;
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+/* Details */
+details {
+  margin-top: 14px;
+}
+
+details > summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+/* Links */
+a {
+  color: #60a5fa;
 }
 </style>
