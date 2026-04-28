@@ -208,10 +208,10 @@ Currently a Network Specialist working within a Security Operations team at an M
 </div>
 
 <div class="card">
-  <h3>PC Build – Main Workstation</h3>
+  <h3>Primary Compute Stack – Workstation & Homelab Server</h3>
   <div class="meta">PCPartPicker</div>
   <p>
-    Primary workstation used for virtualization, homelab testing, and security tooling.
+    My main computing environment consists of two dedicated systems: a Windows-based workstation for daily management, virtualization control, and security tooling, and a Proxmox-based homelab server used for running virtual machines, Docker services, and network/security lab environments.
   </p>
   <div class="actions">
     <a class="btn primary" 
@@ -219,15 +219,6 @@ Currently a Network Specialist working within a Security Operations team at an M
        target="_blank">
        🔗 View Workstation Build
     </a>
-  </div>
-</div>
-<div class="card">
-  <h3>Server PC – Homelab Host</h3>
-  <div class="meta">PCPartPicker</div>
-  <p>
-    Dedicated homelab server used for Proxmox virtualization, Docker services, networking labs, and security testing environments.
-  </p>
-  <div class="actions">
     <a class="btn primary" 
        href="https://pcpartpicker.com/list/cWDPn2"
        target="_blank">
