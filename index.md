@@ -189,7 +189,7 @@ Currently a Network Specialist working within a Security Operations team at an M
     <iframe src="assets/docs/AD Homelab Documentation.pdf#view=FitH"></iframe>
   </div>
   <details>
-    <summary>▶ Watch 7-min overview video</summary>
+    <summary class="video-summary">▶ Watch 7-min overview video</summary>
     <div class="meta">YouTube • Aug 25, 2025 • 7:16</div>
     <div class="video-wrapper">
       <iframe
@@ -446,3 +446,21 @@ details > summary {
   }
 }
 </style>
+
+details {
+  margin-top: 14px;
+  border: 1px solid #1f2937;
+  border-radius: 10px;
+  background: #0f172a;
+  padding: 10px 12px;
+}
+
+details > summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: #60a5fa;
+}
+
+details:hover {
+  border-color: #3b82f6;
+}
