@@ -40,7 +40,7 @@ Real-time troubleshooting, end-user education, and project overviews.
   </div>
 
   <div class="preview">
-    <a href="assets/docs/redacted-home-network-lucidchart.pdf" target="_blank">
+    <a href="assets/docs/REDACTED Home Network_ Lucidchart.pdf" target="_blank">
       📌 Click to view full network diagram
     </a>
   </div>
