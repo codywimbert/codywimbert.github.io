@@ -101,13 +101,13 @@ Currently a Network Specialist working within a Security Operations team at an M
     <img src="assets/docs/REDACTED Home Network.png" 
          alt="Home Network Diagram Preview">
   </div>
-  <div class="preview">
-    <a href="https://lucid.app/lucidchart/ee4c169d-b497-4250-9dec-7b47d80b19c3/edit?invitationId=inv_411b3e79-db9a-49c7-ab72-352721c52138" 
-       target="_blank"
-       style="display:block; padding:20px; text-align:center; text-decoration:none;">
-      📌 Click to view full network diagram on Lucidchart
-    </a>
-  </div>
+<div class="preview">
+  <a class="preview-link"
+     href="https://lucid.app/lucidchart/ee4c169d-b497-4250-9dec-7b47d80b19c3/edit?invitationId=inv_411b3e79-db9a-49c7-ab72-352721c52138"
+     target="_blank">
+    📌 View Full Network Diagram on Lucidchart ↗
+  </a>
+</div>
 </div>
 
 <div class="card">
@@ -473,4 +473,24 @@ details:hover {
   background: #1f2937;
 }
 
+  .preview-link {
+  display: block;
+  padding: 18px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #e5e7eb;
+  font-weight: 600;
+  background: #0f172a;
+  border-top: 1px solid #1f2937;
+  border-bottom: 1px solid #1f2937;
+  transition: all 0.2s ease;
+}
+
+.preview-link:hover {
+  background: #111827;
+  transform: scale(1.01);
+  border-color: #3b82f6;
+  color: #ffffff;
+}
+  
 </style>
