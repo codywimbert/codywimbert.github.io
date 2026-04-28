@@ -18,8 +18,10 @@ Supporting public school districts in Southern Westchester, I analyze and respon
 <br><br>
 Currently a Network Specialist working within a Security Operations team, with a networking foundation (CCNA). Former English teacher with strong communication and collaboration skills, able to translate complex technical issues into clear, actionable insights for both technical and non-technical stakeholders.
 <br>
+
 ## Projects
 Real-time troubleshooting, end-user education, and project overviews.
+
 <div class="card">
   <h3>Home Network Diagram (Homelab Topology)</h3>
   <div class="meta">Lucidchart • Apr 27, 2026</div>
@@ -31,11 +33,18 @@ Real-time troubleshooting, end-user education, and project overviews.
 
   <div class="actions">
     <a class="btn primary" 
-       href="https://lucid.app/lucidchart/ee4c169d-b497-4250-9dec-7b47d80b19c3/edit?invitationId=inv_411b3e79-db9a-49c7-ab72-352721c52138"
+       href="assets/docs/redacted-home-network-lucidchart.pdf"
        target="_blank">
-       🔗 Open Interactive Diagram
+       📄 Open Diagram (PDF)
     </a>
   </div>
+
+  <div class="preview">
+    <a href="assets/docs/redacted-home-network-lucidchart.pdf" target="_blank">
+      📌 Click to view full network diagram
+    </a>
+  </div>
+</div>
 
   <div class="note">Preview (click to open full diagram):</div>
 
@@ -49,6 +58,7 @@ Real-time troubleshooting, end-user education, and project overviews.
   </div>
 </div>
 <div class="card">
+
   <h3>Packet Tracer Demo - Basic Network Setup</h3>
   <div class="meta">YouTube • Sep 21, 2025 • 5:15</div>
   <p>Real-time video of me setting up a basic Cisco Packet Tracer network and learning along the way. Features IP configuration; DNS, DHCP, and HTTP server setup; OSPF configuration; Network troubleshooting.</p>
@@ -60,6 +70,7 @@ Real-time troubleshooting, end-user education, and project overviews.
   <p><a href="https://youtu.be/MA3ZNwMtxPw" target="_blank">Open on YouTube ↗</a></p>
 </div>
 <div class="card">
+
   <h3>VirtualBox Active Directory Lab</h3>
   <div class="meta">PDF • Sep 7, 2025</div>
   <p>Step-by-step Active Directory homelab in VirtualBox (install roles, promote to DC, OUs/users, baseline security).</p>
@@ -83,6 +94,7 @@ Real-time troubleshooting, end-user education, and project overviews.
   </details>
 </div>
 <div class="card">
+
   <h3>File Hashes - Verify Your Downloads</h3>
   <div class="meta">YouTube • Aug 23, 2025 • 5:15</div>
   <p>End-user education tutorial on how to check file hashes to verify installs.</p>
