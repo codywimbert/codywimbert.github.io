@@ -49,9 +49,9 @@ Real-time troubleshooting, end-user education, and project overviews.
   </div>
 </div>
 <div class="card">
-  <h3>Packet Tracer Lab - Network Setup</h3>
+  <h3>Packet Tracer Demo - Basic Network Setup</h3>
   <div class="meta">YouTube • Sep 21, 2025 • 5:15</div>
-  <p>Real-time video of me setting up a Cisco Packet Tracer network environment. Features IP configuration; DNS, DHCP, and HTTP server setup; OSPF configuration; Network troubleshooting.</p>
+  <p>Real-time video of me setting up a basic Cisco Packet Tracer network and learning along the way. Features IP configuration; DNS, DHCP, and HTTP server setup; OSPF configuration; Network troubleshooting.</p>
   <iframe width="100%" height="315"
     src="https://www.youtube.com/embed/MA3ZNwMtxPw?rel=0&modestbranding=1"
     title="Packet Tracer Lab - Network Setup" frameborder="0"
