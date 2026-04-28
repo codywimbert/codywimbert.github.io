@@ -107,6 +107,26 @@ Currently a Network Specialist working within a Security Operations team at an M
 </div>
 
 <div class="card">
+  <h3>Primary Compute Stack – Workstation & Homelab Server</h3>
+  <div class="meta">PCPartPicker</div>
+  <p>
+    My main computing environment consists of two dedicated, self-built systems: a Windows-based workstation for web-browsing, management, and virtualization control, and a Proxmox-based homelab server used for running virtual machines, Docker services, and network/security lab environments.
+  </p>
+  <div class="actions">
+    <a class="btn primary" 
+       href="https://pcpartpicker.com/list/HHhhg3" 
+       target="_blank">
+       🔗 View Workstation Build
+    </a>
+    <a class="btn primary" 
+       href="https://pcpartpicker.com/list/cWDPn2"
+       target="_blank">
+       🖥️ View Server Build
+    </a>
+  </div>
+</div>
+
+<div class="card">
   <h3>TryHackMe – SOC Level 1 Path Completion</h3>
   <div class="meta">TryHackMe • Security Operations • March 5th, 2026</div>
   <p>
@@ -200,26 +220,6 @@ Currently a Network Specialist working within a Security Operations team at an M
       Open on YouTube ↗
     </a>
   </p>
-</div>
-
-<div class="card">
-  <h3>Primary Compute Stack – Workstation & Homelab Server</h3>
-  <div class="meta">PCPartPicker</div>
-  <p>
-    My main computing environment consists of two dedicated systems: a Windows-based workstation for web-browsing, management, and virtualization control, and a Proxmox-based homelab server used for running virtual machines, Docker services, and network/security lab environments.
-  </p>
-  <div class="actions">
-    <a class="btn primary" 
-       href="https://pcpartpicker.com/list/HHhhg3" 
-       target="_blank">
-       🔗 View Workstation Build
-    </a>
-    <a class="btn primary" 
-       href="https://pcpartpicker.com/list/cWDPn2"
-       target="_blank">
-       🖥️ View Server Build
-    </a>
-  </div>
 </div>
 
 <style>
