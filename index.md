@@ -36,7 +36,7 @@ Currently a Network Specialist working within a Security Operations team at an M
   </div>
 
   <!-- 🔽 DASHBOARD GRID -->
-  <h3>Live Service Dashboards</h3>
+  <h3 style="margin-top:20px;">Live Service Dashboards</h3>
   <div class="image-grid">
     <div>
       <img src="assets/docs/OPNsense_dashboard" alt="OPNsense Dashboard">
@@ -56,7 +56,7 @@ Currently a Network Specialist working within a Security Operations team at an M
     </div>
   </div>
 
-  <h3>Core Infrastructure</h3>
+  <h3 style="margin-top:20px;">Core Infrastructure</h3>
   <ul>
     <li><strong>OPNsense</strong> – Firewall, routing, and subnet segmentation</li>
     <li><strong>Proxmox</strong> – Virtualization host for all lab workloads</li>
