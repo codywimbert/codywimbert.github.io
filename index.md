@@ -29,13 +29,11 @@ Currently a Network Specialist working within a Security Operations team at an M
     and security-focused infrastructure testing. It simulates a production-style environment using subnets,
     virtualization, and containerized services.
   </p>
-
   <!-- Homepage Preview -->
   <div class="preview" style="margin-top:12px;">
     <img src="assets/docs/Homepage_dashboard" alt="Homepage Dashboard">
     <div class="img-caption">Services Homepage (Hosted on Docker)</div>
   </div>
-
   <!-- 🔽 DASHBOARD GRID -->
   <h3 style="margin-top:20px;">Live Service Dashboards</h3>
   <div class="image-grid">
@@ -56,7 +54,6 @@ Currently a Network Specialist working within a Security Operations team at an M
       <div class="img-caption">Plex Media Server</div>
     </div>
   </div>
-
   <h3 style="margin-top:20px;">Core Infrastructure</h3>
   <ul>
     <li><strong>OPNsense</strong> – Firewall, routing, and subnet segmentation</li>
@@ -64,7 +61,6 @@ Currently a Network Specialist working within a Security Operations team at an M
     <li><strong>Pi-hole</strong> – Network-wide DNS filtering and ad blocking</li>
     <li><strong>Portainer</strong> – Docker container management interface</li>
   </ul>
-
   <h3>Media & Automation Stack</h3>
   <ul>
     <li><strong>Plex</strong> – Media streaming server</li>
@@ -73,7 +69,6 @@ Currently a Network Specialist working within a Security Operations team at an M
     <li><strong>Prowlarr</strong> – Indexer aggregation layer</li>
     <li><strong>qBittorrent</strong> – Download engine for media ingestion</li>
   </ul>
-
   <h3>Architecture Overview</h3>
   <p>
     The environment is segmented using subnets and routed through OPNsense.
@@ -82,8 +77,8 @@ Currently a Network Specialist working within a Security Operations team at an M
     Prowlarr → Sonarr/Radarr → qBittorrent → Plex pipeline.
   </p>
 </div>
-
 <div class="card">
+  
   <h3>Home Network Diagram (Homelab Topology)</h3>
   <div class="meta">Lucidchart • Apr 27, 2026</div>
   <p>
@@ -211,7 +206,7 @@ Currently a Network Specialist working within a Security Operations team at an M
   <h3>Primary Compute Stack – Workstation & Homelab Server</h3>
   <div class="meta">PCPartPicker</div>
   <p>
-    My main computing environment consists of two dedicated systems: a Windows-based workstation for daily management, virtualization control, and security tooling, and a Proxmox-based homelab server used for running virtual machines, Docker services, and network/security lab environments.
+    My main computing environment consists of two dedicated systems: a Windows-based workstation for web-browsing, management, and virtualization control, and a Proxmox-based homelab server used for running virtual machines, Docker services, and network/security lab environments.
   </p>
   <div class="actions">
     <a class="btn primary" 
@@ -360,10 +355,11 @@ strong, b {
 ========================= */
 
 .preview {
-  border: 1px solid #1f2937;
-  border-radius: 10px;
-  overflow: hidden;
-  background: #0f172a;
+  border: none;
+  border-radius: 0;
+  overflow: visible;
+  background: transparent;
+  margin-bottom: 0;
 }
 
 /* VIDEO */
