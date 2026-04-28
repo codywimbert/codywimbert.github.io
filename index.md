@@ -69,11 +69,9 @@ Real-time troubleshooting, end-user education, and project overviews.
 <div class="card">
   <h3>VirtualBox Active Directory Lab</h3>
   <div class="meta">PDF • Sep 7, 2025</div>
-
   <p>
     Step-by-step Active Directory homelab in VirtualBox (install roles, promote to DC, OUs/users, baseline security).
   </p>
-
   <div class="actions">
     <a class="btn primary" href="assets/docs/AD Homelab Documentation.pdf" target="_blank">
       📄 Open Documentation (PDF)
@@ -82,20 +80,15 @@ Real-time troubleshooting, end-user education, and project overviews.
       ⬇️ Download PDF
     </a>
   </div>
-
   <div class="note">Inline preview:</div>
-
   <div class="preview">
     <iframe 
       src="assets/docs/AD Homelab Documentation.pdf#view=FitH">
     </iframe>
   </div>
-
   <details>
     <summary>▶ Watch 7-min overview video</summary>
-
     <div class="meta">YouTube • Aug 25, 2025 • 7:16</div>
-
     <div class="video-wrapper">
       <iframe
         src="https://www.youtube-nocookie.com/embed/wJvPo97CihI?rel=0&modestbranding=1"
@@ -103,7 +96,6 @@ Real-time troubleshooting, end-user education, and project overviews.
         allowfullscreen>
       </iframe>
     </div>
-
     <p>
       <a href="https://youtu.be/wJvPo97CihI" target="_blank">
         Open on YouTube ↗
@@ -115,11 +107,9 @@ Real-time troubleshooting, end-user education, and project overviews.
 <div class="card">
   <h3>File Hashes - Verify Your Downloads</h3>
   <div class="meta">YouTube • Aug 23, 2025 • 5:15</div>
-
   <p>
     End-user education tutorial on how to check file hashes to verify installs.
   </p>
-
   <div class="video-wrapper">
     <iframe
       src="https://www.youtube.com/embed/tgAu_R2t-Zc"
@@ -127,7 +117,6 @@ Real-time troubleshooting, end-user education, and project overviews.
       allowfullscreen>
     </iframe>
   </div>
-
   <p>
     <a href="https://youtu.be/tgAu_R2t-Zc" target="_blank">
       Open on YouTube ↗
