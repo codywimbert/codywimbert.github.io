@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
-# Cody Wimbert • IT Professional Portfolio
+# Cody Wimbert • Professional Portfolio
 <div class="profile">
   <img src="assets/1741474286957.jpeg" alt="Cody Wimbert Headshot" class="headshot-left">
   <a class="btn linkedin" href="https://www.linkedin.com/in/codywimbert" target="_blank">Connect on LinkedIn</a>
