@@ -20,7 +20,7 @@ title: Home
     </div>
 
     <div class="meta">
-      Security Ops • Networking • MSP Infrastructure
+      Security Ops • Networking • MSP
     </div>
 
     <a class="btn linkedin"
