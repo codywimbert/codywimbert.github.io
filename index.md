@@ -29,10 +29,10 @@ title: Home
       Connect on LinkedIn
     </a>
 
-    <a class="btn primary"
+<a class="btn resume-btn"
    href="assets/docs/Cody Wimbert - Resume (April 2026).docx.pdf"
    target="_blank">
-   Resume
+   View Resume
 </a>
 
     <div class="role-pills">
@@ -731,19 +731,17 @@ details:hover {
 }
 
 .resume-btn {
-  background: transparent;
-  border: 1px solid #374151;
-  color: #d1d5db;
-  padding: 6px 12px;
+  background: none;
+  border: none;
+  color: #9ca3af;
+  padding: 4px 0;
   font-size: 0.85rem;
-  border-radius: 6px;
   font-weight: 500;
 }
 
 .resume-btn:hover {
-  border-color: #60a5fa;
   color: #ffffff;
-  background: #1f2937;
+  text-decoration: underline;
 }
 
 </style>
