@@ -642,4 +642,34 @@ details:hover {
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 800px) {
+  /* Stack layout */
+  .hero {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Make profile behave like a centered card */
+  .profile {
+    width: 100%;
+    max-width: 340px;
+  }
+
+  .profile-card {
+    position: static; /* disables sticky on mobile */
+    width: 100%;
+  }
+
+  /* Center all internal content */
+  .profile-card {
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Prevent overflow / squish */
+  .hero-content {
+    width: 100%;
+  }
+}
 </style>
