@@ -672,4 +672,10 @@ details:hover {
     width: 100%;
   }
 }
+
+.profile-card .meta {
+  text-align: center;
+  width: 100%;
+}
+
 </style>
