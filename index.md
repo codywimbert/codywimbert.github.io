@@ -32,7 +32,7 @@ title: Home
     <a class="btn primary"
    href="assets/docs/Cody Wimbert - Resume (April 2026).docx.pdf"
    target="_blank">
-   📄 Download Resume
+   Resume
 </a>
 
     <div class="role-pills">
@@ -729,4 +729,21 @@ details:hover {
   background: #1f2937;
   color: #ffffff;
 }
+
+.resume-btn {
+  background: transparent;
+  border: 1px solid #374151;
+  color: #d1d5db;
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.resume-btn:hover {
+  border-color: #60a5fa;
+  color: #ffffff;
+  background: #1f2937;
+}
+
 </style>
