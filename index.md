@@ -73,7 +73,7 @@ title: Home
     </p>
 
        <p class="intro">
-      Previously a classroom educator, I bring strong communication skills that translate technical findings into clear, actionable guidance for both technical teams and non-technical stakeholders across school district environments.
+      Previously a classroom educator, I bring strong communication skills that translate technical findings into clear, actionable guidance for both technical teams and non-technical stakeholders.
     </p>
 
   </div>
