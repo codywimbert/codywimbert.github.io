@@ -674,7 +674,7 @@ details:hover {
 }
 
 .profile-card .meta {
-  text-align: left;
+  text-align: center;
   width: 100%;
 }
 
@@ -682,7 +682,7 @@ details:hover {
   font-size: 2.2rem;
   font-weight: 700;
   letter-spacing: 0.5px;
-  text-align: center;
+  text-align: left;
   margin: 20px 0 10px;
 }
 
