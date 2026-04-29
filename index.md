@@ -80,7 +80,7 @@ title: Home
 
 </div>
 
-<h2 class="section-title">Projects</h2>
+<h2 class="section-title">PROJECTS</h2>
 
 <div class="card">
   <h2>Homelab Infrastructure Overview</h2>
