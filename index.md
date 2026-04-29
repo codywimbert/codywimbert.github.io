@@ -678,7 +678,7 @@ details:hover {
   width: 100%;
 }
 
-h2 {
+.section-title {
   text-align: center;
   margin-top: 8px;
   margin-bottom: 10px;
