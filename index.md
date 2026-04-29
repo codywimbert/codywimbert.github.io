@@ -61,18 +61,19 @@ title: Home
     </div>
 
     <p class="intro">
-      Security operations specialist focused on threat detection, incident response, and security monitoring.
+      Security Operations Specialist focused on threat detection, incident response, and security monitoring in K–12 enterprise environments.
     </p>
 
     <p class="intro">
-      Supporting public school districts, I analyze and respond to security events using SIEM and EDR tools,
-      perform threat hunting, support vulnerability management efforts, and tune detections to improve visibility
-      and reduce false positives.
+      I support public school districts by analyzing and responding to security events using SIEM and EDR platforms, performing threat hunting, managing vulnerability workflows, and tuning detections to improve visibility while reducing false positives. My work is aligned with operational security practices across incident response lifecycles, from initial triage through remediation and reporting.
     </p>
 
     <p class="intro">
-      Currently a Network Specialist working within a Security Operations team at an MSP, with a CCNA foundation.
-      Former English teacher with strong communication skills bridging technical and non-technical stakeholders.
+      I operate within a broader networked infrastructure environment as part of a security-focused MSP team, where I support security operations that naturally intersect with underlying network systems. While my primary focus is security monitoring and incident response, I draw on my networking background when investigating connectivity-related security events and coordinating with infrastructure teams during troubleshooting and remediation efforts. I hold a CCNA and leverage that foundation to better understand how network behavior impacts security visibility and incident analysis.
+    </p>
+
+       <p class="intro">
+      Previously a classroom educator, I bring strong communication skills that translate technical findings into clear, actionable guidance for both technical teams and non-technical stakeholders across school district environments.
     </p>
 
   </div>
