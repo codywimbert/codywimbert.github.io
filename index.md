@@ -16,7 +16,7 @@ title: Home
 
     <div class="status-line">
       <span class="status-dot"></span>
-      <span>Active • Security Operations</span>
+      <span>Security Operations</span>
     </div>
 
     <div class="meta">
