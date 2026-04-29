@@ -295,6 +295,10 @@ title: Home
 body {
   background: #0b1220;
   color: #e5e7eb;
+  background-image:
+    linear-gradient(to right, rgba(255,255,255,0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 40px 40px;
 }
 
 /* =========================
@@ -329,7 +333,7 @@ strong, b {
 }
 
 /* =========================
-   HERO LAYOUT + GRID BG
+   LAYOUT (HERO)
 ========================= */
 
 .hero {
@@ -337,27 +341,141 @@ strong, b {
   gap: 28px;
   align-items: flex-start;
   margin-top: 20px;
+  margin-bottom: 40px;
 }
 
-/* subtle grid background */
+.hero-content {
+  flex: 1;
+  min-width: 0;
+}
 
-.hero > * {
+/* =========================
+   PROFILE SIDEBAR
+========================= */
+
+.profile {
+  width: 260px;
+  flex-shrink: 0;
+}
+
+.profile-card {
+  position: sticky;
+  top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+  padding: 16px;
+  border: 1px solid #1f2937;
+  border-radius: 12px;
+  background: #111827;
+}
+
+/* =========================
+   HEADSHOT
+========================= */
+
+.headshot-glow {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  margin-bottom: 10px;
+}
+
+.headshot-glow::before {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  background: rgba(255,255,255,0.04);
+  border-radius: 50%;
+  filter: blur(10px);
+}
+
+.headshot-left {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #0A66C2;
   position: relative;
   z-index: 1;
 }
 
-.hero-content {
-  min-width: 0; /* prevents overflow breaking sticky layouts */
+/* =========================
+   STATUS
+========================= */
+
+.status-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 }
 
-@media (max-width: 800px) {
-  .hero {
-    grid-template-columns: 1fr;
-  }
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #22c55e;
+  position: relative;
+  flex-shrink: 0;
+  margin-left: 4px;
+}
 
-  .profile-card {
-    position: static;
-  }
+.status-dot::after {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  border-radius: 50%;
+  background: #22c55e;
+  opacity: 0.6;
+  animation: pulse 1.6s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 0.6; }
+  70% { transform: scale(2.2); opacity: 0; }
+  100% { opacity: 0; }
+}
+
+/* =========================
+   PILLS
+========================= */
+
+.role-pills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.role-pills span {
+  font-size: 0.75rem;
+  padding: 4px 8px;
+  border-radius: 999px;
+  border: 1px solid #1f2937;
+  background: #0f172a;
+  color: #cbd5e1;
+}
+
+/* =========================
+   BADGES
+========================= */
+
+.badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #1f2937;
+}
+
+.badge-row img {
+  height: 22px;
 }
 
 /* =========================
@@ -370,21 +488,6 @@ strong, b {
   padding: 16px;
   background: #111827;
   margin: 20px 0;
-}
-
-/* =========================
-   META / NOTES
-========================= */
-
-.meta {
-  color: #9ca3af;
-  font-size: .9rem;
-  margin: 6px 0;
-}
-
-.note {
-  color: #9ca3af;
-  font-size: .85rem;
 }
 
 /* =========================
@@ -416,12 +519,11 @@ strong, b {
 }
 
 .btn.linkedin {
-  background-color: #0A66C2;
-  color: #fff;
+  background: #0A66C2;
   border: none;
+  color: #fff;
   padding: 8px 14px;
   border-radius: 6px;
-  font-weight: 600;
 }
 
 /* YouTube button */
@@ -434,139 +536,6 @@ strong, b {
 .btn.youtube:hover {
   border-color: #ef4444;
   background: #1f2937;
-  color: #fff;
-}
-
-/* =========================
-   PROFILE (STICKY + LIFT)
-========================= */
-
-/* LEFT SIDEBAR */
-.profile {
-  width: 260px;
-  flex-shrink: 0;
-}
-
-.profile-card {
-  position: sticky;
-  top: 20px;
-
-  /* 👇 THIS is the missing piece */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-
-  padding: 16px;
-  border: 1px solid #1f2937;
-  border-radius: 12px;
-  background: #111827;
-
-  max-height: calc(100vh - 40px);
-  overflow: hidden;
-}
-
-/* =========================
-   HEADSHOT + GLOW
-========================= */
-
-.headshot-glow {
-  position: relative;
-  width: 160px;
-  height: 160px;
-  margin: 0 auto 12px;
-}
-
-.headshot-glow::before {
-  content: "";
-  position: absolute;
-  inset: -4px;
-  background: rgba(255, 255, 255, 0.04);
-  border-radius: 50%;
-  filter: blur(10px);
-}
-
-.headshot-left {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 4px solid #0A66C2;
-}
-
-/* =========================
-   STATUS DOT
-========================= */
-
-.status-dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: #22c55e;
-  position: relative;
-  margin-left: 4px; /* 👈 pushes it slightly right */
-  flex-shrink: 0;
-}
-
-.status-line {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px; /* slightly more breathing room */
-}
-
-.status-dot::after {
-  content: "";
-  position: absolute;
-  inset: -3px; /* 👈 prevents clipping */
-  border-radius: 50%;
-  background: #22c55e;
-  opacity: 0.6;
-  animation: pulse 1.6s infinite;
-}
-
-@keyframes pulse {
-  0% { transform: scale(1); opacity: 0.6; }
-  70% { transform: scale(2.2); opacity: 0; }
-  100% { opacity: 0; }
-}
-
-/* =========================
-   ROLE PILLS
-========================= */
-
-.role-pills {
-  display: flex;
-  justify-content: center;
-  gap: 6px;
-  flex-wrap: wrap;
-  margin-top: 10px;
-}
-
-.role-pills span {
-  font-size: 0.75rem;
-  padding: 4px 8px;
-  border-radius: 999px;
-  border: 1px solid #1f2937;
-  background: #0f172a;
-  color: #cbd5e1;
-}
-
-/* =========================
-   BADGE ROW
-========================= */
-
-.badge-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin: 10px 0 14px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #1f2937;
-}
-
-.badge-row img {
-  height: 22px;
 }
 
 /* =========================
@@ -650,20 +619,27 @@ details:hover {
   text-align: center;
 }
 
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 800px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .profile {
+    width: 100%;
+  }
+
+  .profile-card {
+    position: relative;
+  }
+}
+
 @media (max-width: 700px) {
   .image-grid {
     grid-template-columns: 1fr;
   }
-}
-body {
-  background-color: #0b1220;
-  background-image:
-    linear-gradient(to right, rgba(255,255,255,0.04) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255,255,255,0.04) 1px, transparent 1px);
-  background-size: 40px 40px;
-}
-
-.hero {
-  margin-bottom: 40px;
 }
 </style>
