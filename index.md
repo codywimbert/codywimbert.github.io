@@ -83,7 +83,7 @@ title: Home
 <h2 class="section-title">Projects</h2>
 
 <div class="card">
-  <h2>Homelab Infrastructure Overview</h2>
+  <h2>Proxmox VE Virtualized Lab Environment</h2>
   <div class="meta">Live Network • Home Dashboard Snapshot • Apr 27, 2026</div>
   <p>
     This is my personal homelab environment designed for networking experimentation, automation workflows,
