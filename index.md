@@ -679,9 +679,11 @@ details:hover {
 }
 
 .section-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   text-align: center;
-  margin-top: 8px;
-  margin-bottom: 10px;
+  margin: 20px 0 10px;
 }
 
 </style>
