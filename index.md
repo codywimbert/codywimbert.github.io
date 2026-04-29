@@ -449,10 +449,20 @@ strong, b {
 .profile-card {
   position: sticky;
   top: 20px;
-}
 
-.profile-card:hover {
-  transform: translateY(-4px);
+  /* 👇 THIS is the missing piece */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+  padding: 16px;
+  border: 1px solid #1f2937;
+  border-radius: 12px;
+  background: #111827;
+
+  max-height: calc(100vh - 40px);
+  overflow: hidden;
 }
 
 /* =========================
