@@ -678,8 +678,10 @@ details:hover {
   width: 100%;
 }
 
-.section-title {
+h2 {
+  text-align: center;
   margin-top: 8px;
+  margin-bottom: 10px;
 }
 
 </style>
