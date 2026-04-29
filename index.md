@@ -686,4 +686,18 @@ details:hover {
   margin: 20px 0 10px;
 }
 
+  .section-title {
+  text-align: left;
+  margin-left: 260px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+  .section-title {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
 </style>
