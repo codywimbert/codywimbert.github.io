@@ -29,6 +29,12 @@ title: Home
       Connect on LinkedIn
     </a>
 
+    <a class="btn primary"
+   href="assets/docs/Cody Wimbert - Resume (April 2026).docx.pdf"
+   target="_blank">
+   📄 Download Resume
+</a>
+
     <div class="role-pills">
       <span>Security Ops</span>
       <span>Networking</span>
@@ -58,12 +64,6 @@ title: Home
         <img src="https://img.shields.io/badge/CompTIA-A%2B-green">
       </a>
     </div>
-
-<a class="btn primary"
-   href="assets/docs/Cody Wimbert - Resume (April 2026).docx.pdf"
-   target="_blank">
-   📄 Download Resume
-</a>
 
     <p class="intro">
       Security Operations Specialist focused on threat detection, incident response, and security monitoring in K–12 enterprise environments.
