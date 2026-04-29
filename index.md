@@ -685,5 +685,26 @@ details:hover {
   text-align: left;
   margin: 20px 0 10px;
 }
+.preview-link {
+  display: block;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
 
+  font-weight: 600;
+  color: #e5e7eb;
+
+  background: #111827;
+  border: 1px solid #374151;
+  border-radius: 10px;
+
+  transition: all 0.2s ease;
+}
+
+.preview-link:hover {
+  transform: translateY(-2px);
+  border-color: #60a5fa;
+  background: #1f2937;
+  color: #ffffff;
+}
 </style>
