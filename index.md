@@ -80,7 +80,7 @@ title: Home
 
 </div>
 
-## Projects
+<h2 class="section-title">Projects</h2>
 
 <div class="card">
   <h2>Homelab Infrastructure Overview</h2>
@@ -676,6 +676,10 @@ details:hover {
 .profile-card .meta {
   text-align: center;
   width: 100%;
+}
+
+.section-title {
+  margin-top: 8px;
 }
 
 </style>
