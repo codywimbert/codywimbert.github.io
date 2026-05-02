@@ -156,7 +156,6 @@ title: Home
     segmentation, and homelab services hosted across Proxmox and Docker infrastructure.
   </p>
   </div>
-  <div class="note">Preview:</div>
   <div class="preview">
     <img src="assets/docs/REDACTED Home Network.png"
          alt="Home Network Diagram Preview">
@@ -252,7 +251,6 @@ title: Home
     </a>
   </div>
 
-  <div class="note">Inline preview:</div>
   <div class="pdf-wrapper">
     <iframe src="assets/docs/AD Homelab Documentation.pdf#view=FitH"></iframe>
   </div>
