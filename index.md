@@ -155,16 +155,11 @@ title: Home
     Visual documentation of my home network architecture including WAN edge, OPNsense firewall,
     segmentation, and homelab services hosted across Proxmox and Docker infrastructure.
   </p>
-  <div class="actions">
-    <a class="btn primary" 
-       href="assets/docs/REDACTED Home Network_ Lucidchart.pdf"
-       target="_blank">
-       📄 Open Diagram (PDF)
     </a>
   </div>
   <div class="note">Preview:</div>
   <div class="preview">
-    <img src="assets/docs/REDACTED Home Network.png" 
+    <img src="assets/docs/REDACTED Home Network.png"
          alt="Home Network Diagram Preview">
   </div>
 <div class="preview">
