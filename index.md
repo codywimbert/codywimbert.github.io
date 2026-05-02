@@ -166,6 +166,7 @@ title: Home
     📌 View Full Network Diagram on Lucidchart ↗
   </a>
 </div>
+</div>
 
 <div class="card">
   <h3>Primary Compute Stack – Workstation & Homelab Server</h3>
