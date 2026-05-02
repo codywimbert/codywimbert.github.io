@@ -155,7 +155,6 @@ title: Home
     Visual documentation of my home network architecture including WAN edge, OPNsense firewall,
     segmentation, and homelab services hosted across Proxmox and Docker infrastructure.
   </p>
-    </a>
   </div>
   <div class="note">Preview:</div>
   <div class="preview">
@@ -168,7 +167,6 @@ title: Home
      target="_blank">
     📌 View Full Network Diagram on Lucidchart ↗
   </a>
-</div>
 </div>
 
 <div class="card">
