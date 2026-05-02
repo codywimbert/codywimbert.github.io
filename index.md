@@ -147,15 +147,14 @@ title: Home
     Prowlarr → Sonarr/Radarr → qBittorrent → Plex pipeline.
   </p>
 </div>
+
 <div class="card">
-  
   <h3>Home Network Diagram (Homelab Topology)</h3>
   <div class="meta">Lucidchart • Apr 27, 2026</div>
   <p>
     Visual documentation of my home network architecture including WAN edge, OPNsense firewall,
     segmentation, and homelab services hosted across Proxmox and Docker infrastructure.
   </p>
-  </div>
   <div class="preview">
     <img src="assets/docs/REDACTED Home Network.png"
          alt="Home Network Diagram Preview">
