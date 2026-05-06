@@ -97,7 +97,7 @@ title: Home
   </p>
  <!-- Homepage Preview -->
 <div class="preview" style="margin-top:12px;">
-  <img src="assets/docs/Homepage_dashboard" alt="Homepage Dashboard">
+  <img src="assets/docs/homepage.png" alt="Homepage Dashboard">
   <div class="img-caption" style="margin-bottom:14px;">
     Services Homepage (Hosted on Docker)
   </div>
