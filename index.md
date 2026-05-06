@@ -126,9 +126,10 @@ title: Home
   </div>
   <h3 style="margin-top:20px;">Core Infrastructure</h3>
   <ul>
-    <li><strong>OPNsense</strong> – Firewall, routing, and subnet segmentation</li>
     <li><strong>Proxmox</strong> – Virtualization host for all lab workloads</li>
+    <li><strong>OPNsense</strong> – Firewall, routing, and VPN server</li>
     <li><strong>Pi-hole</strong> – Network-wide DNS filtering and ad blocking</li>
+    <li><strong>Wazuh</strong> – SIEM/log monitoring</li>
     <li><strong>Portainer</strong> – Docker container management interface</li>
   </ul>
   <h3>Media & Automation Stack</h3>
@@ -142,9 +143,10 @@ title: Home
   <h3>Architecture Overview</h3>
   <p>
     The environment is segmented using subnets and routed through OPNsense.
-    Proxmox hosts isolated virtual machines and containers, while Docker services
-    run application workloads. Media automation is orchestrated through a
-    Prowlarr → Sonarr/Radarr → qBittorrent → Plex pipeline.
+    Access to lab services is selectively controlled with firewall rules and OpenVPN server.
+    Proxmox hosts virtual machines and containers, while Docker services run application workloads.
+    Media automation is orchestrated through a Prowlarr → Sonarr/Radarr → qBittorrent → Plex pipeline.
+    Security events are monitored within Wazuh, which doubles as a vulnerability management platform.
   </p>
 </div>
 
