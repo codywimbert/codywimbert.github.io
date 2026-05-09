@@ -97,7 +97,7 @@ title: Home
     <p class="intro">
       Ultimately, my gamble on the new position paid off. Only six months after becoming a JNS, I interviewed for and landed a job in the same organization as a Cybersecurity Specialist (I guess I haven't truly escaped education yet, huh?). Regardless, landing this position may be the most significant milestone of my career. Every day, I have the privilege of contributing to a small, newly formed Security Operations squad by conducting incident response, helping to onboard new districts, and building out new services. I contribute to vulnerability assessments, conduct proactive threat hunting, create IR playbooks, tune alerts, and so much more. Perhaps most importantly, I am content. I am incredibly proud of the hard work I've done to get here, more proud than the years I spent earning degrees in higher education or working jobs that I was not passionate about. And I know this is just the beginning. I hope that this passion will show through my projects here on this page, and that you find value in my story as well as the documentation.
     </p>
-    <p class="intro">
+    <p class="intro enjoy">
       <strong>Enjoy!</strong>
     </p>
   </div>
@@ -468,6 +468,28 @@ p {
 a { color: #60a5fa; }
 
 strong, b { color: #f3f4f6; }
+
+.enjoy {
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+.enjoy strong {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.enjoy {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
 
 /* =========================
    LAYOUT (HERO)
