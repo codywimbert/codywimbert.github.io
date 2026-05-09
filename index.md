@@ -214,8 +214,7 @@ title: Home
       <img src="assets/docs/qbittorrent.png" alt="qBittorrent Download Client">
       <div class="img-caption">qBittorrent Download Engine</div>
     </div>
-
-  </div>
+  
   </div>
   <h3 style="margin-top:20px;">Core Infrastructure</h3>
  <ul>
