@@ -436,7 +436,7 @@ body {
    TYPOGRAPHY
 ========================= */
 h1, h2, h3 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'JetBrains Mono', sans-serif;
 }
 
 h1 {
