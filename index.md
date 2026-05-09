@@ -423,9 +423,12 @@ title: Home
 body {
   background: #0b1220;
   color: #e5e7eb;
+  font-family: 'Orbitron', sans-serif;
+  
   background-image:
     linear-gradient(to right, rgba(255,255,255,0.04) 1px, transparent 1px),
     linear-gradient(to bottom, rgba(255,255,255,0.04) 1px, transparent 1px);
+  
   background-size: 40px 40px;
 }
 
