@@ -196,13 +196,19 @@ title: Home
     </div>
   </div>
   <h3 style="margin-top:20px;">Core Infrastructure</h3>
-  <ul>
-    <li><strong>Proxmox</strong> – Virtualization host for all lab workloads</li>
-    <li><strong>OPNsense</strong> – Firewall, routing, and VPN server</li>
-    <li><strong>Pi-hole</strong> – Network-wide DNS filtering and ad blocking</li>
-    <li><strong>Wazuh</strong> – SIEM/log monitoring and vulnerability management</li>
-    <li><strong>Portainer</strong> – Docker container management interface</li>
-  </ul>
+ <ul>
+  <li><strong>Proxmox</strong> – Bare-metal virtualization platform hosting all lab workloads, including VMs and containerized services</li>
+
+  <li><strong>OPNsense</strong> – Network firewall, routing engine, and VPN gateway providing segmentation, traffic control, and perimeter security</li>
+
+  <li><strong>Pi-hole</strong> – Network-wide DNS filtering solution used for ad blocking, domain-level traffic control, and visibility into DNS queries</li>
+
+  <li><strong>Twingate</strong> – Zero Trust access gateway providing authenticated, policy-controlled entry to internal lab services while eliminating direct WAN exposure</li>
+
+  <li><strong>Portainer</strong> – Container management platform for deploying, monitoring, and maintaining Docker workloads across the lab environment</li>
+
+  <li><strong>Wazuh</strong> – Security information and event management (SIEM), endpoint detection and response (EDR), and vulnerability management platform for centralized security monitoring</li>
+</ul>
   <h3>Media & Automation Stack</h3>
   <ul>
     <li><strong>Plex</strong> – Media streaming server</li>
@@ -212,13 +218,14 @@ title: Home
     <li><strong>qBittorrent</strong> – Download engine for media ingestion</li>
   </ul>
   <h3>Architecture Overview</h3>
-  <p>
-    The environment is segmented using subnets and routed through OPNsense.
-    Access to lab services is selectively controlled with firewall rules and OpenVPN server.
-    Proxmox hosts virtual machines and containers, while Docker services run application workloads.
-    Media automation is orchestrated through a Prowlarr → Sonarr/Radarr → qBittorrent → Plex pipeline.
-    Security events are monitored within Wazuh, which doubles as a vulnerability management platform for all labnet services.
-  </p>
+<p>
+  The environment is segmented using subnets and routed through OPNsense.
+  Access to lab services is selectively controlled using firewall rules and a Zero Trust access layer via Twingate,
+  replacing traditional VPN-based remote access to reduce exposed attack surface.
+  Proxmox hosts virtual machines and containers, while Docker services run application workloads.
+  Media automation is orchestrated through a Prowlarr → Sonarr/Radarr → qBittorrent → Plex pipeline.
+  Security events are monitored within Wazuh, which also provides vulnerability management and centralized security visibility across lab services.
+</p>
 </div>
 
 <div class="card">
