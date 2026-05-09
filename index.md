@@ -93,7 +93,7 @@ title: Home
 
 <div class="card">
   <h2>Proxmox VE Virtualized Lab Environment</h2>
-  <div class="meta">Live Network • Home Dashboard Snapshot • May, 2026</div>
+  <div class="meta"><strong>Live Network • Home Dashboard Snapshot • May, 2026</strong></div>
   <p>
     This is my personal homelab environment designed for networking experimentation, automation workflows,
     and security-focused infrastructure testing. It simulates a production-style environment using subnets,
@@ -180,7 +180,7 @@ title: Home
 
 <div class="card">
   <h3>Wazuh SIEM, EDR & Vulnerability Management Stack</h3>
-  <div class="meta">Self-Hosted Security Monitoring Lab • May, 2026</div>
+  <div class="meta"><strong>Self-Hosted Security Monitoring Lab • May, 2026</strong></div>
 
   <p>
     Built and deployed a full Wazuh security monitoring stack for centralized log analysis, endpoint detection,
@@ -250,7 +250,7 @@ title: Home
 
 <div class="card">
   <h3>Home Network Diagram (Homelab Topology)</h3>
-  <div class="meta"><em>Lucidchart • April, 2026</em></div>
+  <div class="meta"><strong>Lucidchart • April, 2026</strong></div>
   <p>
     Visual documentation of my home network architecture including WAN edge, OPNsense firewall,
     segmentation, and homelab services hosted across Proxmox and Docker infrastructure.
@@ -270,7 +270,7 @@ title: Home
 
 <div class="card">
   <h3>Primary Compute Stack – Workstation & Homelab Server</h3>
-  <div class="meta">PCPartPicker</div>
+  <div class="meta"><strong>PCPartPicker</strong></div>
   <p>
     My main computing environment consists of two dedicated, self-built systems: a Windows-based workstation for web-browsing, management, and virtualization control, and a Proxmox-based homelab server used for running virtual machines, Docker services, and network/security lab environments.
   </p>
@@ -290,7 +290,7 @@ title: Home
 
 <div class="card">
   <h3>TryHackMe – SOC Level 1 Path Completion</h3>
-  <div class="meta">TryHackMe • Security Operations • March, 2026</div>
+  <div class="meta"><strong>TryHackMe • Security Operations • March, 2026</strong></div>
   <p>
     Completed the SOC Level 1 learning path focused on Security Operations Center fundamentals,
     including log analysis, alert triage, SIEM workflows, incident response, and threat detection concepts.
@@ -339,7 +339,7 @@ title: Home
 <!-- AD Lab -->
 <div class="card">
   <h3>VirtualBox Active Directory Lab</h3>
-  <div class="meta">PDF • September, 2025</div>
+  <div class="meta"><strong>PDF • September, 2025</strong></div>
 
   <p>
     Step-by-step Active Directory homelab in VirtualBox (install roles, promote to DC, OUs/users, baseline security).
@@ -381,7 +381,7 @@ title: Home
 <!-- File Hashes -->
 <div class="card">
   <h3>File Hashes - Verify Your Downloads</h3>
-  <div class="meta">YouTube • August, 2025 • 5:15</div>
+  <div class="meta"><strong>YouTube • August, 2025 • 5:15</strong></div>
 
   <p>
     End-user education tutorial on how to check file hashes to verify installs.
