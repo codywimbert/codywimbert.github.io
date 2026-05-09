@@ -86,7 +86,78 @@ title: Home
 </div>
 
 <h2 class="section-title">Projects</h2>
+<div class="card">
+  <h3>Wazuh SIEM, EDR & Vulnerability Management Stack</h3>
+  <div class="meta">Self-Hosted Security Monitoring Lab • May 2026</div>
 
+  <p>
+    Built and deployed a full Wazuh security monitoring stack for centralized log analysis, endpoint detection,
+    and vulnerability visibility across a segmented home lab environment. This project simulates enterprise SIEM
+    workflows including log ingestion, detection rule creation, and multi-source correlation between firewall,
+    endpoints, and system telemetry.
+  </p>
+
+  <!-- DASHBOARD IMAGE -->
+  <div class="preview" style="margin-top:12px;">
+    <img src="assets/docs/wazuh dash the long way.png" alt="Wazuh Dashboard">
+    <div class="img-caption" style="margin-bottom:14px;">
+      Wazuh SIEM Dashboard – Event Monitoring & Alerting
+    </div>
+  </div>
+
+  <h3 style="margin-top:14px;">Architecture Overview</h3>
+  <ul>
+    <li><strong>Wazuh Manager / Indexer / Dashboard</strong> – Central SIEM stack deployed on a dedicated Linux container</li>
+    <li><strong>Firewall Integration</strong> – OPNsense logs forwarded via syslog and agent-based collection</li>
+    <li><strong>Endpoint Agents</strong> – Linux agents deployed across lab systems for host-level visibility</li>
+    <li><strong>OpenSearch Dashboards</strong> – Used for indexing, search, and log visualization</li>
+    <li><strong>Syslog Ingestion</strong> – Network device telemetry routed into centralized log storage</li>
+  </ul>
+
+  <h3>Deployment Summary</h3>
+  <ul>
+    <li>Deployed Wazuh stack using official community installation method on a Linux container</li>
+    <li>Enabled full log archival for forensic visibility and detection engineering</li>
+    <li>Validated log ingestion using real-time archive and manager logs</li>
+    <li>Confirmed firewall-to-SIEM event flow through syslog and agent integration</li>
+  </ul>
+
+  <h3>Firewall & Network Integration</h3>
+  <ul>
+    <li>Installed Wazuh agent plugin on firewall system via official community package repository</li>
+    <li>Configured secure log forwarding from firewall to SIEM stack</li>
+    <li>Enabled syslog ingestion for network and authentication events</li>
+    <li>Restricted log ingestion to internal lab network ranges</li>
+  </ul>
+
+  <h3>Detection Engineering</h3>
+  <p>
+    Developed custom detection rules to identify authentication and administrative events from firewall logs.
+    Logs were analyzed using Wazuh’s built-in log testing utility to extract structured fields for rule creation.
+  </p>
+
+  <ul>
+    <li>Built custom rule to detect successful web interface logins</li>
+    <li>Parsed raw syslog events into structured detection logic</li>
+    <li>Implemented alerting based on authentication and administrative activity</li>
+    <li>Restarted and validated rule behavior within SIEM pipeline</li>
+  </ul>
+
+  <h3>Endpoint Deployment</h3>
+  <ul>
+    <li>Installed and configured Wazuh agents on multiple Linux endpoints</li>
+    <li>Registered agents to central manager for telemetry collection</li>
+    <li>Enabled persistent monitoring of system and security events</li>
+    <li>Verified agent connectivity and event transmission</li>
+  </ul>
+
+  <h3>Security Notes</h3>
+  <p>
+    Sensitive details such as internal access endpoints, credentials, and authentication information have been
+    intentionally omitted. The environment is fully isolated within a private lab network and designed to simulate
+    enterprise SIEM workflows without exposing operational security details.
+  </p>
+</div>
 <div class="card">
   <h2>Proxmox VE Virtualized Lab Environment</h2>
   <div class="meta">Live Network • Home Dashboard Snapshot • Apr 27, 2026</div>
