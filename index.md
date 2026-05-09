@@ -421,10 +421,13 @@ title: Home
 
 <style>
 body {
+  margin: 0;
   background: #0b1220;
   color: #e5e7eb;
   font-family: 'Inter', sans-serif;
   overflow-x: hidden;
+  position: relative;
+  z-index: 0;
 }
 
 /* =========================
@@ -466,14 +469,14 @@ strong, b { color: #f3f4f6; }
   min-width: 0;
 }
 
-/* Hero writing = literary font */
+/* Literary font for body text */
 .hero-content,
 .hero-content p,
 .hero-content .intro {
   font-family: 'EB Garamond', serif;
 }
 
-/* But keep first line + headers clean */
+/* Headers stay modern */
 .site-title,
 .site-subtitle,
 .hero h1,
@@ -535,8 +538,6 @@ strong, b { color: #f3f4f6; }
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid #0A66C2;
-  position: relative;
-  z-index: 1;
 }
 
 /* =========================
@@ -575,7 +576,7 @@ strong, b { color: #f3f4f6; }
 }
 
 /* =========================
-   CARDS (GLOW + LIFT)
+   CARDS
 ========================= */
 
 .card {
@@ -589,16 +590,14 @@ strong, b { color: #f3f4f6; }
   margin: 20px 0;
 
   box-shadow:
-    0 0 0 1px rgba(96, 165, 250, 0.08),
     0 10px 30px rgba(0, 0, 0, 0.4);
 
-  transition: all 0.25s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .card:hover {
   transform: translateY(-3px);
   box-shadow:
-    0 0 0 1px rgba(96, 165, 250, 0.25),
     0 15px 40px rgba(0, 0, 0, 0.55),
     0 0 25px rgba(96, 165, 250, 0.12);
 }
@@ -671,7 +670,7 @@ strong, b { color: #f3f4f6; }
 }
 
 /* =========================
-   SITE TITLE
+   TITLES
 ========================= */
 
 .site-title {
@@ -705,38 +704,33 @@ strong, b { color: #f3f4f6; }
 
   .profile-card {
     position: relative;
-  }
-}
-
-  @media (max-width: 800px) {
-  .profile-card {
     align-items: center;
     text-align: center;
   }
 
   .headshot-glow {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
   }
 }
 
-/* keep content above background layer */
-.hero, .card, .profile-card {
-  position: relative;
-  z-index: 1;
-}
+/* =========================
+   NETWORK BACKGROUND CANVAS
+========================= */
 
 #network-bg {
   position: fixed;
   inset: 0;
   width: 100%;
   height: 100%;
+
   z-index: 0;
   pointer-events: none;
 
-  opacity: 0.18; /* 🔥 THIS is what fixes brightness */
+  background: #0b1220;
+  opacity: 0.18;
 }
 
+/* CONTENT ABOVE CANVAS */
 .hero, .card, .profile-card {
   position: relative;
   z-index: 1;
