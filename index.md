@@ -660,6 +660,31 @@ strong, b { color: #f3f4f6; }
    MEDIA
 ========================= */
 
+  /* =========================
+   EMBEDS (YOUTUBE + PDF FIX)
+========================= */
+
+.video-wrapper,
+.pdf-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 12px;
+
+  border: 1px solid #1f2937;
+  background: #0f172a;
+}
+
+.video-wrapper iframe,
+.pdf-wrapper iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 .preview {
   border: 1px solid #1f2937;
   border-radius: 10px;
