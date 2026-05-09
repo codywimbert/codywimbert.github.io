@@ -419,14 +419,17 @@ body {
   background: #0b1220;
   color: #e5e7eb;
   font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
 
   background-image:
-    linear-gradient(to right, rgba(255,255,255,0.03) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255,255,255,0.03) 1px, transparent 1px);
+    radial-gradient(circle at 20% 15%, rgba(96, 165, 250, 0.08), transparent 40%),
+    radial-gradient(circle at 80% 20%, rgba(168, 85, 247, 0.06), transparent 45%),
+    radial-gradient(circle at 50% 80%, rgba(34, 211, 238, 0.05), transparent 50%),
+    linear-gradient(to right, rgba(255,255,255,0.025) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.025) 1px, transparent 1px);
 
-  background-size: 48px 48px;
+  background-size: 100% 100%, 100% 100%, 100% 100%, 48px 48px, 48px 48px;
 }
-
 /* =========================
    TYPOGRAPHY
 ========================= */
@@ -834,5 +837,27 @@ strong, b { color: #f3f4f6; }
   box-shadow:
     0 18px 45px rgba(0, 0, 0, 0.5),
     0 0 25px rgba(96, 165, 250, 0.10);
+}
+
+  /* tighten head card spacing */
+.profile-card h1 {
+  margin: 6px 0 2px 0;
+  line-height: 1.1;
+}
+
+.profile-card .status-line {
+  margin-top: 0;
+}
+
+.profile-card .meta {
+  margin-top: 2px;
+}
+
+.profile-card h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: #ffffff;
 }
 </style>
