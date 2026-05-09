@@ -422,14 +422,14 @@ title: Home
 <style>
 body {
   background: #0b1220;
-  color: #d7dbe0;
-  font-family: 'EB Garamond', serif;
+  color: #e5e7eb;
+  font-family: 'Inter', sans-serif;
 
   background-image:
-    linear-gradient(to right, rgba(255,255,255,0.025) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255,255,255,0.025) 1px, transparent 1px);
+    linear-gradient(to right, rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.03) 1px, transparent 1px);
 
-  background-size: 52px 52px;
+  background-size: 48px 48px;
 }
 
 /* =========================
