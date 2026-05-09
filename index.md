@@ -420,18 +420,37 @@ title: Home
 </div>
 
 <style>
-body {
+/* =========================
+   BASE LAYOUT
+========================= */
+
+html, body {
   margin: 0;
+  height: 100%;
   background: #0b1220;
   color: #e5e7eb;
   font-family: 'Inter', sans-serif;
   overflow-x: hidden;
-  position: relative;
-  z-index: 0;
 }
 
 /* =========================
-   TYPOGRAPHY
+   NETWORK BACKGROUND LAYER
+========================= */
+
+#network-bg {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+
+  /* IMPORTANT: no background here (this was causing brightness issues) */
+  opacity: 0.18;
+}
+
+/* =========================
+   GLOBAL TYPOGRAPHY
 ========================= */
 
 h1 {
@@ -453,7 +472,7 @@ a { color: #60a5fa; }
 strong, b { color: #f3f4f6; }
 
 /* =========================
-   HERO LAYOUT
+   LAYOUT
 ========================= */
 
 .hero {
@@ -469,14 +488,14 @@ strong, b { color: #f3f4f6; }
   min-width: 0;
 }
 
-/* Literary font for body text */
+/* Literary font only for body content */
 .hero-content,
 .hero-content p,
 .hero-content .intro {
   font-family: 'EB Garamond', serif;
 }
 
-/* Headers stay modern */
+/* Keep UI elements modern */
 .site-title,
 .site-subtitle,
 .hero h1,
@@ -485,7 +504,7 @@ strong, b { color: #f3f4f6; }
 }
 
 /* =========================
-   PROFILE SIDEBAR
+   PROFILE CARD
 ========================= */
 
 .profile {
@@ -503,13 +522,13 @@ strong, b { color: #f3f4f6; }
   gap: 10px;
 
   padding: 16px;
-  border: 1px solid #1f2937;
   border-radius: 12px;
+  border: 1px solid #1f2937;
   background: #111827;
 
   box-shadow:
-    0 0 0 1px rgba(96, 165, 250, 0.08),
-    0 10px 30px rgba(0, 0, 0, 0.4);
+    0 10px 30px rgba(0, 0, 0, 0.4),
+    0 0 0 1px rgba(96, 165, 250, 0.08);
 }
 
 /* =========================
@@ -520,15 +539,14 @@ strong, b { color: #f3f4f6; }
   position: relative;
   width: 160px;
   height: 160px;
-  margin-bottom: 10px;
 }
 
 .headshot-glow::before {
   content: "";
   position: absolute;
   inset: -4px;
-  background: rgba(255,255,255,0.04);
   border-radius: 50%;
+  background: rgba(255,255,255,0.04);
   filter: blur(10px);
 }
 
@@ -538,6 +556,8 @@ strong, b { color: #f3f4f6; }
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid #0A66C2;
+  position: relative;
+  z-index: 1;
 }
 
 /* =========================
@@ -547,7 +567,6 @@ strong, b { color: #f3f4f6; }
 .status-line {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 8px;
 }
 
@@ -584,14 +603,12 @@ strong, b { color: #f3f4f6; }
   border-radius: 12px;
   padding: 16px;
 
-  background: rgba(17, 24, 39, 0.85);
+  background: rgba(17, 24, 39, 0.88);
   backdrop-filter: blur(6px);
 
   margin: 20px 0;
 
-  box-shadow:
-    0 10px 30px rgba(0, 0, 0, 0.4);
-
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
@@ -660,7 +677,6 @@ strong, b { color: #f3f4f6; }
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 12px;
-  margin-top: 12px;
 }
 
 .image-grid img {
@@ -670,7 +686,7 @@ strong, b { color: #f3f4f6; }
 }
 
 /* =========================
-   TITLES
+   SITE TITLES
 ========================= */
 
 .site-title {
@@ -712,28 +728,4 @@ strong, b { color: #f3f4f6; }
     margin: 0 auto;
   }
 }
-
-/* =========================
-   NETWORK BACKGROUND CANVAS
-========================= */
-
-#network-bg {
-  position: fixed;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-
-  z-index: 0;
-  pointer-events: none;
-
-  background: #0b1220;
-  opacity: 0.18;
-}
-
-/* CONTENT ABOVE CANVAS */
-.hero, .card, .profile-card {
-  position: relative;
-  z-index: 1;
-}
-
 </style>
