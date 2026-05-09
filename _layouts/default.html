@@ -6,94 +6,89 @@
 
   <title>{{ page.title }} | Cody Wimbert Portfolio</title>
 
+  <!-- SEO -->
+  <meta name="description" content="IT and Security Operations Portfolio - Network Specialist, CCNA certified.">
+
   <!-- FAVICON -->
   <link rel="icon" href="/assets/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" href="/assets/images/favicon.png">
 
-  <!-- Optional SEO -->
-  <meta name="description" content="IT and Security Operations Portfolio - Network Specialist, CCNA certified.">
-
-  <!-- Styles -->
-  <link rel="stylesheet" href="/assets/css/style.css">
-
-      <meta charset="utf-8">
-  <title>{{ page.title }}</title>
-
+  <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="/assets/style.css">
-  
+  <!-- SINGLE stylesheet ONLY -->
+  <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
 <body>
 
 <canvas id="network-bg"></canvas>
 
+<!-- YOUR PAGE CONTENT GOES HERE -->
+
 <script>
-const canvas = document.getElementById("network-bg");
-const ctx = canvas.getContext("2d");
+document.addEventListener("DOMContentLoaded", () => {
+  const canvas = document.getElementById("network-bg");
+  const ctx = canvas.getContext("2d");
 
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+  function resize() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
 
-const nodes = [];
-const NODE_COUNT = 70;
+  resize();
 
-// create nodes
-for (let i = 0; i < NODE_COUNT; i++) {
-  nodes.push({
-    x: Math.random() * canvas.width,
-    y: Math.random() * canvas.height,
-    vx: (Math.random() - 0.5) * 0.3,
-    vy: (Math.random() - 0.5) * 0.3
-  });
-}
+  const nodes = [];
+  const NODE_COUNT = 70;
 
-function draw() {
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  for (let i = 0; i < NODE_COUNT; i++) {
+    nodes.push({
+      x: Math.random() * canvas.width,
+      y: Math.random() * canvas.height,
+      vx: (Math.random() - 0.5) * 0.3,
+      vy: (Math.random() - 0.5) * 0.3
+    });
+  }
 
-  // draw lines
-  for (let i = 0; i < nodes.length; i++) {
-    for (let j = i + 1; j < nodes.length; j++) {
-      const dx = nodes[i].x - nodes[j].x;
-      const dy = nodes[i].y - nodes[j].y;
-      const dist = Math.sqrt(dx * dx + dy * dy);
+  function draw() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-      if (dist < 120) {
-        ctx.strokeStyle = "rgba(96,165,250,0.08)";
-        ctx.lineWidth = 1;
-        ctx.beginPath();
-        ctx.moveTo(nodes[i].x, nodes[i].y);
-        ctx.lineTo(nodes[j].x, nodes[j].y);
-        ctx.stroke();
+    for (let i = 0; i < nodes.length; i++) {
+      for (let j = i + 1; j < nodes.length; j++) {
+        const dx = nodes[i].x - nodes[j].x;
+        const dy = nodes[i].y - nodes[j].y;
+        const dist = Math.sqrt(dx * dx + dy * dy);
+
+        if (dist < 120) {
+          ctx.strokeStyle = "rgba(96,165,250,0.06)";
+          ctx.beginPath();
+          ctx.moveTo(nodes[i].x, nodes[i].y);
+          ctx.lineTo(nodes[j].x, nodes[j].y);
+          ctx.stroke();
+        }
       }
     }
+
+    for (let n of nodes) {
+      ctx.fillStyle = "rgba(96,165,250,0.18)";
+      ctx.beginPath();
+      ctx.arc(n.x, n.y, 2, 0, Math.PI * 2);
+      ctx.fill();
+
+      n.x += n.vx;
+      n.y += n.vy;
+
+      if (n.x < 0 || n.x > canvas.width) n.vx *= -1;
+      if (n.y < 0 || n.y > canvas.height) n.vy *= -1;
+    }
+
+    requestAnimationFrame(draw);
   }
 
-  // draw nodes
-  for (let n of nodes) {
-    ctx.fillStyle = "rgba(96,165,250,0.35)";
-    ctx.beginPath();
-    ctx.arc(n.x, n.y, 2, 0, Math.PI * 2);
-    ctx.fill();
-
-    n.x += n.vx;
-    n.y += n.vy;
-
-    // wrap edges
-    if (n.x < 0 || n.x > canvas.width) n.vx *= -1;
-    if (n.y < 0 || n.y > canvas.height) n.vy *= -1;
-  }
-
-  requestAnimationFrame(draw);
-}
-
-draw();
-
-window.addEventListener("resize", () => {
-  canvas.width = window.innerWidth;
-  canvas.height = window.innerHeight;
+  draw();
+  window.addEventListener("resize", resize);
 });
 </script>
+
 </body>
 </html>
