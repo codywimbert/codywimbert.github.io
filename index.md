@@ -869,4 +869,9 @@ details:hover {
   color: #9ca3af;
   text-transform: uppercase;
 }
+
+.hero h1,
+.hero .intro:first-of-type {
+  font-family: 'Inter', sans-serif;
+}
 </style>
