@@ -423,7 +423,7 @@ title: Home
 body {
   background: #0b1220;
   color: #e5e7eb;
-  font-family: 'EB Garamond', sans-serif;
+  font-family: 'Inter', sans-serif;
   
   background-image:
     linear-gradient(to right, rgba(255,255,255,0.04) 1px, transparent 1px),
@@ -474,9 +474,11 @@ strong, b {
   margin-bottom: 40px;
 }
 
-.hero-content {
-  flex: 1;
-  min-width: 0;
+/* Hero/about section only */
+.hero-content,
+.hero-content p,
+.hero-content .intro {
+  font-family: 'EB Garamond', serif;
 }
 
 /* =========================
