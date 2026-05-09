@@ -2,7 +2,8 @@
 layout: default
 title: Home
 ---
-# Cody Wimbert • Professional Portfolio
+<h1 class="site-title">Cody Wimbert</h1>
+<div class="site-subtitle">Professional Portfolio</div>
 <div class="hero">
 
   <!-- PROFILE CARD (sticky + glow + status + pills) -->
@@ -834,5 +835,20 @@ details:hover {
   color: #ffffff;
   text-decoration: underline;
 }
+.site-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+  color: #ffffff;
+}
 
+.site-subtitle {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.95rem;
+  letter-spacing: 2px;
+  color: #9ca3af;
+  text-transform: uppercase;
+}
 </style>
