@@ -69,7 +69,7 @@ title: Home
     </div>
 
     <p class="intro">
-      Hey there, welcome to my humble web portfolio! The purpose of this page is to document my growth as an IT professional. A little bit about me:
+      Hey there, welcome to my humble web portfolio! The purpose of this page is to document my growth as an IT professional. If you care to know a bit about my background, please read on:
     </p>
 
     <p class="intro">
