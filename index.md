@@ -478,7 +478,7 @@ strong, b {
 .hero-content,
 .hero-content p,
 .hero-content .intro {
-  font-family: 'EB Garamond', serif;
+  font-family: 'Source Serif 4', serif;
 }
 
 /* =========================
