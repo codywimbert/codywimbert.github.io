@@ -170,7 +170,6 @@ title: Home
 <div class="preview">
   <img src="assets/docs/homepage.png" alt="Homepage Dashboard">
 </div>
-</div>
 
 <!-- 🔽 DASHBOARD GRID -->
 <h3 style="margin-top:14px;">Live Service Dashboards</h3>
