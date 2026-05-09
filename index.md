@@ -99,7 +99,7 @@ title: Home
 
   <!-- DASHBOARD IMAGE -->
   <div class="preview" style="margin-top:12px;">
-    <img src="assets/docs/wazuh dash the long way.png" alt="Wazuh Dashboard">
+    <img src="assets/docs/wazuhthelongway.png" alt="Wazuh Dashboard">
     <div class="img-caption" style="margin-bottom:14px;">
       Wazuh SIEM Dashboard – Event Monitoring & Alerting
     </div>
@@ -179,19 +179,19 @@ title: Home
 
 <div class="image-grid">
   <div>
-      <img src="assets/docs/OPNsense_dashboard" alt="OPNsense Dashboard">
+      <img src="assets/docs/opnsense.png" alt="OPNsense Dashboard">
       <div class="img-caption">OPNsense Firewall</div>
     </div>
     <div>
-      <img src="assets/docs/Pihole_dashboard" alt="Pi-hole Dashboard">
+      <img src="assets/docs/pihole.png" alt="Pi-hole Dashboard">
       <div class="img-caption">Pi-hole DNS Filtering</div>
     </div>
     <div>
-      <img src="assets/docs/Proxmox_dashboard" alt="Proxmox Dashboard">
+      <img src="assets/docs/proxmox.png" alt="Proxmox Dashboard">
       <div class="img-caption">Proxmox Virtualization</div>
     </div>
     <div>
-      <img src="assets/docs/Plex_dashboard" alt="Plex Dashboard">
+      <img src="assets/docs/plex.png" alt="Plex Dashboard">
       <div class="img-caption">Plex Media Server</div>
     </div>
   </div>
@@ -236,7 +236,7 @@ title: Home
     segmentation, and homelab services hosted across Proxmox and Docker infrastructure.
   </p>
   <div class="preview">
-    <img src="assets/docs/REDACTED Home Network.png"
+    <img src="assets/docs/homenetworkdiagram.png"
          alt="Home Network Diagram Preview">
   </div>
 <div class="preview">
