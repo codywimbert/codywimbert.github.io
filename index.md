@@ -420,37 +420,18 @@ title: Home
 </div>
 
 <style>
-/* =========================
-   BASE LAYOUT
-========================= */
-
-html, body {
-  margin: 0;
-  height: 100%;
+body {
   background: #0b1220;
   color: #e5e7eb;
   font-family: 'Inter', sans-serif;
-  overflow-x: hidden;
+  background-image:
+    linear-gradient(to right, rgba(255,255,255,0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 40px 40px;
 }
 
 /* =========================
-   NETWORK BACKGROUND LAYER
-========================= */
-
-#network-bg {
-  position: fixed;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  pointer-events: none;
-
-  /* IMPORTANT: no background here (this was causing brightness issues) */
-  opacity: 0.18;
-}
-
-/* =========================
-   GLOBAL TYPOGRAPHY
+   TYPOGRAPHY
 ========================= */
 
 h1 {
@@ -472,7 +453,7 @@ a { color: #60a5fa; }
 strong, b { color: #f3f4f6; }
 
 /* =========================
-   LAYOUT
+   LAYOUT (HERO)
 ========================= */
 
 .hero {
@@ -483,28 +464,15 @@ strong, b { color: #f3f4f6; }
   margin-bottom: 40px;
 }
 
-.hero-content {
-  flex: 1;
-  min-width: 0;
-}
-
-/* Literary font only for body content */
+/* Hero/about section only */
 .hero-content,
 .hero-content p,
 .hero-content .intro {
-  font-family: 'EB Garamond', serif;
-}
-
-/* Keep UI elements modern */
-.site-title,
-.site-subtitle,
-.hero h1,
-.section-title {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Source Serif 4', serif;
 }
 
 /* =========================
-   PROFILE CARD
+   PROFILE SIDEBAR
 ========================= */
 
 .profile {
@@ -522,13 +490,9 @@ strong, b { color: #f3f4f6; }
   gap: 10px;
 
   padding: 16px;
-  border-radius: 12px;
   border: 1px solid #1f2937;
+  border-radius: 12px;
   background: #111827;
-
-  box-shadow:
-    0 10px 30px rgba(0, 0, 0, 0.4),
-    0 0 0 1px rgba(96, 165, 250, 0.08);
 }
 
 /* =========================
@@ -539,14 +503,15 @@ strong, b { color: #f3f4f6; }
   position: relative;
   width: 160px;
   height: 160px;
+  margin-bottom: 10px;
 }
 
 .headshot-glow::before {
   content: "";
   position: absolute;
   inset: -4px;
-  border-radius: 50%;
   background: rgba(255,255,255,0.04);
+  border-radius: 50%;
   filter: blur(10px);
 }
 
@@ -556,8 +521,6 @@ strong, b { color: #f3f4f6; }
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid #0A66C2;
-  position: relative;
-  z-index: 1;
 }
 
 /* =========================
@@ -567,6 +530,7 @@ strong, b { color: #f3f4f6; }
 .status-line {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 8px;
 }
 
@@ -576,6 +540,8 @@ strong, b { color: #f3f4f6; }
   border-radius: 50%;
   background: #22c55e;
   position: relative;
+  flex-shrink: 0;
+  margin-left: 4px;
 }
 
 .status-dot::after {
@@ -595,6 +561,44 @@ strong, b { color: #f3f4f6; }
 }
 
 /* =========================
+   PILLS
+========================= */
+
+.role-pills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.role-pills span {
+  font-size: 0.75rem;
+  padding: 4px 8px;
+  border-radius: 999px;
+  border: 1px solid #1f2937;
+  background: #0f172a;
+  color: #cbd5e1;
+}
+
+/* =========================
+   BADGES
+========================= */
+
+.badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #1f2937;
+}
+
+.badge-row img {
+  height: 22px;
+}
+
+/* =========================
    CARDS
 ========================= */
 
@@ -602,21 +606,8 @@ strong, b { color: #f3f4f6; }
   border: 1px solid #1f2937;
   border-radius: 12px;
   padding: 16px;
-
-  background: rgba(17, 24, 39, 0.88);
-  backdrop-filter: blur(6px);
-
+  background: #111827;
   margin: 20px 0;
-
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.card:hover {
-  transform: translateY(-3px);
-  box-shadow:
-    0 15px 40px rgba(0, 0, 0, 0.55),
-    0 0 25px rgba(96, 165, 250, 0.12);
 }
 
 /* =========================
@@ -638,6 +629,7 @@ strong, b { color: #f3f4f6; }
   text-decoration: none;
   font-weight: 600;
   color: #e5e7eb;
+  background: transparent;
 }
 
 .btn.primary {
@@ -650,6 +642,8 @@ strong, b { color: #f3f4f6; }
   background: #0A66C2;
   border: none;
   color: #fff;
+  padding: 8px 14px;
+  border-radius: 6px;
 }
 
 /* =========================
@@ -670,39 +664,20 @@ strong, b { color: #f3f4f6; }
 }
 
 /* =========================
-   GRID
+   IMAGE GRID
 ========================= */
 
 .image-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 12px;
+  margin-top: 12px;
 }
 
 .image-grid img {
   width: 100%;
   border-radius: 10px;
   border: 1px solid #1f2937;
-}
-
-/* =========================
-   SITE TITLES
-========================= */
-
-.site-title {
-  font-family: 'Orbitron', sans-serif;
-  font-size: 2.4rem;
-  font-weight: 700;
-  letter-spacing: 1px;
-  color: #ffffff;
-}
-
-.site-subtitle {
-  font-family: 'Orbitron', sans-serif;
-  font-size: 0.95rem;
-  letter-spacing: 2px;
-  color: #9ca3af;
-  text-transform: uppercase;
 }
 
 /* =========================
@@ -720,12 +695,104 @@ strong, b { color: #f3f4f6; }
 
   .profile-card {
     position: relative;
+  }
+}
+
+@media (max-width: 700px) {
+  .image-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile {
+    width: 100%;
+    max-width: 340px;
+  }
+
+  .profile-card {
+    position: static;
+    width: 100%;
     align-items: center;
     text-align: center;
   }
 
-  .headshot-glow {
-    margin: 0 auto;
+  .hero-content {
+    width: 100%;
   }
+}
+
+.profile-card .meta {
+  text-align: center;
+  width: 100%;
+}
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-align: left;
+  margin: 20px 0 10px;
+}
+
+.preview-link {
+  display: block;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  color: #e5e7eb;
+  background: #111827;
+  border: 1px solid #374151;
+  border-radius: 10px;
+  transition: all 0.2s ease;
+}
+
+.preview-link:hover {
+  transform: translateY(-2px);
+  border-color: #60a5fa;
+  background: #1f2937;
+  color: #ffffff;
+}
+
+.resume-btn {
+  background: none;
+  border: none;
+  color: #9ca3af;
+  padding: 4px 0;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.resume-btn:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.site-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+  color: #ffffff;
+}
+
+.site-subtitle {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.95rem;
+  letter-spacing: 2px;
+  color: #9ca3af;
+  text-transform: uppercase;
+}
+
+.hero h1,
+.hero .intro:first-of-type {
+  font-family: 'Inter', sans-serif;
 }
 </style>
