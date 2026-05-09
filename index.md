@@ -43,7 +43,9 @@ title: Home
   </div>
 
   <!-- RIGHT SIDE CONTENT -->
-  <div class="hero-content">
+<div class="hero-content">
+
+  <div class="card" style="margin-top:0;">
 
     <h1 style="margin-top:0;">Professional Overview</h1>
 
@@ -77,9 +79,13 @@ title: Home
       I operate within a broader networked infrastructure environment as part of a security-focused MSP team, where I support security operations that naturally intersect with underlying network systems. While my primary focus is security monitoring and incident response, I draw on my networking background when investigating connectivity-related security events and coordinating with infrastructure teams during troubleshooting and remediation efforts. I hold a CCNA and leverage that foundation to better understand how network behavior impacts security visibility and incident analysis.
     </p>
 
-       <p class="intro">
+    <p class="intro">
       Previously a classroom educator, I bring strong communication skills that translate technical findings into clear, actionable guidance for both technical teams and non-technical stakeholders.
     </p>
+
+  </div>
+
+</div>
 
   </div>
 
