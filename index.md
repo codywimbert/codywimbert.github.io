@@ -423,7 +423,7 @@ title: Home
 body {
   background: #0b1220;
   color: #e5e7eb;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Exo 2', sans-serif;
   
   background-image:
     linear-gradient(to right, rgba(255,255,255,0.04) 1px, transparent 1px),
