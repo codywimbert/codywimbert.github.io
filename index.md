@@ -354,6 +354,7 @@ title: Home
 <!-- AD Lab -->
 <div class="card">
   <h3>VirtualBox Active Directory Lab</h3>
+
   <div class="meta"><strong>PDF • September, 2025</strong></div>
 
   <p>
@@ -370,36 +371,23 @@ title: Home
     <iframe src="assets/docs/AD Homelab Documentation.pdf#view=FitH"></iframe>
   </div>
 
-<button class="btn video-toggle" onclick="toggleVideo(this)">
-  ▶ Watch 7-min overview video
-</button>
+  <div class="meta">YouTube • Aug 25, 2025 • 7:16</div>
 
-<div class="video-wrapper hidden">
-  <iframe
-    src="https://www.youtube.com/embed/MA3ZNwMtxPw?rel=0&modestbranding=1"
-    title="Packet Tracer Lab - Network Setup"
-    allowfullscreen>
-  </iframe>
-</div>
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/wJvPo97CihI?rel=0&modestbranding=1"
+      title="AD DS Lab Overview"
+      allowfullscreen>
+    </iframe>
+  </div>
 
-    <div class="meta">YouTube • Aug 25, 2025 • 7:16</div>
-
-    <div class="video-wrapper">
-      <iframe
-        src="https://www.youtube-nocookie.com/embed/wJvPo97CihI?rel=0&modestbranding=1"
-        title="AD DS Lab Overview"
-        allowfullscreen>
-      </iframe>
-    </div>
-
-    <div class="actions">
-      <a class="btn youtube"
-         href="https://youtu.be/wJvPo97CihI"
-         target="_blank">
-        ▶ Open on YouTube ↗
-      </a>
-    </div>
-  </details>
+  <div class="actions">
+    <a class="btn youtube"
+       href="https://youtu.be/wJvPo97CihI"
+       target="_blank">
+      ▶ Open on YouTube ↗
+    </a>
+  </div>
 </div>
 
 <!-- File Hashes -->
