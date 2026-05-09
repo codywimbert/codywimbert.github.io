@@ -69,21 +69,32 @@ title: Home
     </div>
 
     <p class="intro">
-      Security Operations Specialist focused on threat detection, incident response, and security monitoring in K–12 enterprise environments.
+      Hey there, welcome to my humble web portfolio! The purpose of this page is to document my growth as an IT professional. A little bit about me:
     </p>
 
     <p class="intro">
-      I support public school districts by analyzing and responding to security events using SIEM and EDR platforms, performing threat hunting, managing vulnerability workflows, and tuning detections to improve visibility while reducing false positives. My work is aligned with operational security practices across incident response lifecycles, from initial triage through remediation and reporting.
+      I am a lifelong lover of computers and everything technology. However, I didn't always "do" computers as a career. In a past life, I was actually a high school English teacher! This foray into educating our youth was born of the (foolish) notion that one should never do what one loves for a living. Clearly, I was misguided, and it was only through the excruciatingly difficult experience of standing in front of 30+ apathetic teenagers daily, for a year straight, that I understood this (hats off to you, teachers)!
     </p>
 
     <p class="intro">
-      I operate within a broader networked infrastructure environment as part of a security-focused MSP team, where I support security operations that naturally intersect with underlying network systems. While my primary focus is security monitoring and incident response, I draw on my networking background when investigating connectivity-related security events and coordinating with infrastructure teams during troubleshooting and remediation efforts. I hold a CCNA and leverage that foundation to better understand how network behavior impacts security visibility and incident analysis.
+      Although I did begin by mentioning my lifelong love of computers, I didn't know much about them. To my credit, I did build my first PC in my senior year of high school, tinker by repairing old game consoles, and play World of Warcraft religiously. But as anyone in the field knows, this is just Level 1 -- no, even less than that. So, when I did finally become fed up with my life as an emotional punching bag, the only option was to hit the books. Hard.
     </p>
 
     <p class="intro">
-      Previously a classroom educator, I bring strong communication skills that translate technical findings into clear, actionable guidance for both technical teams and non-technical stakeholders.
+     I kicked off my journey by pursuing the CompTIA A+ which, according to everyone on Reddit at the time, was the ONLY way of getting my foot-in-the-door in the field of Information Technology. Two exams, ~$500, and about a million legacy USB-standards memorized later, I was certified (in all seriousness, I really did enjoy the content). Though I wouldn't likely go about this the same way today, I am proud that, perhaps for the first time in my life, I chose a direction and stuck to it.
     </p>
 
+    <p class="intro">
+      Naturally, this initial win generated momentum, helping me jump from a holdover position as a Head Cashier at Lowe's to a local school district - only this time not as a teacher, but as an IT professional. The job wasn't glorious, but it had its perks. For one, it instilled in me the mindset of a technician and what it means to work in a service-oriented field. Exposure to project lifecycles, asset management strategies, device administration, and responding to user tickets were all valuable experiences for me. Perhaps more importantly, I had a lot of downtime, which allowed me to study even more than I already was; at home, I began homelabbing to put my book knowledge to the test, which spawned this website! Hot on the tail of my A+, I earned my Network+ and Security+, achieving a combination lovingly referred to as the "CompTIA Trifecta."
+    </p>
+
+    <p class="intro">
+      With these certifications under my belt and feeling I had little left to learn in the role, I sought new opportunity. This led me to another district in the area, and the switch earned me the snazzy new title "Junior Network Specialist." This position was not exactly the jump I was hoping for in terms of pay or responsibilites, but I saw opportunity in a new environment and in the MSP I was contracted by. Here, my days consisted of the same mundane tasks as in my prior position, only this time with more opportunity. As a Junior Network Specialist, I got my hands on some Cisco gear, decommissioning switches and installing new ones in their place. I troubleshot issues with WAN and LAN connectivity issues, conducted topology surveys to update port-density documentation, managed users and devices via Active Directory Manager, Jamf, and Google Admin console, terminated CAT cabling to support infrastructure requirements, and much more! My time in this role grew my confidence, afforded me opportunities to take ownership, and encouraged me to study for and earn my CCNA.
+    </p>
+
+    <p class="intro">
+      Ultimately, my gamble on the new position paid off. Only 6 months after becoming a JNS, I interviewed for and landed a job in the same organization as a Security Operations specialist! I guess I haven't truly escaped education yet, huh? Our organization services school districts within our region, 
+    </p>
   </div>
 
 </div>
