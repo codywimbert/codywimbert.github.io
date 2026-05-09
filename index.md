@@ -68,9 +68,9 @@ title: Home
       </a>
     </div>
 
-    <p class="intro">
-      Hey there, welcome to my humble web portfolio! The purpose of this page is to document my growth as an IT professional. If you care to know a bit about my background, please read on:
-    </p>
+<p class="intro">
+  <strong>Hey there, welcome to my humble web portfolio! The purpose of this page is to document my growth as an IT professional. If you care to know a bit about my background, please read on:</strong>
+</p>
 
     <p class="intro">
       I am a lifelong lover of computers and everything technology. However, I didn't always "do" computers as a career. In a past life, I was actually a high school English teacher! This foray into educating our youth was born of the (foolish) notion that one should never do what one loves for a living. Clearly, I was misguided, and it was only through the excruciatingly difficult experience of standing in front of 30+ apathetic teenagers daily, for a year straight, that I understood this (hats off to you, teachers)!
@@ -861,5 +861,9 @@ details:hover {
   letter-spacing: 2px;
   color: #9ca3af;
   text-transform: uppercase;
+}
+
+  .intro {
+  font-style: italic;
 }
 </style>
