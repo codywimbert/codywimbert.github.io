@@ -423,7 +423,7 @@ title: Home
 body {
   background: #0b1220;
   color: #e5e7eb;
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Cormorant Garamond', sans-serif;
   
   background-image:
     linear-gradient(to right, rgba(255,255,255,0.04) 1px, transparent 1px),
@@ -435,10 +435,6 @@ body {
 /* =========================
    TYPOGRAPHY
 ========================= */
-h1, h2, h3 {
-  font-family: 'JetBrains Mono', sans-serif;
-}
-
 h1 {
   color: #ffffff;
   font-size: 2rem;
