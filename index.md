@@ -98,11 +98,9 @@ title: Home
   </p>
 
   <!-- DASHBOARD IMAGE -->
-  <div class="preview" style="margin-top:12px;">
-    <img src="assets/docs/wazuhthelongway.png" alt="Wazuh Dashboard">
-    <div class="img-caption" style="margin-bottom:14px;">
-      Wazuh SIEM Dashboard – Event Monitoring & Alerting
-    </div>
+  <div class="preview">
+  <img src="assets/docs/wazuhthelongway.png" alt="Wazuh Dashboard">
+</div>
   </div>
 
   <h3 style="margin-top:14px;">Architecture Overview</h3>
