@@ -86,6 +86,81 @@ title: Home
 </div>
 
 <h2 class="section-title">Projects</h2>
+<!-- 🔽 DASHBOARD GRID -->
+<h3 style="margin-top:14px;">Live Service Dashboards</h3>
+
+<div class="image-grid">
+  <div>
+      <img src="assets/docs/opnsense.png" alt="OPNsense Dashboard">
+      <div class="img-caption">OPNsense Firewall</div>
+    </div>
+    <div>
+      <img src="assets/docs/pihole.png" alt="Pi-hole Dashboard">
+      <div class="img-caption">Pi-hole DNS Filtering</div>
+    </div>
+    <div>
+      <img src="assets/docs/proxmox.png" alt="Proxmox Dashboard">
+      <div class="img-caption">Proxmox Virtualization</div>
+    </div>
+    <div>
+      <img src="assets/docs/plex.png" alt="Plex Dashboard">
+      <div class="img-caption">Plex Media Server</div>
+    </div>
+
+      <div>
+      <img src="assets/docs/portainer.png" alt="Portainer Container Management">
+      <div class="img-caption">Portainer Container Management</div>
+    </div>
+
+    <div>
+      <img src="assets/docs/twingate.png" alt="Twingate Zero Trust Access">
+      <div class="img-caption">Twingate Zero Trust Access</div>
+    </div>
+
+    <div>
+      <img src="assets/docs/wazuh.png" alt="Wazuh Security Monitoring">
+      <div class="img-caption">Wazuh Security Monitoring</div>
+    </div>
+
+    <div>
+      <img src="assets/docs/qbittorrent.png" alt="qBittorrent Download Client">
+      <div class="img-caption">qBittorrent Download Engine</div>
+    </div>
+  
+  </div>
+  <h3 style="margin-top:20px;">Core Infrastructure</h3>
+ <ul>
+  <li><strong>Proxmox</strong> – Bare-metal virtualization platform hosting all lab workloads, including VMs and containerized services</li>
+
+  <li><strong>OPNsense</strong> – Network firewall, routing engine, and VPN gateway providing segmentation, traffic control, and perimeter security</li>
+
+  <li><strong>Pi-hole</strong> – Network-wide DNS filtering solution used for ad blocking, domain-level traffic control, and visibility into DNS queries</li>
+
+  <li><strong>Twingate</strong> – Zero Trust access gateway providing authenticated, policy-controlled entry to internal lab services while eliminating direct WAN exposure</li>
+
+  <li><strong>Portainer</strong> – Container management platform for deploying, monitoring, and maintaining Docker workloads across the lab environment</li>
+
+  <li><strong>Wazuh</strong> – Security information and event management (SIEM), endpoint detection and response (EDR), and vulnerability management platform for centralized security monitoring</li>
+</ul>
+  <h3>Media & Automation Stack</h3>
+  <ul>
+    <li><strong>Plex</strong> – Media streaming server</li>
+    <li><strong>Sonarr</strong> – TV automation and lifecycle management</li>
+    <li><strong>Radarr</strong> – Movie automation and acquisition pipeline</li>
+    <li><strong>Prowlarr</strong> – Indexer aggregation layer</li>
+    <li><strong>qBittorrent</strong> – Download engine for media ingestion</li>
+  </ul>
+  <h3>Architecture Overview</h3>
+<p>
+  The environment is segmented using subnets and routed through OPNsense.
+  Access to lab services is selectively controlled using firewall rules and a Zero Trust access layer via Twingate,
+  replacing traditional VPN-based remote access to reduce exposed attack surface.
+  Proxmox hosts virtual machines and containers, while Docker services run application workloads.
+  Media automation is orchestrated through a Prowlarr → Sonarr/Radarr → qBittorrent → Plex pipeline.
+  Security events are monitored within Wazuh, which also provides vulnerability management and centralized security visibility across lab services.
+</p>
+</div>
+
 <div class="card">
   <h3>Wazuh SIEM, EDR & Vulnerability Management Stack</h3>
   <div class="meta">Self-Hosted Security Monitoring Lab • May 8, 2026</div>
@@ -166,81 +241,6 @@ title: Home
  <!-- Homepage Preview -->
 <div class="preview">
   <img src="assets/docs/homepage.png" alt="Homepage Dashboard">
-</div>
-
-<!-- 🔽 DASHBOARD GRID -->
-<h3 style="margin-top:14px;">Live Service Dashboards</h3>
-
-<div class="image-grid">
-  <div>
-      <img src="assets/docs/opnsense.png" alt="OPNsense Dashboard">
-      <div class="img-caption">OPNsense Firewall</div>
-    </div>
-    <div>
-      <img src="assets/docs/pihole.png" alt="Pi-hole Dashboard">
-      <div class="img-caption">Pi-hole DNS Filtering</div>
-    </div>
-    <div>
-      <img src="assets/docs/proxmox.png" alt="Proxmox Dashboard">
-      <div class="img-caption">Proxmox Virtualization</div>
-    </div>
-    <div>
-      <img src="assets/docs/plex.png" alt="Plex Dashboard">
-      <div class="img-caption">Plex Media Server</div>
-    </div>
-
-      <div>
-      <img src="assets/docs/portainer.png" alt="Portainer Container Management">
-      <div class="img-caption">Portainer Container Management</div>
-    </div>
-
-    <div>
-      <img src="assets/docs/twingate.png" alt="Twingate Zero Trust Access">
-      <div class="img-caption">Twingate Zero Trust Access</div>
-    </div>
-
-    <div>
-      <img src="assets/docs/wazuh.png" alt="Wazuh Security Monitoring">
-      <div class="img-caption">Wazuh Security Monitoring</div>
-    </div>
-
-    <div>
-      <img src="assets/docs/qbittorrent.png" alt="qBittorrent Download Client">
-      <div class="img-caption">qBittorrent Download Engine</div>
-    </div>
-  
-  </div>
-  <h3 style="margin-top:20px;">Core Infrastructure</h3>
- <ul>
-  <li><strong>Proxmox</strong> – Bare-metal virtualization platform hosting all lab workloads, including VMs and containerized services</li>
-
-  <li><strong>OPNsense</strong> – Network firewall, routing engine, and VPN gateway providing segmentation, traffic control, and perimeter security</li>
-
-  <li><strong>Pi-hole</strong> – Network-wide DNS filtering solution used for ad blocking, domain-level traffic control, and visibility into DNS queries</li>
-
-  <li><strong>Twingate</strong> – Zero Trust access gateway providing authenticated, policy-controlled entry to internal lab services while eliminating direct WAN exposure</li>
-
-  <li><strong>Portainer</strong> – Container management platform for deploying, monitoring, and maintaining Docker workloads across the lab environment</li>
-
-  <li><strong>Wazuh</strong> – Security information and event management (SIEM), endpoint detection and response (EDR), and vulnerability management platform for centralized security monitoring</li>
-</ul>
-  <h3>Media & Automation Stack</h3>
-  <ul>
-    <li><strong>Plex</strong> – Media streaming server</li>
-    <li><strong>Sonarr</strong> – TV automation and lifecycle management</li>
-    <li><strong>Radarr</strong> – Movie automation and acquisition pipeline</li>
-    <li><strong>Prowlarr</strong> – Indexer aggregation layer</li>
-    <li><strong>qBittorrent</strong> – Download engine for media ingestion</li>
-  </ul>
-  <h3>Architecture Overview</h3>
-<p>
-  The environment is segmented using subnets and routed through OPNsense.
-  Access to lab services is selectively controlled using firewall rules and a Zero Trust access layer via Twingate,
-  replacing traditional VPN-based remote access to reduce exposed attack surface.
-  Proxmox hosts virtual machines and containers, while Docker services run application workloads.
-  Media automation is orchestrated through a Prowlarr → Sonarr/Radarr → qBittorrent → Plex pipeline.
-  Security events are monitored within Wazuh, which also provides vulnerability management and centralized security visibility across lab services.
-</p>
 </div>
 
 <div class="card">
