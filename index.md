@@ -89,8 +89,6 @@ title: Home
 
   </div>
 
-</div>
-
 <h2 class="section-title">Projects</h2>
 
 <div class="card">
