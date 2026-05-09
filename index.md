@@ -89,7 +89,7 @@ title: Home
 
 <div class="card">
   <h2>Proxmox VE Virtualized Lab Environment</h2>
-  <div class="meta">Live Network • Home Dashboard Snapshot • Apr 27, 2026</div>
+  <div class="meta">Live Network • Home Dashboard Snapshot • May, 2026</div>
   <p>
     This is my personal homelab environment designed for networking experimentation, automation workflows,
     and security-focused infrastructure testing. It simulates a production-style environment using subnets,
@@ -105,7 +105,7 @@ title: Home
 <div class="image-grid">
   <div>
       <img src="assets/docs/opnsense.png" alt="OPNsense Dashboard">
-      <div class="img-caption">OPNsense Firewall</div>
+      <div class="img-caption">OPNsense</div>
     </div>
     <div>
       <img src="assets/docs/pihole.png" alt="Pi-hole Dashboard">
@@ -176,7 +176,7 @@ title: Home
 
 <div class="card">
   <h3>Wazuh SIEM, EDR & Vulnerability Management Stack</h3>
-  <div class="meta">Self-Hosted Security Monitoring Lab • May 8, 2026</div>
+  <div class="meta">Self-Hosted Security Monitoring Lab • May, 2026</div>
 
   <p>
     Built and deployed a full Wazuh security monitoring stack for centralized log analysis, endpoint detection,
@@ -246,7 +246,7 @@ title: Home
 
 <div class="card">
   <h3>Home Network Diagram (Homelab Topology)</h3>
-  <div class="meta">Lucidchart • Apr 27, 2026</div>
+  <div class="meta"><em>Lucidchart • April, 2026</em></div>
   <p>
     Visual documentation of my home network architecture including WAN edge, OPNsense firewall,
     segmentation, and homelab services hosted across Proxmox and Docker infrastructure.
@@ -286,7 +286,7 @@ title: Home
 
 <div class="card">
   <h3>TryHackMe – SOC Level 1 Path Completion</h3>
-  <div class="meta">TryHackMe • Security Operations • March 5th, 2026</div>
+  <div class="meta">TryHackMe • Security Operations • March, 2026</div>
   <p>
     Completed the SOC Level 1 learning path focused on Security Operations Center fundamentals,
     including log analysis, alert triage, SIEM workflows, incident response, and threat detection concepts.
@@ -308,7 +308,7 @@ title: Home
 <!-- Packet Tracer -->
 <div class="card">
   <h3>Packet Tracer Demo - Basic Network Setup</h3>
-  <div class="meta">YouTube • Sep 21, 2025 • 5:15</div>
+  <div class="meta">YouTube • September, 2025 • 5:15</div>
 
   <p>
     Live demo of me setting up a basic Cisco Packet Tracer network and learning along the way.
@@ -335,7 +335,7 @@ title: Home
 <!-- AD Lab -->
 <div class="card">
   <h3>VirtualBox Active Directory Lab</h3>
-  <div class="meta">PDF • Sep 7, 2025</div>
+  <div class="meta">PDF • September, 2025</div>
 
   <p>
     Step-by-step Active Directory homelab in VirtualBox (install roles, promote to DC, OUs/users, baseline security).
@@ -377,7 +377,7 @@ title: Home
 <!-- File Hashes -->
 <div class="card">
   <h3>File Hashes - Verify Your Downloads</h3>
-  <div class="meta">YouTube • Aug 23, 2025 • 5:15</div>
+  <div class="meta">YouTube • August, 2025 • 5:15</div>
 
   <p>
     End-user education tutorial on how to check file hashes to verify installs.
