@@ -194,6 +194,28 @@ title: Home
       <img src="assets/docs/plex.png" alt="Plex Dashboard">
       <div class="img-caption">Plex Media Server</div>
     </div>
+
+      <div>
+      <img src="assets/docs/portainer.png" alt="Portainer Container Management">
+      <div class="img-caption">Portainer Container Management</div>
+    </div>
+
+    <div>
+      <img src="assets/docs/twingate.png" alt="Twingate Zero Trust Access">
+      <div class="img-caption">Twingate Zero Trust Access</div>
+    </div>
+
+    <div>
+      <img src="assets/docs/wazuh.png" alt="Wazuh Security Monitoring">
+      <div class="img-caption">Wazuh Security Monitoring</div>
+    </div>
+
+    <div>
+      <img src="assets/docs/qbittorrent.png" alt="qBittorrent Download Client">
+      <div class="img-caption">qBittorrent Download Engine</div>
+    </div>
+
+  </div>
   </div>
   <h3 style="margin-top:20px;">Core Infrastructure</h3>
  <ul>
