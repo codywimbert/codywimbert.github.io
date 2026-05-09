@@ -756,13 +756,12 @@ strong, b { color: #f3f4f6; }
   z-index: 1;
 }
 
-  #network-bg {
+#network-bg {
   position: fixed;
-  top: 0;
-  left: 0;
+  inset: 0;
   width: 100%;
   height: 100%;
-  z-index: 0;
+  z-index: -1;
   pointer-events: none;
   opacity: 0.35;
 }
