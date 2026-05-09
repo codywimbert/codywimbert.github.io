@@ -370,8 +370,17 @@ title: Home
     <iframe src="assets/docs/AD Homelab Documentation.pdf#view=FitH"></iframe>
   </div>
 
-  <details>
-    <summary class="video-summary">▶ Watch 7-min overview video</summary>
+<button class="btn video-toggle" onclick="toggleVideo(this)">
+  ▶ Watch 7-min overview video
+</button>
+
+<div class="video-wrapper hidden">
+  <iframe
+    src="https://www.youtube.com/embed/MA3ZNwMtxPw?rel=0&modestbranding=1"
+    title="Packet Tracer Lab - Network Setup"
+    allowfullscreen>
+  </iframe>
+</div>
 
     <div class="meta">YouTube • Aug 25, 2025 • 7:16</div>
 
