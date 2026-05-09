@@ -101,7 +101,6 @@ title: Home
   <div class="preview">
   <img src="assets/docs/wazuhthelongway.png" alt="Wazuh Dashboard">
 </div>
-  </div>
 
   <h3 style="margin-top:14px;">Architecture Overview</h3>
   <ul>
