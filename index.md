@@ -169,9 +169,7 @@ title: Home
  <!-- Homepage Preview -->
 <div class="preview">
   <img src="assets/docs/homepage.png" alt="Homepage Dashboard">
-  <div class="img-caption">
-    Services Homepage (Hosted on Docker)
-  </div>
+</div>
 </div>
 
 <!-- 🔽 DASHBOARD GRID -->
