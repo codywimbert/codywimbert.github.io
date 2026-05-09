@@ -312,7 +312,7 @@ title: Home
 <!-- Packet Tracer -->
 <div class="card">
   <h3>Packet Tracer Demo - Basic Network Setup</h3>
-  <div class="meta">YouTube • September, 2025 • 5:15</div>
+  <div class="meta"><strong>YouTube • September, 2025 • 5:15</strong></div>
 
   <p>
     Live demo of me setting up a basic Cisco Packet Tracer network and learning along the way.
