@@ -416,19 +416,34 @@ title: Home
 
 <style>
 body {
+  margin: 0;
   background: #0b1220;
   color: #e5e7eb;
   font-family: 'Inter', sans-serif;
   overflow-x: hidden;
 
   background-image:
-    radial-gradient(circle at 20% 15%, rgba(96, 165, 250, 0.08), transparent 40%),
-    radial-gradient(circle at 80% 20%, rgba(168, 85, 247, 0.06), transparent 45%),
-    radial-gradient(circle at 50% 80%, rgba(34, 211, 238, 0.05), transparent 50%),
+    /* atmospheric glow layer */
+    radial-gradient(circle at 15% 20%, rgba(56, 189, 248, 0.10), transparent 40%),
+    radial-gradient(circle at 85% 10%, rgba(99, 102, 241, 0.08), transparent 45%),
+    radial-gradient(circle at 60% 85%, rgba(34, 211, 238, 0.06), transparent 50%),
+
+    /* faint vignette */
+    radial-gradient(circle at center, transparent 0%, rgba(0,0,0,0.25) 100%),
+
+    /* grid */
     linear-gradient(to right, rgba(255,255,255,0.025) 1px, transparent 1px),
     linear-gradient(to bottom, rgba(255,255,255,0.025) 1px, transparent 1px);
 
-  background-size: 100% 100%, 100% 100%, 100% 100%, 48px 48px, 48px 48px;
+  background-size:
+    100% 100%,
+    100% 100%,
+    100% 100%,
+    100% 100%,
+    48px 48px,
+    48px 48px;
+
+  background-attachment: fixed;
 }
 /* =========================
    TYPOGRAPHY
@@ -854,10 +869,12 @@ strong, b { color: #f3f4f6; }
 }
 
 .profile-card h1 {
-  font-family: 'Orbitron', sans-serif;
-  font-size: 1.6rem;
-  letter-spacing: 1px;
+  font-family: 'Inter', sans-serif;
+  font-size: 2.05rem;
   font-weight: 700;
+  letter-spacing: 0.4px;
+  line-height: 1.1;
+  margin: 6px 0 4px 0;
   color: #ffffff;
 }
 </style>
