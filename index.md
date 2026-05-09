@@ -167,9 +167,9 @@ title: Home
     virtualization, and containerized services.
   </p>
  <!-- Homepage Preview -->
-<div class="preview" style="margin-top:12px;">
+<div class="preview">
   <img src="assets/docs/homepage.png" alt="Homepage Dashboard">
-  <div class="img-caption" style="margin-bottom:14px;">
+  <div class="img-caption">
     Services Homepage (Hosted on Docker)
   </div>
 </div>
