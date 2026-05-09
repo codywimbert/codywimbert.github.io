@@ -81,7 +81,7 @@ title: Home
     </p>
 
     <p class="intro">
-     I kicked off my journey by pursuing the CompTIA A+ which, according to everyone on Reddit at the time, was the ONLY way of getting my foot-in-the-door in the field of Information Technology. Two exams, ~$500, and about a million legacy USB-standards memorized later, I was certified (in all seriousness, I really did enjoy the content). Though I wouldn't likely go about this the same way today, I am proud that, perhaps for the first time in my life, I chose a direction and stuck to it.
+     I kicked off my journey by pursuing the CompTIA A+ which, according to everyone on Reddit at the time, was the ONLY way of getting my foot-in-the-door in the field of Information Technology. Two exams, ~$500, and about a million legacy USB-standards memorized later, I was certified (in all seriousness, I really did enjoy the content). Though I wouldn't likely go about this the same way today, I am proud that, for the first time in my life, I chose a direction and stuck to it.
     </p>
 
     <p class="intro">
@@ -93,7 +93,7 @@ title: Home
     </p>
 
     <p class="intro">
-      Ultimately, my gamble on the new position paid off. Only 6 months after becoming a JNS, I interviewed for and landed a job in the same organization as a Security Operations specialist! I guess I haven't truly escaped education yet, huh? Our organization services school districts within our region, 
+      Ultimately, my gamble on the new position paid off. Only 6 months after becoming a JNS, I interviewed for and landed a job in the same organization as a Cybersecurity specialist (I guess I haven't truly escaped education yet, huh?) Regardless, landing this position may be the most significant milestone of my career. Everyday, I have the privilege of contributing to a small, newly-formed Security Operations squad by conducting incident response, helping to onboard new districts and building out new services. I contribute to vulnerability assessments, conduct proactive threat hunting, create IR playbooks, tune alerts and so much more. Perhaps most importantly, I am content. I am incredibly proud of the hard work I've done to get here, more proud than the years I spent earning degrees in higher education or working jobs that I was not passionate about. And I know this is just the beginning. I hope that this passion will show through my projects here on this page, and that you find value in this story as well as the documentation.
     </p>
   </div>
 
