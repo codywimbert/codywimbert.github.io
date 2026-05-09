@@ -88,7 +88,7 @@ title: Home
 <h2 class="section-title">Projects</h2>
 <div class="card">
   <h3>Wazuh SIEM, EDR & Vulnerability Management Stack</h3>
-  <div class="meta">Self-Hosted Security Monitoring Lab • May 2026</div>
+  <div class="meta">Self-Hosted Security Monitoring Lab • May 8, 2026</div>
 
   <p>
     Built and deployed a full Wazuh security monitoring stack for centralized log analysis, endpoint detection,
