@@ -371,8 +371,6 @@ title: Home
     <iframe src="assets/docs/AD Homelab Documentation.pdf#view=FitH"></iframe>
   </div>
 
-  <div class="meta">YouTube • Aug 25, 2025 • 7:16</div>
-
   <div class="video-wrapper">
     <iframe
       src="https://www.youtube-nocookie.com/embed/wJvPo97CihI?rel=0&modestbranding=1"
