@@ -424,10 +424,12 @@ body {
   background: #0b1220;
   color: #e5e7eb;
   font-family: 'Inter', sans-serif;
+
   background-image:
-    linear-gradient(to right, rgba(255,255,255,0.04) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255,255,255,0.04) 1px, transparent 1px);
-  background-size: 40px 40px;
+    linear-gradient(to right, rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.03) 1px, transparent 1px);
+
+  background-size: 48px 48px;
 }
 
 /* =========================
@@ -606,8 +608,16 @@ strong, b { color: #f3f4f6; }
   border: 1px solid #1f2937;
   border-radius: 12px;
   padding: 16px;
+
   background: #111827;
+
   margin: 20px 0;
+
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.35),
+    0 0 0 1px rgba(96, 165, 250, 0.06);
+
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
 /* =========================
@@ -794,5 +804,15 @@ strong, b { color: #f3f4f6; }
 .hero h1,
 .hero .intro:first-of-type {
   font-family: 'Inter', sans-serif;
+}
+
+  .card:hover {
+  transform: translateY(-4px);
+
+  border-color: rgba(96, 165, 250, 0.35);
+
+  box-shadow:
+    0 18px 45px rgba(0, 0, 0, 0.5),
+    0 0 25px rgba(96, 165, 250, 0.10);
 }
 </style>
