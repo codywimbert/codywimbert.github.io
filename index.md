@@ -86,6 +86,19 @@ title: Home
 </div>
 
 <h2 class="section-title">Projects</h2>
+
+<div class="card">
+  <h2>Proxmox VE Virtualized Lab Environment</h2>
+  <div class="meta">Live Network • Home Dashboard Snapshot • Apr 27, 2026</div>
+  <p>
+    This is my personal homelab environment designed for networking experimentation, automation workflows,
+    and security-focused infrastructure testing. It simulates a production-style environment using subnets,
+    virtualization, and containerized services.
+  </p>
+ <!-- Homepage Preview -->
+<div class="preview">
+  <img src="assets/docs/homepage.png" alt="Homepage Dashboard">
+</div>
 <!-- 🔽 DASHBOARD GRID -->
 <h3 style="margin-top:14px;">Live Service Dashboards</h3>
 
@@ -229,18 +242,6 @@ title: Home
     intentionally omitted. The environment is fully isolated within a private lab network and designed to simulate
     enterprise SIEM workflows without exposing operational security details.
   </p>
-</div>
-<div class="card">
-  <h2>Proxmox VE Virtualized Lab Environment</h2>
-  <div class="meta">Live Network • Home Dashboard Snapshot • Apr 27, 2026</div>
-  <p>
-    This is my personal homelab environment designed for networking experimentation, automation workflows,
-    and security-focused infrastructure testing. It simulates a production-style environment using subnets,
-    virtualization, and containerized services.
-  </p>
- <!-- Homepage Preview -->
-<div class="preview">
-  <img src="assets/docs/homepage.png" alt="Homepage Dashboard">
 </div>
 
 <div class="card">
