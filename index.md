@@ -83,7 +83,7 @@ title: Home
     </p>
 
     <p class="intro">
-     I kicked off my journey by pursuing the CompTIA A+, which, according to everyone on Reddit at the time, was the ONLY way of getting my foot in the door in the field of Information Technology. Two exams, ~$500, and about a million legacy USB standards memorized later, I was certified (in all seriousness, I really did enjoy the content). Though I wouldn't likely go about this the same way today, I am proud that, for the first time in my life, I chose a direction and stuck to it.
+     I kicked off my journey by pursuing the CompTIA A+, which, according to Redditors, was the ONLY way of getting my foot in the door in the field of Information Technology. Two exams, ~$500, and about a million legacy USB standards memorized later, I was certified (in all seriousness, I really did enjoy the content). Though I wouldn't likely go about this the same way today, I am proud that, for the first time in my life, I chose a direction and stuck to it.
     </p>
 
     <p class="intro">
