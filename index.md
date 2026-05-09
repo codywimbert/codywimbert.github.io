@@ -815,4 +815,11 @@ strong, b { color: #f3f4f6; }
     0 18px 45px rgba(0, 0, 0, 0.5),
     0 0 25px rgba(96, 165, 250, 0.10);
 }
+
+.profile-card h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
 </style>
