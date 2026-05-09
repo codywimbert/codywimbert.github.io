@@ -755,4 +755,21 @@ strong, b { color: #f3f4f6; }
   position: relative;
   z-index: 1;
 }
+
+  #network-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.35;
+}
+
+  .hero, .card, .profile-card {
+  position: relative;
+  z-index: 1;
+}
+  
 </style>
