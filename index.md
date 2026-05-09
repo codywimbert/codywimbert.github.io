@@ -766,10 +766,5 @@ strong, b { color: #f3f4f6; }
   pointer-events: none;
   opacity: 0.35;
 }
-
-  .hero, .card, .profile-card {
-  position: relative;
-  z-index: 1;
-}
   
 </style>
