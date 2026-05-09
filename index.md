@@ -421,15 +421,10 @@ title: Home
 
 <style>
 body {
-  background:
-    radial-gradient(circle at 15% 20%, rgba(56, 189, 248, 0.12), transparent 35%),
-    radial-gradient(circle at 85% 10%, rgba(99, 102, 241, 0.10), transparent 40%),
-    radial-gradient(circle at 50% 90%, rgba(37, 99, 235, 0.08), transparent 45%),
-    radial-gradient(circle at 70% 60%, rgba(34, 211, 238, 0.05), transparent 50%),
-    #0b1220;
-
-  background-attachment: fixed;
-  background-size: cover;
+  background: #0b1220;
+  color: #e5e7eb;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
 }
 
 /* =========================
@@ -725,31 +720,6 @@ strong, b { color: #f3f4f6; }
   }
 }
 
-  body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-
-  background:
-    radial-gradient(circle at 30% 30%, rgba(96, 165, 250, 0.08), transparent 40%),
-    radial-gradient(circle at 70% 70%, rgba(168, 85, 247, 0.05), transparent 45%);
-
-  animation: floatGlow 12s ease-in-out infinite alternate;
-  z-index: 0;
-}
-
-@keyframes floatGlow {
-  0% {
-    transform: translateY(0px);
-    opacity: 0.6;
-  }
-  100% {
-    transform: translateY(-10px);
-    opacity: 0.9;
-  }
-}
-
 /* keep content above background layer */
 .hero, .card, .profile-card {
   position: relative;
@@ -761,9 +731,15 @@ strong, b { color: #f3f4f6; }
   inset: 0;
   width: 100%;
   height: 100%;
-  z-index: -1;
+  z-index: 0;
   pointer-events: none;
-  opacity: 0.35;
+
+  opacity: 0.18; /* 🔥 THIS is what fixes brightness */
 }
-  
+
+.hero, .card, .profile-card {
+  position: relative;
+  z-index: 1;
+}
+
 </style>
