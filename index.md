@@ -862,8 +862,4 @@ details:hover {
   color: #9ca3af;
   text-transform: uppercase;
 }
-
-  .intro {
-  font-style: italic;
-}
 </style>
