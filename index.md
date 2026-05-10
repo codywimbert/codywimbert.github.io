@@ -121,7 +121,7 @@ title: Home
   </p>
  <!-- Homepage Preview -->
 <div class="preview">
-  <img src="assets/docs/homepage.pn" alt="Homepage Dashboard">
+  <img src="assets/docs/homepage.png" alt="Homepage Dashboard">
 </div>
 <!-- 🔽 DASHBOARD GRID -->
 <h3 style="margin-top:14px;">Live Service Dashboards</h3>
@@ -372,16 +372,21 @@ title: Home
     </a>
   </div>
 
-  <div class="pdf-wrapper">
-    <iframe src="assets/docs/AD Homelab Documentation.pdf#view=FitH"></iframe>
-  </div>
+  <!-- SIDE BY SIDE CONTAINER -->
+  <div class="media-row">
 
-  <div class="video-wrapper">
-    <iframe
-      src="https://www.youtube-nocookie.com/embed/wJvPo97CihI?rel=0&modestbranding=1"
-      title="AD DS Lab Overview"
-      allowfullscreen>
-    </iframe>
+    <div class="pdf-wrapper">
+      <iframe src="assets/docs/AD Homelab Documentation.pdf#view=FitH"></iframe>
+    </div>
+
+    <div class="video-wrapper">
+      <iframe
+        src="https://www.youtube-nocookie.com/embed/wJvPo97CihI?rel=0&modestbranding=1"
+        title="AD DS Lab Overview"
+        allowfullscreen>
+      </iframe>
+    </div>
+
   </div>
 
   <div class="actions">
@@ -903,5 +908,33 @@ strong, b { color: #f3f4f6; }
   line-height: 1.1;
   margin: 6px 0 4px 0;
   color: #ffffff;
+}
+.media-row {
+  display: flex;
+  gap: 20px;
+  align-items: stretch;
+  margin-top: 15px;
+}
+
+/* Make both take equal width */
+.pdf-wrapper,
+.video-wrapper {
+  flex: 1;
+}
+
+/* Ensure iframes scale nicely */
+.pdf-wrapper iframe,
+.video-wrapper iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+  border-radius: 8px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 900px) {
+  .media-row {
+    flex-direction: column;
+  }
 }
 </style>
