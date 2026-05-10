@@ -310,7 +310,7 @@ title: Home
 
 <div class="card">
   <h3>TryHackMe – SOC Level 1 Path Completion</h3>
-  <div class="meta"><strong>TryHackMe • Security Operations • March, 2026</strong></div>
+  <div class="meta"><strong>TryHackMe • March, 2026</strong></div>
   <p>
     Completed the SOC Level 1 learning path focused on Security Operations Center fundamentals,
     including log analysis, alert triage, SIEM workflows, incident response, and threat detection concepts.
@@ -332,7 +332,7 @@ title: Home
 <!-- Packet Tracer -->
 <div class="card">
   <h3>Packet Tracer Demo - Basic Network Setup</h3>
-  <div class="meta"><strong>YouTube • September, 2025 • 5:15</strong></div>
+  <div class="meta"><strong>YouTube • October, 2025</strong></div>
 
   <p>
     Live demo of me setting up a basic Cisco Packet Tracer network and learning along the way.
@@ -399,7 +399,7 @@ title: Home
 <!-- File Hashes -->
 <div class="card">
   <h3>File Hashes - Verify Your Downloads</h3>
-  <div class="meta"><strong>YouTube • August, 2025 • 5:15</strong></div>
+  <div class="meta"><strong>YouTube • August, 2025</strong></div>
 
   <p>
     End-user education tutorial on how to check file hashes to verify installs.
