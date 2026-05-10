@@ -10,7 +10,7 @@ title: Home
   <div class="profile profile-card">
 
     <div class="headshot-glow">
-      <img src="assets/1741474286957.jpeg" alt="Cody Wimbert Headshot" class="headshot-left">
+      <img src="assets/docs/1741474286957.jpeg" alt="Cody Wimbert Headshot" class="headshot-left">
     </div>
 
     <h1>Cody Wimbert</h1>
