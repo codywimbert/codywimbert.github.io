@@ -121,7 +121,7 @@ title: Home
   </p>
  <!-- Homepage Preview -->
 <div class="preview">
-  <img src="assets/docs/homepage.png" alt="Homepage Dashboard">
+  <img src="assets/docs/homepage.pn" alt="Homepage Dashboard">
 </div>
 <!-- 🔽 DASHBOARD GRID -->
 <h3 style="margin-top:14px;">Live Service Dashboards</h3>
