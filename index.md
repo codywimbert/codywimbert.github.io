@@ -373,21 +373,19 @@ title: Home
   </div>
 
   <!-- SIDE BY SIDE CONTAINER -->
-  <div class="media-row">
-
-    <div class="pdf-wrapper">
-      <iframe src="assets/docs/AD Homelab Documentation.pdf#view=FitH"></iframe>
-    </div>
-
-    <div class="video-wrapper">
-      <iframe
-        src="https://www.youtube-nocookie.com/embed/wJvPo97CihI?rel=0&modestbranding=1"
-        title="AD DS Lab Overview"
-        allowfullscreen>
-      </iframe>
-    </div>
-
+<div class="media-row">
+  <div class="pdf-wrapper">
+    <iframe src="assets/docs/AD Homelab Documentation.pdf#view=FitH"></iframe>
   </div>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/wJvPo97CihI?rel=0&modestbranding=1"
+      title="AD DS Lab Overview"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
 
   <div class="actions">
     <a class="btn youtube"
@@ -912,29 +910,42 @@ strong, b { color: #f3f4f6; }
 .media-row {
   display: flex;
   gap: 20px;
-  align-items: stretch;
-  margin-top: 15px;
+  align-items: flex-start; /* IMPORTANT: prevents forced equal height */
 }
 
-/* Make both take equal width */
-.pdf-wrapper,
+/* Give PDF more space than video */
+.pdf-wrapper {
+  flex: 2;
+}
+
 .video-wrapper {
   flex: 1;
 }
 
-/* Ensure iframes scale nicely */
-.pdf-wrapper iframe,
-.video-wrapper iframe {
+/* Let each iframe be usable (no forced equal height) */
+.pdf-wrapper iframe {
   width: 100%;
-  height: 400px;
+  height: 650px;   /* PDF needs more vertical space */
   border: none;
   border-radius: 8px;
 }
 
-/* Mobile responsiveness */
+.video-wrapper iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9; /* keeps video natural */
+  height: auto;
+  border: none;
+  border-radius: 8px;
+}
+
+/* Mobile fallback */
 @media (max-width: 900px) {
   .media-row {
     flex-direction: column;
+  }
+
+  .pdf-wrapper iframe {
+    height: 500px;
   }
 }
 </style>
