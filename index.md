@@ -182,10 +182,10 @@ title: Home
   <h3>Media & Automation Stack</h3>
   <ul>
     <li><strong>Plex</strong> – Media streaming server</li>
+    <li><strong>qBittorrent</strong> – Download engine for media ingestion</li>
+    <li><strong>Prowlarr</strong> – Indexer aggregation layer</li>
     <li><strong>Sonarr</strong> – TV automation and lifecycle management</li>
     <li><strong>Radarr</strong> – Movie automation and acquisition pipeline</li>
-    <li><strong>Prowlarr</strong> – Indexer aggregation layer</li>
-    <li><strong>qBittorrent</strong> – Download engine for media ingestion</li>
   </ul>
   <h3>Architecture Overview</h3>
 <p>
