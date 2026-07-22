@@ -31,7 +31,7 @@ title: Home
     </a>
 
 <a class="btn resume-btn"
-   href="assets/docs/Cody Wimbert - Resume.pdf"
+   href="assets/docs/Cody Wimbert - Resume (July 2026).pdf"
    target="_blank">
    View Resume
 </a>
